@@ -1,0 +1,45 @@
+.flex-containter-service {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.service-1, .service-2{
+    text-align: center;
+}
+
+.service-1 span {
+    color: #1A9D63;
+}
+
+.service-1 {
+    color: #111714;
+    font-size: 56px;
+    line-height: 130%;
+}
+
+.service-2 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-2-text {
+    color: #393939;
+    line-height: 24px;
+    width: 1096px;
+}
+
+.service-3 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-containter-service-develop {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+

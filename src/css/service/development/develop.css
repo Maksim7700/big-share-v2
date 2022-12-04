@@ -1,0 +1,78 @@
+.flex-containter-develop-inside {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #F8FBFF;
+}
+
+.develop-image {
+    margin-top: 48px;
+    margin-left: 56px;
+    height: 48px;
+    width: 48px;
+}
+
+.develop-image-1 {
+    content: url('../../../../public/service/development/ecommerce_development.svg');
+}
+
+.develop-image-2 {
+    content: url('../../../../public/service/development/branding_logo_design.svg');
+}
+
+.develop-image-3 {
+    content: url('../../../../public/service/development/web_mobile_design.svg');
+}
+
+.develop-image-4 {
+    content: url('../../../../public/service/development/web_development.svg');
+}
+
+.develop-image-5 {
+    content: url('../../../../public/service/development/mobile_development.svg');
+}
+
+.develo-title {
+    margin-left: 56px;
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 27px;
+    color: #111714;
+}
+
+.develop-text {
+    margin-right: 56px;
+    margin-left: 56px;
+    margin-top: 12px;
+    margin-bottom: 61px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #393939;
+}
+
+.text-develop-1 {
+    max-width: 1326px;
+}
+
+.text-develop-2 {
+    max-width: 595px;
+}
+
+
+.develop-1 {
+    max-height: 261px;
+    max-width: 1438px;
+}
+
+.develop-2 {
+    max-width: 707px;
+    max-height: 315px;
+}
+
+.margin-left-24 {
+    margin-left: 24px;
+}
+
+.margin-bottom-204 {
+    margin-bottom: 204px;
+}

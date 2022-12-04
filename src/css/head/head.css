@@ -1,0 +1,51 @@
+.flex-containter-head {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.text-head-1 {
+    color:white;
+    font-size: 72px;
+    margin-top: 267px;
+    line-height: 93.6px;
+}
+
+.text-head-1 span {
+    color: #1A9D63;
+}
+
+.text-head-2 {
+    line-height: 30px;
+    margin-top: 24px;
+    width: 734px;
+    height: 90px;
+    font-size: 18px;
+    color: white;
+}
+
+.text-head-3 {
+    margin-top: 48px;
+}
+
+.get-started-button {
+    display: flex;
+    justify-content: flex-start;
+    width: 173px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    opacity: 0.7;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.get-started {
+    color: #FFFFFF;
+    padding: 11px 0 13px 24px;
+}
+
+.arrow-right-get-started {
+    padding: 16px 0 0 16px;
+    content: url('../../../public/head/arrow-right-get-started.svg');
+}

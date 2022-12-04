@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+.Montserrat-400 {
+    font-family: Montserrat-Regular;
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../fonts/montserrat/Montserrat-Medium.ttf');
+}
+
+.Montserrat-500 {
+    font-family: Montserrat-Medium !important;
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+
+.Montserrat-600 {
+    font-family: Montserrat-SemiBold !important;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: Gilroy-Black;
+    src: url('../fonts/gilroy/Gilroy-Black.ttf');
+}
+
+.Gilroy-900 {
+    font-family: Gilroy-Black !important; /* 900 */
+}
+
+@font-face {
+    font-family: Gilroy-ExtraBold !important;
+    src: url('../fonts/gilroy/Gilroy-ExtraBold.ttf');
+}
+
+.Gilroy-800 {
+    font-family: Gilroy-ExtraBold !important; /* 800 */
+}
+
+@font-face {
+    font-family: Gilroy-Heavy;
+    src: url('../fonts/gilroy/Gilroy-Heavy.ttf');
+}
+
+.Gilroy-Heavy {
+    font-family: Gilroy-Heavy !important;
+}
+
+@font-face {
+    font-family: Gilroy-Light;
+    src: url('../fonts/gilroy/Gilroy-Light.ttf');
+}
+
+.Gilroy-300 {
+    font-family: Gilroy-Light !important; /* 300 */
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url('../fonts/gilroy/Gilroy-Medium.ttf');
+}
+
+.Gilroy-500 {
+    font-family: Gilroy-Medium !important; /* 500 */
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url('../fonts/gilroy/Gilroy-Regular.ttf');
+}
+
+.Gilroy-400 {
+    font-family: Gilroy-Regular !important; /* 400 */
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url('../fonts/gilroy/Gilroy-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/gilroy/Gilroy-Bold.ttf');
+}
+
+.Gilroy-700-bold {
+    font-family: Gilroy-Bold !important; /* 700 */
+}
+
+.Gilroy-700 {
+    font-family: Gilroy-SemiBold !important; /* 700 */
+}
+
+
+@font-face {
+    font-family: Gilroy-Thin;
+    src: url('../fonts/gilroy/Gilroy-Thin.ttf');
+}
+
+.Gilroy-250 {
+    font-family: Gilroy-Thin !important; /* 250 */
+}
+
+@font-face {
+    font-family: Gilroy-UltraLight;
+    src: url('../fonts/gilroy/Gilroy-UltraLight.ttf');
+}
+
+.Gilroy-UltraLight {
+    font-family: Gilroy-UltraLight !important;
+}
+
+
+
+
