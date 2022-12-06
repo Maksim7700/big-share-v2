@@ -40,6 +40,6 @@
 .flex-containter-service-develop {
     margin-top: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
