@@ -23,7 +23,7 @@ const Service = () => {
                             text='Just started a business and need a lift? Or just a little refresher? Can do, just hit us up! Research, logos, fonts, colors, and even something if you need it.'
                             >
                         </Develop>
-                        <Develop className='develop-2 margin-left-24'
+                        <Develop className='develop-2'
                             imageNumber='3'
                             title='Web & Mobile Design'
                             text='Create the best user experience. Your users will appreciate fast and clear navigation, easy transitions, seamless flow, and beautiful looks. Our approach to design is to solve user and business problems and make the experience of using your product delightful.'>
@@ -36,7 +36,7 @@ const Service = () => {
                             text='Get top-notch talent that will do its best to create a great web application. All of our engineers follow coding standards and our internal rules to write clean code. We will make sure that the delivered product meets your expectations and needs of users.'
                             >
                         </Develop>
-                        <Develop className='develop-2 margin-left-24'
+                        <Develop className='develop-2'
                             imageNumber='5'
                             title='Mobile Development'
                             text='Deliver speed, flexibility and mobility with our bespoke app development services. We ensure your apps meet users wherever they are, and work across any range of device types.'>
