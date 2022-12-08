@@ -1,0 +1,64 @@
+.portfolio1 {
+    background: linear-gradient(90deg, #7A39E4 0%, #E8387E 100%, #E8387E 100%);
+}
+
+.portfolio2 {
+    background: linear-gradient(90deg, #AF67F7 0%, #1D9FFF 100%), #F8FBFF;
+}
+
+.portfolio3 {
+    background: #4AC0D8;
+}
+
+.portfolio4 {
+    background: #000000;
+}
+
+.portfolio5 {
+    background: #26AE62;
+}
+
+.portfolio-logo-1 {
+    content: url('../../../public/portfolio/portfolio1.svg');
+}
+.portfolio-logo-2 {
+    content: url('../../../public/portfolio/portfolio2.svg');
+}
+.portfolio-logo-3 {
+    content: url('../../../public/portfolio/portfolio3.svg');
+}
+.portfolio-logo-4 {
+    content: url('../../../public/portfolio/portfolio4.svg');
+}
+.portfolio-logo-5 {
+    content: url('../../../public/portfolio/portfolio5.svg');
+}
+
+.block {
+    margin-top: 16px;
+    width: 711px;
+    height: 337px;
+}
+
+.margin-left-16 {
+    margin-left: 16px;
+}
+
+.flex-container-inside-block {
+    position: relative;
+    display: flex;
+    height: 337px;
+}
+
+.block-title {
+    height: 54px;
+    width: 200px;
+    background: #F8FBFF;
+}
+
+.block-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

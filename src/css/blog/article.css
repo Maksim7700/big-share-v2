@@ -1,0 +1,47 @@
+.flex-container-article {
+  margin-top: 16px;
+  background: #061019;
+  display: flex;
+  height: 303px;
+  width: 1438px;
+}
+
+.flex-container-left {
+  padding-left: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-title {
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  padding: 64px 0 0 0;
+}
+
+.article-text {
+  color: #C8C8C8;
+  margin-top: 24px;
+  width: 768px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.article-read-me {
+  margin-top: 24px;
+  display: flex;
+  color: #1A9D63;
+}
+
+.article-read-me img {
+  margin-left: 8px;
+  content: url('../../../public/article/arrow-right-read-more.svg');
+}
+
+.flex-container-right {
+  padding: 46px 0 0 212px;
+}
+
+.flex-container-right img {
+  content: url('../../../public/article/blog1.svg');
+}

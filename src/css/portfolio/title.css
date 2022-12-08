@@ -1,0 +1,21 @@
+.title-block {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-logo-block-1 {
+    content: url('../../../public/portfolio/logo-block-1.svg');
+}
+.title-logo-block-2 {
+    content: url('../../../public/portfolio/logo-block-2.svg');
+}
+.title-logo-block-3 {
+    content: url('../../../public/portfolio/logo-block-3.svg');
+}
+.title-logo-block-4 {
+    content: url('../../../public/portfolio/logo-block-4.svg');
+}
+.title-logo-block-5 {
+    content: url('../../../public/portfolio/logo-block-5.svg');
+}

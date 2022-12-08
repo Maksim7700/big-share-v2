@@ -1,0 +1,107 @@
+.footer {
+  background: #101A24;
+  height: 301px;
+}
+
+.footer-bigshare {
+  width: 100vh;
+}
+
+.flex-container-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer-navigation {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 19.6px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+hr {
+  border: 0.1px solid black;
+}
+
+.flex-container-navigation-footer {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container-social {
+  width: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-bigshare img {
+  content: url('../../../public/footer/bigshare-logo-footer.svg');
+}
+
+.linkedin {
+  margin-right: 16px;
+  content: url('../../../public/footer/linkedin.svg');
+}
+
+.behance {
+  margin-right: 16px;
+  content: url('../../../public/footer/behance.svg');
+}
+
+.instagram {
+  margin-right: 0;
+  content: url('../../../public/footer/instagram.svg');
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location img {
+  content: url('../../../public/footer/location.svg');
+}
+
+.location-street {
+  margin-top: 2px;
+  padding-left: 8px;
+  color: #C8C8C8;
+  font-size: 16px;
+  line-height: 19.6px;
+}
+
+.location {
+  width: 100vh;
+  display: flex;
+}
+
+.conditions {
+  color: white;
+  width: 100vh;
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gmail {
+  width: 100vh;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.gmail img {
+  content: url('../../../public/footer/gmail.svg');
+}
+
+.email {
+  color: white;
+  margin-top: 2px;
+  padding-left: 8px;
+}

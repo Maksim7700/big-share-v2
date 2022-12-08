@@ -1,0 +1,31 @@
+.portfolio-add-block {
+  margin-top: 16px;
+  width: 711px;
+  height: 337px;
+  border: 1px solid #B9D7FF;
+  display: flex;
+  position: relative;
+}
+
+.margin-left-16 {
+  margin-left: 16px;
+}
+
+.inside-add {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-text {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #0360B2;
+}
+
+.add-star-image img{
+  margin-left: 24px;
+  content: url('../../../public/portfolio/add-star.svg');
+}
