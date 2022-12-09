@@ -1,0 +1,16 @@
+.select {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #B9D7FF;
+  max-width: 275px;
+  height: 337px;
+}
+
+.select-title {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 32px;
+  color: #111714;
+}

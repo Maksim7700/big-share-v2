@@ -1,3 +1,4 @@
+import Anketa from '../components/anketa/Anketa';
 import Blog from '../components/blog/Blog';
 import Client from "../components/client/Client";
 import Footer from '../components/footer/footer';
@@ -16,6 +17,7 @@ const Home = () => {
             <Client />
             <Portfolio />
             <Blog />
+            <Anketa />
             <Footer />
         </div>
     );

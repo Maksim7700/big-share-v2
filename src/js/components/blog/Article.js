@@ -12,7 +12,7 @@ const Article = () => {
           </div>
         </div>
         <div className='flex-container-right'>
-          <img alt='logo-blog' />
+          <img alt='logo-blog' src='./blog/blog1.svg'/>
         </div>
     </div>
   )

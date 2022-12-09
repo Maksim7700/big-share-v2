@@ -35,13 +35,9 @@
 
 .article-read-me img {
   margin-left: 8px;
-  content: url('../../../public/article/arrow-right-read-more.svg');
+  content: url('../../../public/blog/arrow-right-read-more.svg');
 }
 
 .flex-container-right {
   padding: 46px 0 0 212px;
-}
-
-.flex-container-right img {
-  content: url('../../../public/article/blog1.svg');
 }

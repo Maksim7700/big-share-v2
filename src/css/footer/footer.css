@@ -40,33 +40,22 @@ hr {
   justify-content: flex-end;
 }
 
-.footer-bigshare img {
-  content: url('../../../public/footer/bigshare-logo-footer.svg');
-}
-
 .linkedin {
   margin-right: 16px;
-  content: url('../../../public/footer/linkedin.svg');
 }
 
 .behance {
   margin-right: 16px;
-  content: url('../../../public/footer/behance.svg');
 }
 
 .instagram {
   margin-right: 0;
-  content: url('../../../public/footer/instagram.svg');
 }
 
 .footer-bottom {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-}
-
-.location img {
-  content: url('../../../public/footer/location.svg');
 }
 
 .location-street {
@@ -94,10 +83,6 @@ hr {
   width: 100vh;
   justify-content: flex-end;
   display: flex;
-}
-
-.gmail img {
-  content: url('../../../public/footer/gmail.svg');
 }
 
 .email {
