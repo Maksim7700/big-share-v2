@@ -31,40 +31,40 @@ const service = () => {
   )
 }
 
-const size = () => {
-  return (
-            <>
-              <Select title='XS' image='size-xs.svg'/>
-              <Select title='S' image='size-s.svg'/>
-              <Select title='M' image='size-m.svg'/>
-              <Select title='L' image='size-l.svg'/>
-              <Select title='XL' image='size-xl.svg'/>
-            </>
-  )
-}
+// const size = () => {
+//   return (
+//             <>
+//               <Select title='XS' image='size-xs.svg'/>
+//               <Select title='S' image='size-s.svg'/>
+//               <Select title='M' image='size-m.svg'/>
+//               <Select title='L' image='size-l.svg'/>
+//               <Select title='XL' image='size-xl.svg'/>
+//             </>
+//   )
+// }
 
-const calendar = () => {
-  return (
-    <>
-      <Select title='Less than 1 month' image='calendar-1.svg'/>
-      <Select title='1-2 months' image='calendar-2.svg'/>
-      <Select title='2-4 months' image='calendar-3.svg'/>
-      <Select title='4-6 months' image='calendar-4.svg'/>
-      <Select title='More than 6 months' image='calendar-5.svg'/>
-    </>
-  )
-}
+// const calendar = () => {
+//   return (
+//     <>
+//       <Select title='Less than 1 month' image='calendar-1.svg'/>
+//       <Select title='1-2 months' image='calendar-2.svg'/>
+//       <Select title='2-4 months' image='calendar-3.svg'/>
+//       <Select title='4-6 months' image='calendar-4.svg'/>
+//       <Select title='More than 6 months' image='calendar-5.svg'/>
+//     </>
+//   )
+// }
 
-const budget = () => {
-  return (
-    <>
-      <Select title='Less than $1k' image='budget-1.svg'/>
-      <Select title='$1k-3k' image='budget-2.svg'/>
-      <Select title='$3k-6k' image='budget-3.svg'/>
-      <Select title='$6k-10k' image='budget-4.svg'/>
-      <Select title='More than $10k' image='budget-5.svg'/>
-    </>
-  )
-}
+// const budget = () => {
+//   return (
+//     <>
+//       <Select title='Less than $1k' image='budget-1.svg'/>
+//       <Select title='$1k-3k' image='budget-2.svg'/>
+//       <Select title='$3k-6k' image='budget-3.svg'/>
+//       <Select title='$6k-10k' image='budget-4.svg'/>
+//       <Select title='More than $10k' image='budget-5.svg'/>
+//     </>
+//   )
+// }
 
 export default Anketa;
