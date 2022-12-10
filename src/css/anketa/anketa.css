@@ -43,7 +43,7 @@
 
 .anketa-question-blog {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5,2fr);
   grid-column-gap: 16px;
   margin-top: 16px;
   margin-bottom: 60px;
@@ -52,4 +52,66 @@
 .anketa-question-blog-no {
   margin-top: 16px;
   margin-bottom: 60px;
+}
+
+.bar {
+  margin-top: 61px;
+  width: 100%;
+  height: 4px;
+  background: rgba(17, 23, 20, 0.1);
+  border: 0.1px solid rgba(17, 23, 20, 0.1);;
+}
+
+.back-button-anketa-under {
+  margin-top: 50px;
+  text-align: right;
+}
+
+.level {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #393939;
+  text-align: center;
+}
+
+.bar-load {
+  height: 100%;
+}
+
+.bar-loading-1 {
+  width: 20%;
+  background-color: #1A9D63;
+}
+
+.bar-loading-2 {
+  width: 40%;
+  background-color: #1A9D63;
+}
+
+.bar-loading-3 {
+  width: 60%;
+  background-color: #1A9D63;
+}
+
+.bar-loading-4 {
+  width: 80%;
+  background-color: #1A9D63;
+}
+
+.bar-loading-5 {
+  width: 100%;
+  background-color: #1A9D63;
+}
+
+.bar-none {
+  display: none;
+}
+
+.anket-question-style {
+  margin-bottom: 200px;
+}
+
+.back-button-1 {
+  display: none;
 }

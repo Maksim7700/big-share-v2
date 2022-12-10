@@ -26,7 +26,7 @@ const FormSend = (props) => {
         <div></div>
         <div></div>
         <div></div>
-        <div className={`${isForm === 'form' ? 'back-button-anketa' : 'hidden'}`}><img alt='back' src='./anketa/anketa_back.svg'/></div>
+        <div className={`${isForm === 'form' ? 'back-button-anketa' : 'hidden'}`}><img onClick={props.backClick} alt='back' src='./anketa/anketa_back.svg'/></div>
         <input className='submit Montserrat-500' type="submit" />
       </form>
     </div>
