@@ -1,0 +1,57 @@
+.error {
+  border-style: solid;
+  border-color: #c00;
+  border-width: 1px;
+}
+
+
+.input-big-share{
+  border: 1px solid #B9D7FF;
+  height: 48px;
+  max-width: 275px;
+}
+
+.flex-container-form {
+  display: grid;
+  grid-template-columns: repeat(5,2fr);
+  grid-column-gap: 16px;
+}
+
+.submit {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  height: 48px;
+  background: #1A9D63;
+  border: 1px solid #1A9D63;
+  margin-top: 16px;
+  }
+
+  input::placeholder {
+    color: #BABABA;
+  }
+
+  input:not(:placeholder-shown) {
+    font-size: 16px !important;
+  }
+
+  input[type="tel"] {
+    padding-left: 16px;
+    font-weight: 400;
+  }
+
+  input[type="text"] {
+    padding-left: 16px;
+    font-weight: 400;
+  }
+
+.back-button-anketa {
+  text-align: right;
+  margin-top: 28px;
+}
+
+.hidden {
+  display: none;
+}
