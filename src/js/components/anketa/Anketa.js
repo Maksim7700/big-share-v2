@@ -2,7 +2,6 @@ import Container from '../../UI/Containter';
 import '../../../css/anketa/anketa.css';
 import Select from './Select';
 import { useState } from 'react';
-import { Form } from 'react-router-dom';
 import FormSend from './FormSend';
 
 const serviceTitle = 'What service are you interested in?';
