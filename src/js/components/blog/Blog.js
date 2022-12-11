@@ -1,4 +1,6 @@
 import '../../../css/blog/blog.css';
+import '../../../css/hover.css';
+
 import Container from '../../UI/Containter';
 import Article from './Article';
 
@@ -14,6 +16,7 @@ const Blog = () => {
             <Article />
             <Article />
           </div>
+          <div className='blog-view Gilroy-500'>View all blog</div>
         </div>
       </Container>
     </div>

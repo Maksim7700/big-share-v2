@@ -1,4 +1,5 @@
 import '../../../css/portfolio/block.css';
+import '../../../css/hover.css';
 import Title from './Title';
 
 const Block = (props) => {

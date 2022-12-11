@@ -1,4 +1,6 @@
 import '../../../css/footer/footer.css';
+import '../../../css/hover.css';
+
 import Container from '../../UI/Containter';
 
 const Footer = () => {
@@ -9,10 +11,10 @@ const Footer = () => {
           <div className='footer-navigation'>
             <div className='footer-bigshare'><img alt='bigshare' src='./footer/bigshare-logo-footer.svg'/></div>
             <div className='flex-container-navigation-footer Montserrat-500'>
-              <div>Home</div>
-              <div>Portfolio</div>
-              <div>We are hiring</div>
-              <div>Blog</div>
+              <div className='hover-footer'>Home</div>
+              <div className='hover-footer'>Portfolio</div>
+              <div className='hover-footer'>We are hiring</div>
+              <div className='hover-footer'>Blog</div>
             </div>
             <div className='flex-container-social'>
               <img className='linkedin' alt='linkedin' src='./footer/linkedin.svg'/>
@@ -23,16 +25,20 @@ const Footer = () => {
           <div><hr/></div>
           <div className='footer-bottom Montserrat-400'>
             <div className='location'>
-              <img alt='location' src='./footer/location.svg'/>
-              <div className='location-street'>Sakharova street, Lviv, Ukraine</div>
+              <div className='location-inside'>
+                <img alt='location' src='./footer/location.svg'/>
+                <div className='location-street'>Sakharova street, Lviv, Ukraine</div>
+              </div>
             </div>
             <div className='conditions'>
-              <div>Term of Use</div>
-              <div>Privacy Policy</div>
+              <div className='hover-footer'>Term of Use</div>
+              <div className='hover-footer'>Privacy Policy</div>
             </div>
             <div className='gmail'>
-              <img alt='gmail' src='./footer/gmail.svg'/>
-              <div className='email'>bigshareua@gmail.com</div>
+              <div className='gmail-inside'>
+                <img alt='gmail' src='./footer/gmail.svg'/>
+                <div className='email'>bigshareua@gmail.com</div>
+              </div>
               </div>
           </div>
         </div>

@@ -28,6 +28,7 @@
 }
 
 .article-read-me {
+  width: 113px;
   margin-top: 24px;
   display: flex;
   color: #1A9D63;
@@ -35,7 +36,6 @@
 
 .article-read-me img {
   margin-left: 8px;
-  content: url('../../../public/blog/arrow-right-read-more.svg');
 }
 
 .flex-container-right {

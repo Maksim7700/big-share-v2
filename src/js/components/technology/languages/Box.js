@@ -1,9 +1,11 @@
 import '../../../../css/technology/languages/language.css';
+import '../../../../css/hover.css';
 
 const Box = (props) => {
+    console.log(props.className)
     return (
         <div className='box'>
-             <div className={`box-image box-image-${props.className}`}></div>
+             <div className={`box-image`}> <img alt={`${props.className}`} src={`./technologies/${props.className}.svg`}/></div>
              <div className={`Montserrat-500 box-text box-text-${props.className}`}></div>
         </div>
     )

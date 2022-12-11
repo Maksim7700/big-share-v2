@@ -1,0 +1,236 @@
+/* ---Header--- */
+.contact-us-button:hover {
+  background: #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
+  border: 1px solid  #0360B2;
+  cursor: pointer;
+}
+
+
+.hover-header:hover {
+  cursor: pointer;
+  color: #0360B2;
+}
+
+/* ----Head---- */
+
+.get-started-button:hover {
+  background: #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
+  border: 1px solid  #0360B2;
+  cursor: pointer;
+}
+
+/* ---Service--- */
+
+.flex-containter-develop-inside:hover {
+  box-shadow: 0px 0px 20px rgba(3, 96, 178, 0.25);
+}
+
+.box:hover .box-image {
+  transition: 0.15s ease-out 100ms;
+  transform: scale(1.2) translate(0, -10%);
+}
+
+/* ---Language--- */
+
+.tech-button-hover:hover {
+  cursor: pointer;
+  background: linear-gradient(0deg, #0360B2, #0360B2), #101A24 !important;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
+}
+
+.green:hover{
+  cursor: pointer;
+}
+
+/* ---Client--- */
+
+.project:hover {
+  box-shadow: 0px 0px 20px rgba(3, 96, 178, 0.25);
+}
+
+.project-add:hover {
+  cursor: pointer;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+  background-color: #0360B2;
+}
+
+.project-add:hover .add-my-company {
+  color: white;
+}
+
+.project-add:hover img {
+  content: url('../../public/client/add-my-project-star-hover.svg');
+}
+
+.client-previous:hover, .client-next:hover {
+  background: #0360B2;
+}
+
+/* ---Portfolio--- */
+
+.block:hover {
+  box-shadow: 0px 0px 20px rgba(3, 96, 178, 0.25);
+}
+
+.portfolio-add-block:hover {
+  background: #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+}
+
+.portfolio-add-block:hover .add-text {
+  color: white;
+}
+
+.portfolio-add-block:hover img {
+  content: url('../../public/portfolio/add-star-hover.svg');
+}
+
+/* ---Blog--- */
+
+.article-read-me:hover {
+  cursor: pointer;
+}
+
+.article-read-me:hover .read-me-text {
+  color: #0360B2;
+}
+
+.article-read-me:hover img {
+  content: url('../../public/blog/arrow-right-read-me-hover.svg');
+}
+
+.blog-view:hover {
+  background-color: #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+}
+
+/* ---Anketa--- */
+
+.select:hover {
+  background-color: #0360B2;
+}
+
+.select:hover .select-title {
+  color: white;
+}
+
+.select-1:hover img {
+  content: url('../../public/anketa/complex-service-hover.svg');
+}
+.select-2:hover img {
+  content: url('../../public/anketa/design-hover.svg');
+}
+.select-3:hover img {
+  content: url('../../public/anketa/web-development-hover.svg');
+}
+.select-4:hover img {
+  content: url('../../public/anketa/mobile-development-hover.svg');
+}
+.select-5:hover img {
+  content: url('../../public/anketa/other-hover.svg');
+}
+.select-6:hover img {
+  content: url('../../public/anketa/size-xs-hover.svg');
+}
+.select-7:hover img {
+  content: url('../../public/anketa/size-s-hover.svg');
+}
+.select-8:hover img {
+  content: url('../../public/anketa/size-m-hover.svg');
+}
+.select-9:hover img {
+  content: url('../../public/anketa/size-l-hover.svg');
+}
+.select-10:hover img {
+  content: url('../../public/anketa/size-xl-hover.svg');
+}
+.select-11:hover img {
+  content: url('../../public/anketa/calendar-less-than-1-hover.svg');
+}
+.select-12:hover img {
+  content: url('../../public/anketa/calendar-1-2-hover.svg');
+}
+.select-13:hover img {
+  content: url('../../public/anketa/calendar-2-4-hover.svg');
+}
+.select-14:hover img {
+  content: url('../../public/anketa/calendar-4-6-hover.svg');
+}
+.select-15:hover img {
+  content: url('../../public/anketa/calendar-more-than-6-hover.svg');
+}
+.select-16:hover img {
+  content: url('../../public/anketa/less-1k-hover.svg');
+}
+.select-17:hover img {
+  content: url('../../public/anketa/1-3k-hover.svg');
+}
+.select-18:hover img {
+  content: url('../../public/anketa/3-6k-hover.svg');
+}
+.select-19:hover img {
+  content: url('../../public/anketa/6-10k-hover.svg');
+}
+.select-20:hover img {
+  content: url('../../public/anketa/more-10k-hover.svg');
+}
+
+.back-button-anketa-under {
+  cursor: pointer;
+}
+
+.back-button-anketa:hover {
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
+  border: 1px solid  #0360B2;
+  cursor: pointer;
+}
+
+/* ---Footer--- */
+
+.hover-footer:hover {
+  cursor: pointer;
+  color: #0360B2;
+}
+
+.location-inside:hover {
+  cursor: pointer;
+}
+
+.location-inside:hover .location-street {
+  color: #0360B2;
+}
+
+.location-inside:hover img {
+  content: url('../../public/footer/location-hover.svg');
+}
+
+.gmail-inside:hover {
+  cursor: pointer;
+}
+
+.gmail-inside:hover .email {
+  color: #0360B2;
+}
+
+.gmail-inside:hover img {
+  content: url('../../public/footer/gmail-hover.svg');
+}
+
+.instagram:hover {
+  content: url('../../public/footer/instagram-hover.svg');
+}
+
+.behance:hover {
+  content: url('../../public/footer/behance-hover.svg');
+}
+
+.linkedin:hover {
+  content: url('../../public/footer/linkedin-hover.svg');
+}

@@ -2,6 +2,7 @@
 import '../../../css/head/head.css';
 import '../../../css/all.css';
 import Container from '../../UI/Containter';
+import '../../../css/hover.css';
 
 const Head = () => {
     return (

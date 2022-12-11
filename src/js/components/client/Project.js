@@ -1,4 +1,5 @@
 import '../../../css/client/project.css';
+import '../../../css/hover.css';
 
 const Project = () => {
     return (

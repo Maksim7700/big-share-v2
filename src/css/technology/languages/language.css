@@ -40,123 +40,65 @@
 }
 
 .box-image {
-    padding: 66px 69px 0 69px;
+    margin: 66px 69px 0 69px;
 }
-
-.box-image-js {
-    content: url('../../../../public/technologies/javascript.svg');
-}
-
-.box-text-js::after {
+.box-text-javascript::after {
     content: "Java Script";
-}
-
-.box-image-css {
-    content: url('../../../../public/technologies/css.svg');
 }
 
 .box-text-css::after {
     content: "CSS";
 }
-
-.box-image-react {
-    content: url('../../../../public/technologies/react.svg');
-}
-
 .box-text-react::after {
     content: "React";
-}
-
-.box-image-wordpress {
-    content: url('../../../../public/technologies/wordpress.svg');
 }
 
 .box-text-wordpress::after {
     content: "Wordpress";
 }
 
-.box-image-html {
-    content: url('../../../../public/technologies/html.svg');
-}
-
 .box-text-html::after {
     content: "HTML";
-}
-
-.box-image-figma {
-    content: url('../../../../public/technologies/figma.svg');
 }
 
 .box-text-figma::after {
     content: "Figma";
 }
 
-.box-image-photoshop {
-    content: url('../../../../public/technologies/photoshop.svg');
-}
-
 .box-text-photoshop::after {
     content: "Photoshop";
 }
 
-.box-image-illustrator {
-    content: url('../../../../public/technologies/illustrator.svg');
-}
 
 .box-text-illustrator::after {
     content: "Illustrator";
 }
 
-.box-image-after-effects {
-    content: url('../../../../public/technologies/after-effects.svg');
-}
 
 .box-text-after-effects::after {
     content: "After Effects";
 }
 
-.box-image-indesign{
-    content: url('../../../../public/technologies/indesign.svg');
-}
 
 .box-text-indesign::after {
     content: "Indesign";
-}
-
-.box-image-java{
-    content: url('../../../../public/technologies/java.svg');
 }
 
 .box-text-java::after {
     content: "Java";
 }
 
-.box-image-kotlin{
-    content: url('../../../../public/technologies/kotlin.svg');
-}
-
 .box-text-kotlin::after {
     content: "Kotlin";
 }
 
-.box-image-react-native{
-    content: url('../../../../public/technologies/react.svg');
-}
 
 .box-text-react-native::after {
     content: "React Native";
 }
 
-.box-image-angular{
-    content: url('../../../../public/technologies/angular.svg');
-}
-
 .box-text-angular::after {
     content: "Angualr";
-}
-
-.box-image-flutter{
-    content: url('../../../../public/technologies/flutter.svg');
 }
 
 .box-text-flutter::after {
@@ -165,4 +107,8 @@
 
 .flex-container-technologies-box {
     margin-bottom: 200px;
+}
+
+.green {
+    background-color: #1A9D63 !important;
 }

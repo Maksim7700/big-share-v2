@@ -1,11 +1,11 @@
 import '../../../../css/service/development/develop.css'
 import '../../../../css/fonts/fonts.css';
-
+import '../../../../css/hover.css';
 const Develop = (props) => {
     const imageNumber = props.imageNumber;
     const title = props.title;
     const text = props.text;
-    
+
     return (
         <div className={`flex-containter-develop-inside margin-left-24 ${props.className}`}>
             <div className={`develop-image develop-image-${imageNumber}`}></div>

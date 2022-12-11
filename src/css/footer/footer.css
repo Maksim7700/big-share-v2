@@ -28,6 +28,7 @@ hr {
 }
 
 .flex-container-navigation-footer {
+  height: 20px;
   margin-top: 10px;
   width: 100%;
   display: flex;
@@ -89,4 +90,8 @@ hr {
   color: white;
   margin-top: 2px;
   padding-left: 8px;
+}
+
+.location-inside, .gmail-inside {
+  display: flex;
 }

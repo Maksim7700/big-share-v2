@@ -1,4 +1,5 @@
 import '../../../css/client/comment.css';
+import '../../../css/hover.css';
 
 const Comment = () => {
     return (
