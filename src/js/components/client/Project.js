@@ -16,7 +16,7 @@ const Project = () => {
                 <img className='project' id='company-3' alt='company icon'/>
                 <img className='project' id='company-4' alt='company icon'/>
                 <img className='project' id='company-5' alt='company icon'/>
-                <img className='project' id='company-6' alt='company icon'/>
+                <img className='project' id='company-6' alt='company icon' src='./client/company6.svg'/>
             </div>
             <div className='flex-direction-column'>
                 <img className='project' id='company-7' alt='company icon'/>

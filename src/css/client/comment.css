@@ -51,7 +51,6 @@
     font-size: 14px;
     line-height: 21px;
     color: #8C8C8C;
-    margin-top: 4px;
 }
 
 .client-raiting {
@@ -69,6 +68,7 @@
 }
 
 .client-comment {
+    color: #4A4A4A;
     font-size: 16px;
     line-height: 27px;
     margin-top: 16px;

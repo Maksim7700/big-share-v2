@@ -3,7 +3,7 @@
   background: #061019;
   display: flex;
   height: 303px;
-  width: 1438px;
+  width: 100%;
 }
 
 .flex-container-left {
@@ -22,7 +22,7 @@
 .article-text {
   color: #C8C8C8;
   margin-top: 24px;
-  width: 768px;
+  max-width: 768px;
   font-size: 16px;
   line-height: 24px;
 }
@@ -39,5 +39,5 @@
 }
 
 .flex-container-right {
-  padding: 46px 0 0 212px;
+  padding: 46px 75px 0 212px;
 }

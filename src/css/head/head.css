@@ -21,7 +21,7 @@
     width: 734px;
     height: 90px;
     font-size: 18px;
-    color: white;
+    color: #F8F8F8;
 }
 
 .text-head-3 {
@@ -34,10 +34,11 @@
     width: 173px;
     height: 48px;
     background-color: transparent;
-    border: 1px solid #FFFFFF;
-    opacity: 0.7;
+    border: 0.1px solid #858A90;
     line-height: 24px;
     font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .get-started {
