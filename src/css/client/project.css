@@ -38,13 +38,14 @@
     content: url('../../../public/client/add-my-project-star.svg');
 }
 
-
-#company-1 {
+#company-2 {
+    height: 204px;
+    width: 204px;
+}
+/* #company-1 {
     content: url('../../../public/client/company1.svg');
 }
-#company-2 {
-    content: url('../../../public/client/company2.svg');
-}
+
 #company-3 {
     content: url('../../../public/client/company3.svg');
 }
@@ -54,9 +55,9 @@
 #company-5 {
     content: url('../../../public/client/company5.svg');
 }
-/* #company-6 {
+#company-6 {
     content: url('../../../public/client/company6.svg');
-} */
+}
 #company-7 {
     content: url('../../../public/client/company7.svg');
 }
@@ -71,4 +72,4 @@
 }
 #company-11 {
     content: url('../../../public/client/company11.svg');
-}
+} */
