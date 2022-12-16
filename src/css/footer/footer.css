@@ -87,11 +87,15 @@ hr {
 }
 
 .email {
-  color: white;
+  color: #C8C8C8;
   margin-top: 2px;
   padding-left: 8px;
 }
 
 .location-inside, .gmail-inside {
   display: flex;
+}
+
+.term-privacy {
+  color: #C8C8C8;
 }

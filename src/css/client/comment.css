@@ -15,7 +15,7 @@
 
 .client-text {
     color: #393939;
-    margin-top: 36px;
+    margin-top: 24px;
     max-width: 768px;
     font-size: 16px;
     line-height: 24px;
@@ -76,32 +76,29 @@
 }
 
 .client-move {
+    display: flex;
     margin-top: 24px;
 }
 
-.client-move button {
+.client-move div {
     border: 1px solid #1A9D63;
     background: #1A9D63;
     height: 48px;
     width: 48px;
 }
 
-.client-move .client-previous img {
-    padding-top: 6px;
-}
-
-.client-move .client-next img {
-    padding-top: 6px;
-}
 
 .client-next {
     margin-left: 16px;
 }
 
 .client-next img {
-    content: url('../../../public/client/client-arrow-right.svg');
+    height: 24px;
+    padding: 12px 12px 12px 12px;
 }
 
-.client-previous img {
-    content: url('../../../public/client/client-arrow-left.svg');
+
+.client-previous img{
+    height: 24px;
+    padding: 12px 12px 12px 12px;
 }

@@ -69,6 +69,7 @@
 }
 
 .client-previous:hover, .client-next:hover {
+  cursor: pointer;
   border: 1px solid #0360B2;
   background: #0360B2;
 }
@@ -82,6 +83,7 @@
 .portfolio-add-block:hover {
   background: #0360B2;
   box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+  border: 1px solid #0360B2;
 }
 
 .portfolio-add-block:hover .add-text {
@@ -107,6 +109,7 @@
 }
 
 .blog-view:hover {
+  cursor: pointer;
   background-color: #0360B2;
   box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
 }
@@ -114,7 +117,9 @@
 /* ---Anketa--- */
 
 .select:hover {
-  transition-delay: 0.1s;
+  transition: 0.8s;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+  border: 1px solid #0360B2;
   cursor: pointer;
   background-color: #0360B2;
 }
@@ -184,11 +189,16 @@
   content: url('../../public/anketa/more-10k-hover.svg');
 }
 
-.back-button-anketa-under {
+.back-group:hover {
+  color: #0360B2;
   cursor: pointer;
 }
 
-.back-button-anketa:hover {
+.back-group:hover img {
+  content: url('../../public/anketa/anketa-back-arrow-hover.svg');
+}
+
+.back-group:hover {
   cursor: pointer;
 }
 

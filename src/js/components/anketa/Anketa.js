@@ -21,8 +21,8 @@ export const service = (serviceClick) => {
             <>
               <Select myClick={serviceClick} title='Complex of services' image='complex_service.svg' num='1'/>
               <Select myClick={serviceClick} title='Design' image='design.svg' num='2'/>
-              <Select myClick={serviceClick} title='Web development' image='mobile_dev.svg' num='3'/>
-              <Select myClick={serviceClick} title='Mobile development' image='web_dev.svg' num='4'/>
+              <Select myClick={serviceClick} title='Web development' image='web_dev.svg' num='3'/>
+              <Select myClick={serviceClick} title='Mobile development' image='mobile_dev.svg' num='4'/>
               <Select myClick={serviceClick} title='Other' image='other.svg' num='5'/>
             </>
   )
@@ -133,7 +133,7 @@ const form = () => {
   const bar = () => {
       return <>
           <div></div>
-          <div className='back-button-anketa-under'><img className={`back-button-${barLoading()}`} onClick={serviceBackClick} alt='back button' src='./anketa/anketa_back.svg'/></div>
+          <div className='back-button-anketa-under'><div className='back-group'><img className={`back-button-size back-button-${barLoading()}`} onClick={serviceBackClick} alt='back button' src='./anketa/anketa-back-arrow.svg'/><div className={`back-form Montserrat-400 ${isService ? ' display-none': ''}`}>Back</div></div></div>
           <div className='anketa-bar'>
             <div className='bar'><div className={`bar-load bar-loading-${barLoading()}`}></div></div>
              <div className='level Montserrat-400'>{steps()}</div>

@@ -25,8 +25,8 @@ const Comment = () => {
                     </div>
                 <div className='client-comment Montserrat-400'><i>"This guy has an amazing imagination and ability to come up with creative ideas. I just had to ask him and he would come up with things I would never think of. I can be a bit annoying because I am a perfectionist but everytime I asked him to change something or come up with something else he would do it directly. It was ..."</i></div>
                 <div className='client-move'>
-                    <button className='client-previous'><img alt='left'/></button>
-                    <button className='client-next'><img alt='right'/></button>
+                    <div className='client-previous'><img alt='arrow-left' src='./client/client-arrow-left.svg'/></div>
+                    <div className='client-next'><img alt='arrow-left' src='./client/client-arrow-right.svg'/></div>
                 </div>
             </div>
         </div>

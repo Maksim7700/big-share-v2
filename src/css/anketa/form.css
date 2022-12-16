@@ -44,10 +44,12 @@
 
   input[type="text"] {
     padding-left: 16px;
+    font-size: 16px;
     font-weight: 400;
   }
 
 .back-button-anketa {
+  height: 24px;
   text-align: right;
   margin-top: 28px;
 }

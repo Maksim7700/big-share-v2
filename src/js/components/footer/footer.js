@@ -31,8 +31,8 @@ const Footer = () => {
               </div>
             </div>
             <div className='conditions'>
-              <div className='hover-footer'>Term of Use</div>
-              <div className='hover-footer'>Privacy Policy</div>
+              <div className='hover-footer term-privacy'>Term of Use</div>
+              <div className='hover-footer term-privacy'>Privacy Policy</div>
             </div>
             <div className='gmail'>
               <div className='gmail-inside'>

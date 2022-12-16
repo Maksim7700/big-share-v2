@@ -27,8 +27,8 @@ const FormSend = (props) => {
         <div></div>
         <div></div>
         <div></div>
-        <div className={`${isForm === 'form' ? 'back-button-anketa' : 'hidden'}`}><img onClick={props.backClick} alt='back' src='./anketa/anketa_back.svg'/></div>
-        <input className='submit Montserrat-500' type="submit" />
+        <div className={`flex-container-back em-02 ${isForm === 'form' ? 'back-button-anketa' : 'hidden'}`}><div onClick={props.backClick} className='back-group'><img className='back-button-size' alt='back' src='./anketa/anketa-back-arrow.svg'/><div className='back-form Montserrat-400'>Back</div></div></div>
+        <input className='submit Montserrat-500' type="submit" value='Create with Big Share'/>
       </form>
     </div>
   );
