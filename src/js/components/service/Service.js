@@ -1,6 +1,7 @@
 import Container from "../../UI/Containter";
 import '../../../css/service/service.css'
 import Develop from "./Development/Develop";
+import '../../../css/laptop.css';
 
 const Service = () => {
     return (
@@ -10,9 +11,9 @@ const Service = () => {
                 <div className="service-2"><div className="service-2-text em-02 Montserrat-400">Innowise Group can cover the entire software development process, from product vision discussion to applications design and software enhancement. Our multi-skilled experienced team facilitates businesses worldwide on their way to digital transformation and helps companies take full advantage of IT innovations.</div></div>
                 <div className="service-3">
                     <div>
-                        <Develop className='develop-1' 
-                            imageNumber='1' 
-                            title='Ecommerce Development' 
+                        <Develop className='develop-1'
+                            imageNumber='1'
+                            title='Ecommerce Development'
                             text='Today’s business world is competitive, and while it’s relatively easy to get started, it’s very hard to rise to the top. We can help. Set your mind at ease by taking this opportunity to learn more about how Big Share can turn your ecommerce project into an income-generating, sales-making machine.'>
                         </Develop>
                     </div>

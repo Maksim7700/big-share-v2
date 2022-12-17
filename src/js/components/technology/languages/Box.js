@@ -1,5 +1,6 @@
 import '../../../../css/technology/languages/language.css';
 import '../../../../css/hover.css';
+import '../../../../css/laptop.css';
 
 const Box = (props) => {
     console.log(props.className)

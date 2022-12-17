@@ -1,6 +1,6 @@
 import '../../../css/blog/blog.css';
 import '../../../css/hover.css';
-
+import '../../../css/laptop.css';
 import Container from '../../UI/Containter';
 import Article from './Article';
 

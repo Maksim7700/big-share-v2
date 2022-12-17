@@ -2,6 +2,7 @@ import Container from "../../UI/Containter"
 import '../../../css/head/header.css';
 import '../../../css/fonts/fonts.css';
 import '../../../css/hover.css';
+import '../../../css/laptop.css';
 
 const Header = () => {
     return (

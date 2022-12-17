@@ -1,6 +1,8 @@
 import '../../../../css/service/development/develop.css'
 import '../../../../css/fonts/fonts.css';
 import '../../../../css/hover.css';
+import '../../../../css/laptop.css';
+
 const Develop = (props) => {
     const imageNumber = props.imageNumber;
     const title = props.title;

@@ -1,0 +1,271 @@
+@media only screen and (max-width: 895px) {
+  .main {
+    height: 400px !important;
+  }
+  .contact-us-button {
+    width: 162px !important;
+    height: 40px !important;
+  }
+  .text-head-1 {
+    margin-top: 64px !important;
+    max-width: 485px !important;
+    font-size: 32px !important;
+    line-height: 46px !important;
+  }
+  .text-head-2 {
+    margin-top: 4px !important;
+    max-width: 863px !important;
+    height: 48px !important;
+    line-height: 24px !important;
+    font-size: 16px !important;
+  }
+  .text-head-3 {
+    margin-top: 36px !important;
+    width: 100% !important;
+  }
+  .text-head-3 button {
+    width: 100%;
+  }
+  .get-started-button {
+    width: 100%;
+    justify-content: center !important;
+  }
+  .arrow-right-get-started {
+    display: none;
+  }
+
+  /* service */
+  .flex-containter-service {
+    align-items: center;
+    margin-top: 64px !important;
+  }
+  .service-1 {
+    font-size: 30px !important;
+    max-width: 604px !important;
+    line-height: 39px !important;
+  }
+  .service-2 {
+    margin-top: 16px !important;
+    max-width: 863px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .service-3 {
+    margin-top: 64px !important;
+  }
+  .flex-containter-service-develop {
+    margin-top: 0 !important;
+    flex-direction: column;
+  }
+  .develop-2 {
+    max-width: 863px !important;
+    min-height: 181px !important;
+    max-height: 235px !important;
+  }
+  .flex-containter-develop-inside {
+    max-width: 863px !important;
+    align-items: center;
+  }
+  .develop-text {
+    max-width: 833px !important;
+    text-align: center;
+    margin-left: 0 !important;
+    margin: 0 16px 16px 16px !important;
+  }
+  .develo-title {
+    margin: 0 auto 8px auto !important;
+  }
+  .develop-image{
+    margin: 16px auto 12px auto !important;
+  }
+  .flex-containter-develop-inside {
+    margin: 13px auto 0 auto !important;
+  }
+  .margin-bottom-204 {
+    margin-bottom: 90px !important;
+  }
+
+  /* Technologies */
+  .box-image img {
+    height: 52px !important;
+    width: 52px !important;
+  }
+  .box-text {
+    padding-top: 0 !important;
+  }
+  .technology-title {
+    max-width: 593px !important;
+    padding-top: 110px !important;
+    font-size: 30px !important;
+    line-height: 39px !important;
+  }
+  .technology-text {
+    margin-top: 16px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    max-width: 863px !important;
+    height: 48px !important;
+  }
+  .languages {
+    margin-top: 32px !important;
+  }
+  .flex-container-technologies-box {
+    margin-bottom: 64px !important;
+    display: grid !important;
+    grid-template-columns: repeat(5,1fr) !important;
+    grid-column-gap: 9px !important;
+  }
+  .box {
+    max-width: 165px;
+    height: 198px !important;
+    margin-right: 0 !important;
+  }
+  .box-image {
+    margin: 53.78px 56.37px 19.6px 56.37px !important;
+  }
+  /* Client */
+  .project-add img {
+    padding: 46px 57px 0 58px !important;
+  }
+  .comment {
+    margin-top: 700px !important;
+  }
+  .add-my-company {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    padding-top: 12px !important;
+    padding-bottom: 0 !important;
+    padding-right: 18px !important;
+    padding-left: 17px !important;
+}
+  .flex-container-project-mobile {
+    margin-top: 199px !important;
+    position: absolute;
+    left: 0;
+    display: grid !important;
+    grid-template-columns: repeat(5,3fr) !important;
+    grid-column-gap: 10px !important;
+
+  }
+  .project {
+    margin-top: 10px !important;
+    margin-right: 0 !important;
+    width: 165px !important;
+    height: 165px !important;
+  }
+  .client {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+  }
+  .client-title {
+    font-size: 30px !important;
+    line-height: 39px !important;
+  }
+  .client-text {
+    margin-top: 16px !important;
+    height: 48px !important;
+    max-width: 863px !important;
+  }
+
+  /* Anketa */
+  .select-title {
+    font-size: 16px !important;
+    margin-top: 16px !important;
+  }
+  .select {
+    height: 198px !important;
+    min-width: 165px !important;
+  }
+  .bar {
+    margin-top: 13px !important;
+  }
+  .back-button-anketa-under {
+    margin-top: 4px !important;
+  }
+  .anketa-question-text {
+    font-size: 16px !important;
+    line-height: 19px !important;
+    margin: 15px auto 15px auto;
+  }
+  .anketa-question {
+    height: 48px !important;
+    margin-top: 32px !important;
+  }
+  .anketa-text {
+    margin-top: 16px !important;
+    max-width: 862px !important;
+    height: 72px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .anketa-title {
+    font-size: 30px !important;
+    line-height: 39px !important;
+  }
+  .flex-container-anketa {
+    margin-top: 64px !important;
+  }
+  /* Portfolio */
+  .block {
+    width: 343px !important;
+    height: 162px !important;
+  }
+  .flex-container-inside-block {
+    height: 162px !important;
+  }
+  .portfolio-text-container {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    max-width: 863px !important;
+    margin-top: 16px !important;
+  }
+  .portfolio-title {
+    font-size: 30px !important;
+    line-height: 39px !important;
+  }
+  .flex-container-block {
+    margin: 0 auto;
+    max-width: 699px;
+  }
+  .portfolio-add-block {
+    width: 343px !important;
+    height: 162px !important;
+  }
+  .add-text {
+    margin-top: 10px !important;
+    font-size: 16px !important;
+    min-width: 117px !important;
+  }
+  .add-star-image img {
+    content: url('../../public/portfolio/add-star-laptop.svg');
+  }
+  .block-title {
+    width: 111px !important;
+    height: 36px !important;
+  }
+  .title-block {
+    margin: 8px auto 8px auto !important;
+    font-size: 12px !important;
+}
+.title-text-title {
+  padding: 3px 0 2px 5px !important;
+}
+  /* Footer */
+  .gmail, .conditions, .location {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  .conditions, .gmail{
+    margin-top: 26px !important;
+  }
+  .footer {
+    height: 347px !important;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .term-privacy {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

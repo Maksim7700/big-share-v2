@@ -1,5 +1,6 @@
 import '../../../css/portfolio/add.css';
 import '../../../css/hover.css';
+import '../../../css/laptop.css';
 
 const Add = (props) => {
   return (

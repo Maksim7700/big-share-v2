@@ -1,6 +1,7 @@
 import Container from "../../UI/Containter";
 import '../../../css/technology/technology.css';
 import Language from "./languages/Language";
+import '../../../css/laptop.css';
 
 const Technology = () => {
     return (

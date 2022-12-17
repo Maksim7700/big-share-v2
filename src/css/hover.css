@@ -128,12 +128,10 @@
   color: white;
 }
 
-.select-1:hover img {
-  transition: 0.8s;
+/* .select-1:hover img {
   content: url('../../public/anketa/complex-service-hover.svg');
-}
+} */
 .select-2:hover img {
-  transition: 0.8s;
   content: url('../../public/anketa/design-hover.svg');
 }
 .select-3:hover img {

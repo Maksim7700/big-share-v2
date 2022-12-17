@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 import '../../../css/anketa/form.css';
 import '../../../css/hover.css';
+import '../../../css/laptop.css';
 
 const FormSend = (props) => {
 

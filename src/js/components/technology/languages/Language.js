@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../../../../css/technology/languages/language.css';
 import Box from './Box';
+import '../../../../css/laptop.css';
 
 const Language = () => {
 

@@ -1,5 +1,6 @@
 import '../../../css/anketa/select.css';
 import '../../../css/hover.css';
+import '../../../css/laptop.css';
 
 const Select = (props) => {
   const image = props.image;

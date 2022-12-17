@@ -4,6 +4,7 @@ import Select from './Select';
 import { useState } from 'react';
 import FormSend from './FormSend';
 import '../../../css/hover.css';
+import '../../../css/laptop.css';
 
 const serviceTitle = 'What service are you interested in?';
 const sizeTitle = 'How big is your project?';

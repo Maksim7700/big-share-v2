@@ -1,5 +1,7 @@
 import '../../../css/blog/article.css';
 import '../../../css/hover.css';
+import '../../../css/laptop.css';
+
 const Article = () => {
   return (
     <div className='flex-container-article'>

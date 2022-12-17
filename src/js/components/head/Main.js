@@ -1,6 +1,7 @@
 import Header from "./Header";
 import '../../../css/head/main.css';
 import Head from "../head/Head";
+import '../../../css/laptop.css';
 
 const Main = () => {
     return (
