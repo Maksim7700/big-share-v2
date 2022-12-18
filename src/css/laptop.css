@@ -1,10 +1,35 @@
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 880px) {
+  .flex-container-project-mobile {
+    grid-template-columns: repeat(4,3fr) !important;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .flex-container-project-mobile {
+    grid-template-columns: repeat(3,3fr) !important;
+  }
+  .comment {
+    padding-top: 175px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .flex-container-project-mobile {
+    grid-template-columns: repeat(2,4fr) !important;
+  }
+  .comment {
+    padding-top: 550px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
   .main {
     height: 400px !important;
   }
   .contact-us-button {
     width: 162px !important;
     height: 40px !important;
+    padding: 0 !important;
   }
   .text-head-1 {
     margin-top: 64px !important;
@@ -57,10 +82,10 @@
     margin-top: 0 !important;
     flex-direction: column;
   }
-  .develop-2 {
+  .develop-2, .develop-1 {
     max-width: 863px !important;
     min-height: 181px !important;
-    max-height: 235px !important;
+    max-height: 335px !important;
   }
   .flex-containter-develop-inside {
     max-width: 863px !important;
@@ -110,10 +135,12 @@
     margin-top: 32px !important;
   }
   .flex-container-technologies-box {
+    max-width: 895px !important;
     margin-bottom: 64px !important;
     display: grid !important;
-    grid-template-columns: repeat(5,1fr) !important;
+    grid-template-columns: repeat(5,1fr);
     grid-column-gap: 9px !important;
+    grid-row-gap: 9px !important
   }
   .box {
     max-width: 165px;
@@ -143,7 +170,7 @@
     position: absolute;
     left: 0;
     display: grid !important;
-    grid-template-columns: repeat(5,3fr) !important;
+    grid-template-columns: repeat(5,3fr);
     grid-column-gap: 10px !important;
 
   }
@@ -216,7 +243,7 @@
   .portfolio-text-container {
     font-size: 16px !important;
     line-height: 24px !important;
-    max-width: 863px !important;
+    max-width: 100% !important;
     margin-top: 16px !important;
   }
   .portfolio-title {
@@ -267,5 +294,23 @@
   .term-privacy {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  /* Blog */
+  .flex-container-article {
+    flex-direction: column-reverse;
+    }
+  .flex-container-right {
+    max-width: 1080px !important;
+    height: 316px !important;
+    padding: 24px 16px 24px 16px !important;
+    position: relative;
+  }
+  .flex-container-right img {
+    width: 95%;
+    height: 316px;
+    z-index: 1;
+  }
+  .flex-container-left {
+    padding-left: 16px !important;
   }
 }

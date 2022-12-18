@@ -2,7 +2,8 @@
   margin-top: 16px;
   background: #061019;
   display: flex;
-  height: 303px;
+  min-height: 303px;
+  max-height: 816px;
   width: 100%;
 }
 
@@ -28,6 +29,7 @@
 }
 
 .article-read-me {
+  margin-bottom: 26px;
   width: 124px;
   margin-top: 24px;
   display: flex;

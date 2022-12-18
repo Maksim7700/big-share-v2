@@ -29,7 +29,7 @@ const Client = () => {
             <Container>
                 <div className="flex-containter-client">
                     <div><Comment /></div>
-                    <div>{windowSize.innerWidth <= 895 ? <MobileClient/> : <Project />}</div>
+                    <div>{windowSize.innerWidth <= 1080 ? <MobileClient/> : <Project />}</div>
                 </div>
             </Container>
         </div>
