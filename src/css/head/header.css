@@ -28,6 +28,7 @@
 }
 
 .contact-us-button {
+    transition:1s;
     border: 1px solid #1A9D63;
     color: white !important;
     font-size: 16px;
