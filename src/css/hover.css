@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1081px) {
 /* ---Header--- */
 .contact-us-button:hover {
   transition:0.3s;
@@ -251,4 +252,5 @@
 
 .linkedin:hover {
   content: url('../../public/footer/linkedin-hover.svg');
+}
 }

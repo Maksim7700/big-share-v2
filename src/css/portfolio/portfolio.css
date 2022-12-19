@@ -30,9 +30,10 @@
 }
 
 .portfolio-blocks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(165px,1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
     margin-top: 84px;
 }
 

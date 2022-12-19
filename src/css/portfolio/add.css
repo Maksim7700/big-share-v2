@@ -1,6 +1,5 @@
 .portfolio-add-block {
-  margin-top: 16px;
-  width: 711px;
+  max-width: 711px;
   height: 337px;
   border: 1px solid #B9D7FF;
   display: flex;
