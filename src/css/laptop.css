@@ -1,24 +1,16 @@
-@media only screen and (max-width: 880px) {
-  .flex-container-project-mobile {
-    grid-template-columns: repeat(4,3fr) !important;
+@media only screen and (max-width: 1034px) {
+  .comment {
+    padding-top: 185px;
   }
 }
-
-@media only screen and (max-width: 710px) {
-  .flex-container-project-mobile {
-    grid-template-columns: repeat(3,3fr) !important;
-  }
+@media only screen and (max-width: 686px) {
   .comment {
-    padding-top: 175px;
+    padding-top: 370px;
   }
 }
-
-@media only screen and (max-width: 525px) {
-  .flex-container-project-mobile {
-    grid-template-columns: repeat(2,4fr) !important;
-  }
+@media only screen and (max-width: 512px) {
   .comment {
-    padding-top: 550px;
+    padding-top: 690px;
   }
 }
 
@@ -135,15 +127,16 @@
     margin-top: 32px !important;
   }
   .flex-container-technologies-box {
-    max-width: 895px !important;
+    max-width: 1080px !important;
     margin-bottom: 64px !important;
     display: grid !important;
-    grid-template-columns: repeat(5,1fr);
     grid-column-gap: 9px !important;
     grid-row-gap: 9px !important
   }
   .box {
-    max-width: 165px;
+    min-width: 165px;
+    max-width: 300px;
+    width: 100% !important;
     height: 198px !important;
     margin-right: 0 !important;
   }
@@ -152,10 +145,13 @@
   }
   /* Client */
   .project-add img {
-    padding: 46px 57px 0 58px !important;
+    padding: 0 57px 0 58px !important;
+  }
+  .project-add {
+    width: auto !important;
   }
   .comment {
-    margin-top: 700px !important;
+    margin-top: 550px !important;
   }
   .add-my-company {
     font-size: 16px !important;
@@ -165,20 +161,26 @@
     padding-right: 18px !important;
     padding-left: 17px !important;
 }
-  .flex-container-project-mobile {
-    margin-top: 199px !important;
-    position: absolute;
+  .flex-grid-direction {
+    margin-top: 199px;
     left: 0;
-    display: grid !important;
-    grid-template-columns: repeat(5,3fr);
-    grid-column-gap: 10px !important;
-
+    position: absolute;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
   }
   .project {
-    margin-top: 10px !important;
+    margin-top: 0 !important;
     margin-right: 0 !important;
-    width: 165px !important;
+    flex-direction: column;
+    min-width: 165px;
     height: 165px !important;
+    background: #F8FBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .client {
     padding-top: 64px !important;
@@ -208,6 +210,11 @@
   }
   .back-button-anketa-under {
     margin-top: 4px !important;
+  }
+  .anketa-question-blog {
+    grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
+    grid-column-gap: 9px !important;
+    grid-row-gap: 9px !important;
   }
   .anketa-question-text {
     font-size: 16px !important;

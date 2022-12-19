@@ -70,6 +70,13 @@
   text-align: right;
 }
 
+.bar-flex {
+  grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
+  grid-column-gap: 9px !important;
+  grid-row-gap: 9px !important;
+  display: grid;
+}
+
 .display-none {
   display: none !important;
 }
@@ -114,10 +121,6 @@
 
 .bar-none {
   display: none;
-}
-
-.anket-question-style {
-  margin-bottom: 200px;
 }
 
 .back-button-1 {

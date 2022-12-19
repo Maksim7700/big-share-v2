@@ -43,7 +43,8 @@
 }
 
 .box-image {
-    margin: 66px 69px 0 69px;
+    text-align: center;
+    margin: 66px auto 0 auto;
 }
 .box-text-javascript::after {
     content: "Java Script";

@@ -133,11 +133,17 @@ const form = () => {
 
   const bar = () => {
       return <>
+      <div className='bar-flex'>
+        <div></div>
+
           <div className='back-button-anketa-under'><div className='back-group'><img className={`back-button-size back-button-${barLoading()}`} onClick={serviceBackClick} alt='back button' src='./anketa/anketa-back-arrow.svg'/><div className={`back-form Montserrat-400 ${isService ? ' display-none': ''}`}>Back</div></div></div>
           <div className='anketa-bar'>
             <div className='bar'><div className={`bar-load bar-loading-${barLoading()}`}></div></div>
              <div className='level Montserrat-400'>{steps()}</div>
           </div>
+          <div></div>
+          <div></div>
+      </div>
       </>
   }
 
@@ -200,9 +206,9 @@ const form = () => {
             {
               getAnketaForm(serviceClick)
             }
-            {isForm ? '' : bar()}
           </div>
         </div>
+        {isForm ? '' : bar()}
       </Container>
     </div>
   )
