@@ -12,11 +12,16 @@
   .comment {
     padding-top: 690px;
   }
+  .portfolio-blocks {
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) !important;
+  }
 }
+
 @media only screen and (max-width: 338px) {
   .comment {
     padding-top: 1700px;
   }
+
 }
 
 @media only screen and (max-width: 1140px) {
@@ -257,9 +262,33 @@
     margin-top: 64px !important;
   }
   /* Portfolio */
+  .block-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .portfolio-logo-1 {
+    width: 87px;
+    height: 77px;
+  }
+  .portfolio-logo-2 {
+    height: 54px;
+    width: 146px;
+  }
+  .portfolio-logo-3 {
+    height: 74px !important;
+    width: 74px !important;
+  }
+  .portfolio-logo-4 {
+    height: 42px !important;
+    width: 171px !important;
+  }
+  .portfolio-logo-5 {
+    height: 108;
+    width: 213px;
+  }
   .block {
-    /* min-width: 100%; */
-    max-width: 100%;
+    max-width: 1000px !important;
     height: 162px !important;
   }
   .flex-container-inside-block {
@@ -309,7 +338,7 @@
     font-size: 12px !important;
 }
 .title-text-title {
-  padding: 3px 0 2px 5px !important;
+  padding: 0 0 2px 5px !important;
 }
   /* Footer */
   .gmail, .conditions, .location {

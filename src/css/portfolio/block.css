@@ -19,23 +19,23 @@
 }
 
 .portfolio-logo-1 {
-    max-width: 100%;
+    /* max-width: 100%; */
     content: url('../../../public/portfolio/portfolio1.svg');
 }
 .portfolio-logo-2 {
-    max-width: 100%;
+    /* max-width: 100%; */
     content: url('../../../public/portfolio/portfolio2.svg');
 }
 .portfolio-logo-3 {
-    max-width: 100%;
+    /* max-width: 100%; */
     content: url('../../../public/portfolio/portfolio3.svg');
 }
 .portfolio-logo-4 {
-    max-width: 100%;
+    /* max-width: 100%; */
     content: url('../../../public/portfolio/portfolio4.svg');
 }
 .portfolio-logo-5 {
-    max-width: 100%;
+    /* max-width: 100%; */
     content: url('../../../public/portfolio/portfolio5.svg');
 }
 
