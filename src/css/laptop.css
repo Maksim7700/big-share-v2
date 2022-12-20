@@ -17,8 +17,11 @@
   .comment {
     padding-top: 690px;
   }
+}
+
+@media only screen and (max-width: 600px) {
   .portfolio-blocks {
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) !important;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr)) !important;
   }
 }
 
@@ -138,7 +141,7 @@
     padding-top: 0 !important;
   }
   .technology-title {
-    max-width: 593px !important;
+    max-width: 590px !important;
     padding-top: 110px !important;
     font-size: 30px !important;
     line-height: 39px !important;
@@ -326,7 +329,6 @@
     margin-top: 32px !important;
     width: 100%;
     margin: 86px auto 0 auto;
-    max-width: 799px;
   }
   .portfolio-add-block {
     width: 100% !important;

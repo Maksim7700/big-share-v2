@@ -4,6 +4,7 @@
 }
 
 .technology-title {
+    max-width: 1096px;
     line-height: 130%;
     padding-top: 200px;
     color: #FFFFFF;
