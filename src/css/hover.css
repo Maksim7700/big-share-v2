@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1px) {
 /* ---Header--- */
 .contact-us-button:hover {
   transition:0.3s;
@@ -26,11 +26,11 @@
 /* ---Service--- */
 
 .flex-containter-develop-inside:hover {
-  box-shadow: 0px 0px 10px rgba(3, 96, 178, 0.25);
+  box-shadow: 0px 0px 10px rgba(3, 96, 178, 0.15);
 }
 
 .box:hover {
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
 .box:hover .box-image {
@@ -53,7 +53,7 @@
 /* ---Client--- */
 
 .project:hover {
-  box-shadow: 0px 0px 20px rgba(3, 96, 178, 0.25);
+  box-shadow: 0px 0px 10px rgba(3, 96, 178, 0.15);
 }
 
 .project-add:hover {
@@ -71,6 +71,7 @@
 }
 
 .client-previous:hover, .client-next:hover {
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   cursor: pointer;
   border: 1px solid #0360B2;
   background: #0360B2;
@@ -79,7 +80,7 @@
 /* ---Portfolio--- */
 
 .block:hover {
-  box-shadow: 0px 0px 20px rgba(3, 96, 178, 0.25);
+  box-shadow: 0px 0px 10px rgba(3, 96, 178, 0.15);
 }
 
 .portfolio-add-block:hover {
@@ -103,6 +104,7 @@
 }
 
 .article-read-me:hover .read-me-text {
+  text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   color: #0360B2;
 }
 

@@ -19,7 +19,7 @@ const Project = () => {
                 <img className='project' id='company-5' alt='company icon' src='./client/company5.svg'/>
                 <img className='project' id='company-6' alt='company icon' src='./client/company6.svg'/>
             </div>
-            <div className='flex-direction-column'>
+            <div className='flex-direction-column flex-direction-column-3'>
                 <img className='project' id='company-7' alt='company icon' src='./client/company7.svg'/>
                 <img className='project' id='company-8' alt='company icon' src='./client/company8.svg'/>
                 <img className='project' id='company-9' alt='company icon' src='./client/company9.svg'/>
