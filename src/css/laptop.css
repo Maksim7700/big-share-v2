@@ -301,10 +301,10 @@
   }
   .block {
     max-width: 1000px !important;
-    height: 180px !important;
+    height: 200px !important;
   }
   .flex-container-inside-block {
-    height: 180px !important;
+    height: 200px !important;
   }
   .portfolio-text-container {
     font-size: 16px !important;
@@ -332,7 +332,7 @@
     width: 100% !important;
     max-width: 343px;
     width: 343px;
-    height: 180px !important;
+    height: 200px !important;
   }
   .add-text {
     margin-top: 10px !important;
