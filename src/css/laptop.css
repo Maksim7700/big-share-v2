@@ -19,7 +19,7 @@
   }
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1140px) {
   .main {
     height: auto !important;
   }
@@ -160,6 +160,8 @@
     padding: 0 57px 0 58px !important;
   }
   .project-add {
+    border: 0.1px solid #B9D7FF !important ;
+    height: 165px !important;
     width: auto !important;
   }
   .comment {

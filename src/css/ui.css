@@ -7,3 +7,9 @@
 .technologies {
     background: #101A24;
 }
+
+@media (max-width: 1470px) {
+    .container {
+        margin: 0 16px !important;
+    }
+}

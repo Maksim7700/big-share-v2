@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1081px) {
+@media only screen and (min-width: 1140px) {
 /* ---Header--- */
 .contact-us-button:hover {
   transition:0.3s;
@@ -130,9 +130,9 @@
   color: white;
 }
 
-/* .select-1:hover img {
+.select-1:hover img {
   content: url('../../public/anketa/complex-service-hover.svg');
-} */
+}
 .select-2:hover img {
   content: url('../../public/anketa/design-hover.svg');
 }
