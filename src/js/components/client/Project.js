@@ -8,7 +8,7 @@ const Project = () => {
             <div className='flex-direction-column'>
                 <img className='project' id='company-1' alt='company icon' src='./client/company1.svg'/>
                 <div className='project-add project'>
-                    <img alt='add project'/>
+                    <img height="100" width="100" alt='add project'/>
                     <div className='add-my-company Gilroy-500'>Add my company</div>
                 </div>
                 <img className='project' id='company-2' alt='company icon' src='./client/company2.svg'/>

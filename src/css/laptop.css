@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 600px) {
   .portfolio-blocks {
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr)) !important;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr)) !important;
   }
 }
 
@@ -100,7 +100,7 @@
   .develop-2, .develop-1 {
     max-width: 863px !important;
     min-height: 181px !important;
-    max-height: 335px !important;
+    max-height: 535px !important;
   }
   .flex-containter-develop-inside {
     max-width: 863px !important;
