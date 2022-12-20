@@ -13,7 +13,7 @@
     color: white;
     background-color: transparent;
     height: 48px;
-    width: 202px;
+    min-width: 202px;
 }
 
 .flex-containter-buttons button span {

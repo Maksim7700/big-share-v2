@@ -123,6 +123,13 @@
   }
 
   /* Technologies */
+  .scrolling-wrapper {
+        width: 100% !important;
+        max-width: 543px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+}
   .box-image img {
     height: 52px !important;
     width: 52px !important;
@@ -316,6 +323,7 @@
     max-width: 699px;
   }
   .portfolio-blocks {
+    margin-top: 32px !important;
     width: 100%;
     margin: 86px auto 0 auto;
     max-width: 799px;
