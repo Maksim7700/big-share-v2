@@ -33,7 +33,6 @@
 }
 
 .develo-title {
-    text-align: center;
     margin-left: 56px;
     margin-top: 24px;
     font-size: 24px;
@@ -66,6 +65,7 @@
 }
 
 .develop-2 {
+    width: 100%;
     max-width: 707px;
     min-height: 315px;
     max-height: 400px;
