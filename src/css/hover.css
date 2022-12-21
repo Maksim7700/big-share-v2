@@ -109,6 +109,7 @@
 }
 
 .article-read-me:hover img {
+  text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   content: url('../../public/blog/arrow-right-read-me-hover.svg');
 }
 
@@ -199,10 +200,12 @@
 }
 
 .back-group:hover img {
+  text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   content: url('../../public/anketa/anketa-back-arrow-hover.svg');
 }
 
 .back-group:hover {
+  text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   cursor: pointer;
 }
 
