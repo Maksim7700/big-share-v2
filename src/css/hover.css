@@ -57,6 +57,7 @@
 }
 
 .project-add:hover {
+  border: 1px solid #0360B2;
   cursor: pointer;
   box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   background-color: #0360B2;
@@ -84,6 +85,7 @@
 }
 
 .portfolio-add-block:hover {
+  cursor: pointer;
   background: #0360B2;
   box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   border: 1px solid #0360B2;

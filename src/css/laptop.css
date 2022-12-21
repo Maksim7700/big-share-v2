@@ -213,6 +213,7 @@
     margin-right: 0 !important;
     flex-direction: column;
     min-width: 165px;
+    width: 100% !important;
     height: 165px !important;
     background: #F8FBFF;
     display: flex;

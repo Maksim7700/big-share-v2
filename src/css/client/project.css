@@ -9,6 +9,8 @@
 }
 
 .project {
+    height: 204px;
+    width: 204px;
     margin-right: 24px;
     margin-top: 24px;
 }
