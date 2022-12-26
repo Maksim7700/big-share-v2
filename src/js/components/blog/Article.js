@@ -14,7 +14,7 @@ const Article = () => {
           </div>
         </div>
         <div className='flex-container-right'>
-          <img alt='logo-blog' src='./blog/blog1.jpg'/>
+          <img alt='logo-blog' height={223} width={427} src='./blog/blog_blog.svg'/>
         </div>
     </div>
   )

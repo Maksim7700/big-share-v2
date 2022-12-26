@@ -30,6 +30,8 @@
 }
 
 .get-started-button {
+    padding-top: 0px !important;
+    transition:0.3s;
     display: flex;
     justify-content: flex-start;
     width: 173px;
@@ -48,6 +50,6 @@
 }
 
 .arrow-right-get-started {
-    padding: 16px 0 0 16px;
+    padding: 15px 0 0 16px;
     content: url('../../../public/head/arrow-right-get-started.svg');
 }

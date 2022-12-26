@@ -5,7 +5,9 @@
 .flex-containter-buttons {
     display: flex;
 }
-
+.tech-button-hover {
+    transition: 0.3s;
+}
 .flex-containter-buttons button {
     font-size: 16px;
     margin-right: 16px;

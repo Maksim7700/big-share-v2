@@ -37,6 +37,7 @@
 }
 
 .article-read-me img {
+  margin-top: -1px !important;
   margin-left: 8px;
 }
 
