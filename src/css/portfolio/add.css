@@ -1,4 +1,5 @@
 .portfolio-add-block {
+  transition: 0.3s;
   max-width: 711px;
   height: 337px;
   border: 1px solid #B9D7FF;

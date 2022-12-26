@@ -42,14 +42,17 @@ hr {
 }
 
 .linkedin {
+  transition: 1.3s;
   margin-right: 16px;
 }
 
 .behance {
+  transition: 0.3s;
   margin-right: 16px;
 }
 
 .instagram {
+  transition: 0.3s;
   margin-right: 0;
 }
 
@@ -90,6 +93,22 @@ hr {
   color: #C8C8C8;
   margin-top: 2px;
   padding-left: 8px;
+}
+
+.gmail-inside img {
+  transition: 0.3s;
+}
+
+.gmail-inside .email {
+  transition: 0.3s;
+}
+
+.location-inside .location-street{
+  transition: 0.3s;
+}
+
+.location-inside img {
+  transition: 0.3s;
 }
 
 .location-inside, .gmail-inside {

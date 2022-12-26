@@ -146,6 +146,7 @@
 }
 
 .back-group {
+  transition: 0.3s;
   color: #1A9D63;
   display: flex;
   width: 73px;

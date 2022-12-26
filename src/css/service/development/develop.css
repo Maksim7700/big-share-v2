@@ -1,4 +1,5 @@
 .flex-containter-develop-inside {
+    transition: 0.3s;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;

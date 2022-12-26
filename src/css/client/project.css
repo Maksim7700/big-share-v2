@@ -9,6 +9,7 @@
 }
 
 .project {
+    transition: 0.3s;
     height: 204px;
     width: 204px;
     margin-right: 24px;

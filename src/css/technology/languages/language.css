@@ -23,6 +23,7 @@
 }
 
 .box {
+    transition: 0.3s;
     background: #061019;
     width: 202px;
     height: 243px;
@@ -42,6 +43,10 @@
     text-align: center;
     font-size: 16px;
     line-height: 22px;
+}
+
+.box .box-image {
+    transition: 0.3s;
 }
 
 .box-image {

@@ -27,15 +27,17 @@
 /* ---Service--- */
 
 .flex-containter-develop-inside:hover {
+  transition: 0.3s;
   box-shadow: 0px 0px 10px rgba(3, 96, 178, 0.15);
 }
 
 .box:hover {
+  transition: 0.3s;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
 .box:hover .box-image {
-  transition: 0.15s ease-out 100ms;
+  transition: 0.3s ease-out 100ms;
   transform: scale(1.2) translate(0, -10%);
 }
 
@@ -55,6 +57,7 @@
 /* ---Client--- */
 
 .project:hover {
+  transition: 0.3s;
   box-shadow: 0px 0px 10px rgba(3, 96, 178, 0.15);
 }
 
@@ -82,11 +85,18 @@
 
 /* ---Portfolio--- */
 
+.flex-container-inside-block:hover .block-logo {
+  transition: 0.3s ease-out 100ms;
+  transform: scale(1.2) translate(-40%, -40%);
+}
+
 .block:hover {
+  transition: 0.3s;
   box-shadow: 0px 0px 10px rgba(3, 96, 178, 0.15);
 }
 
 .portfolio-add-block:hover {
+  transition: 0.3s;
   cursor: pointer;
   background: #0360B2;
   box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
@@ -108,16 +118,19 @@
 }
 
 .article-read-me:hover .read-me-text {
+  transition: 0.3s;
   text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   color: #0360B2;
 }
 
 .article-read-me:hover img {
+  transition: 0.3s;
   text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   content: url('../../public/blog/arrow-right-read-me-hover.svg');
 }
 
 .blog-view:hover {
+  transition: 0.3s;
   cursor: pointer;
   background-color: #0360B2;
   box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
@@ -126,7 +139,7 @@
 /* ---Anketa--- */
 
 .select:hover {
-  transition: 0.8s;
+  transition: 0.3s;
   box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   border: 1px solid #0360B2;
   cursor: pointer;
@@ -199,11 +212,13 @@
 }
 
 .back-group:hover {
+  transform: 0.3s;
   color: #0360B2;
   cursor: pointer;
 }
 
 .back-group:hover img {
+  transform: 0.3s;
   text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   content: url('../../public/anketa/anketa-back-arrow-hover.svg');
 }
@@ -222,7 +237,12 @@
 
 /* ---Footer--- */
 
+.hover-footer {
+  transition: 0.3s;
+}
+
 .hover-footer:hover {
+  transition: 0.3s;
   cursor: pointer;
   color: #0360B2;
 }
@@ -232,34 +252,42 @@
 }
 
 .location-inside:hover .location-street {
+  transition: 0.3s;
   color: #0360B2;
 }
 
 .location-inside:hover img {
+  transition: 0.3s;
   content: url('../../public/footer/location-hover.svg');
 }
 
 .gmail-inside:hover {
+  transition: 0.3s;
   cursor: pointer;
 }
 
 .gmail-inside:hover .email {
+  transition: 0.3s;
   color: #0360B2;
 }
 
 .gmail-inside:hover img {
+  transition: 0.3s;
   content: url('../../public/footer/gmail-hover.svg');
 }
 
 .instagram:hover {
+  transition: 1.3s;
   content: url('../../public/footer/instagram-hover.svg');
 }
 
 .behance:hover {
+  transition: 0.3s;
   content: url('../../public/footer/behance-hover.svg');
 }
 
 .linkedin:hover {
+  transition: 0.3s;
   content: url('../../public/footer/linkedin-hover.svg');
 }
 }

@@ -40,12 +40,17 @@
 }
 
 .block {
+    transition: 0.3s;
     max-width: 711px;
     height: 337px;
 }
 
 .margin-left-16 {
     margin-left: 16px;
+}
+
+.flex-container-inside-block .block-logo {
+    transition: 0.3s;
 }
 
 .flex-container-inside-block {

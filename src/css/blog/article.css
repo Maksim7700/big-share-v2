@@ -28,6 +28,10 @@
   line-height: 24px;
 }
 
+.article-read-me .read-me-text {
+  transition: 0.3s;
+}
+
 .article-read-me {
   margin-bottom: 64px;
   width: 124px;
@@ -37,6 +41,7 @@
 }
 
 .article-read-me img {
+  transition: 0.3s;
   margin-top: -1px !important;
   margin-left: 8px;
 }
