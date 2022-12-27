@@ -135,15 +135,16 @@ const form = () => {
       return <>
       <div className='bar-flex'>
         <div></div>
-
-          <div className='back-button-anketa-under'><div onClick={serviceBackClick} className='back-group'><img className={`back-button-size back-button-${barLoading()}`} alt='back button' src='./anketa/anketa-back-arrow.svg'/><div className={`back-form Montserrat-400 ${isService ? ' display-none': ''}`}>Back</div></div></div>
+        <div>
+          <div className={`back-button-anketa-under ${isService ? 'display-none' : ''}`}><div onClick={serviceBackClick} className='back-group'><img className={`back-button-size back-button-${barLoading()}`} alt='back button' src='./anketa/anketa-back-arrow.svg'/><div className={`back-form Montserrat-400 ${isService ? ' display-none': ''}`}>Back</div></div></div>
+          </div>
           <div className='anketa-bar'>
             <div className='bar'><div className={`bar-load bar-loading-${barLoading()}`}></div></div>
-             <div className='level Montserrat-400'>{steps()}</div>
           </div>
           <div></div>
           <div></div>
       </div>
+      <div className='level Montserrat-400'>{steps()}</div>
       </>
   }
 

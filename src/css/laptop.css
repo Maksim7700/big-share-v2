@@ -25,7 +25,7 @@
   }
 }
 
-@media only screen and (max-width: 338px) {
+@media only screen and (max-width: 370px) {
   .comment {
     padding-top: 1700px;
   }
@@ -136,7 +136,7 @@
   /* Technologies */
   .scrolling-wrapper {
         width: 100% !important;
-        max-width: 700px;
+        max-width: 655px;
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
@@ -247,9 +247,22 @@
   .select {
     height: 198px !important;
     min-width: 165px !important;
+    max-width: 336px !important;
   }
   .bar-flex {
     grid-template-columns: repeat(1, 5fr);
+  }
+  .bar-flex {
+    column-gap: 0 !important;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0 !important;
+  }
+  .anketa-bar {
+    width: 338px;
+  }
+  .back-group {
+    margin-right: 16px;
   }
   .bar {
     margin-top: 13px !important;

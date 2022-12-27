@@ -70,7 +70,6 @@
 }
 
 .bar-flex {
-  margin-bottom: 200px;
   grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
   grid-column-gap: 16px !important;
   grid-row-gap: 9px !important;
@@ -131,7 +130,6 @@
   display: flex;
   justify-content: flex-end;
 }
-
 .back-button-size {
   margin-right: 8px;
   width: 24px;
@@ -149,4 +147,8 @@
   color: #1A9D63;
   display: flex;
   width: 73px;
+}
+
+.display-none {
+  display: none
 }
