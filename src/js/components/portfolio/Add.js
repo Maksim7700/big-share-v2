@@ -1,15 +1,18 @@
 import '../../../css/portfolio/add.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
+import {Link as Scroll} from 'react-scroll';
 
 const Add = (props) => {
   return (
-    <div className={`portfolio-add-block ${props.className}`}>
-      <div className='inside-add'>
-        <div className='add-text Gilroy-500'>Add my project</div>
-        <div className='add-star-image'><img alt='add' src='./portfolio/add-star.svg'/></div>
+    <Scroll to='anketa' spy={true} smooth={true}>
+      <div className={`portfolio-add-block ${props.className}`}>
+        <div className='inside-add'>
+          <div className='add-text Gilroy-500'>Add my project</div>
+          <div className='add-star-image'><img alt='add' src='./portfolio/add-star.svg'/></div>
+        </div>
       </div>
-    </div>
+    </Scroll>
   )
 }
 

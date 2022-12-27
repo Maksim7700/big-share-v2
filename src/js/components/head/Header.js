@@ -3,6 +3,7 @@ import '../../../css/head/header.css';
 import '../../../css/fonts/fonts.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
+import {Link as Scroll} from 'react-scroll';
 
 const Header = () => {
     return (
@@ -17,7 +18,11 @@ const Header = () => {
                         <div className='hover-header'>Blog</div>
                     </div> */}
                 </div>
-                <div className="header-col-3"><button className="contact-us-button Montserrat-500">Contact Us</button></div>
+                <Scroll to='anketa' spy={true} smooth={true}>
+                    <div className="header-col-3">
+                        <button className="contact-us-button Montserrat-500">Contact Us</button>
+                    </div>
+                </Scroll>
             </div>
         </Container>
     )

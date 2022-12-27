@@ -1,16 +1,19 @@
 import '../../../css/client/project.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
+import {Link as Scroll} from 'react-scroll';
 
 const Project = () => {
     return (
         <div className="projects flex-container-project em-02">
             <div className='flex-direction-column'>
                 <img className='project' id='company-1' alt='company icon' src='./client/company1.svg'/>
-                <div className='project-add project'>
-                    <img height="100" width="100" alt='add project'/>
-                    <div className='add-my-company Gilroy-500'>Add my company</div>
-                </div>
+                <Scroll to='anketa' spy={true} smooth={true}>
+                    <div className='project-add project'>
+                        <img height="100" width="100" alt='add project'/>
+                        <div className='add-my-company Gilroy-500'>Add my company</div>
+                    </div>
+                </Scroll>
                 <div className='project' id='company-2'>
                 <svg width="204" height="204" viewBox="0 0 204 204" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="204" height="204" fill="#F8FBFF"/>

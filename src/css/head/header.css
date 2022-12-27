@@ -3,9 +3,9 @@
     justify-content: space-between;
 }
 
-.header-col-1, .header-col-2, .header-col-3 {
+/* .header-col-1, .header-col-2, .header-col-3 {
     width: 100vh;
-}
+} */
 
 .header-col-2 {
     color: white;
