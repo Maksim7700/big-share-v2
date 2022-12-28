@@ -329,7 +329,7 @@
     justify-content: center;
     flex-direction: column;
   }
-  .portfolio-logo-1 {
+  /* .portfolio-logo-1 {
     width: 87px;
     height: 77px;
   }
@@ -348,7 +348,7 @@
   .portfolio-logo-5 {
     height: 108;
     width: 213px;
-  }
+  } */
   .block {
     max-width: 1000px !important;
     height: 343px !important;
@@ -386,7 +386,7 @@
   .add-text {
     margin-top: 10px !important;
     font-size: 16px !important;
-    min-width: 117px !important;
+    min-width: 130px !important;
   }
   .add-star-image img {
     content: url('../../public/portfolio/add-star-laptop.svg');
