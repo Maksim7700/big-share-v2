@@ -20,25 +20,25 @@ const MobileClient = () => {
       <img id='company-11' alt='company icon' src='./client/company4_.svg'/>
     </div>
     <div className='project' >
-      <img id='company-11' alt='company icon' src='./client/company4_.svg'/>
+      <img id='company-11' alt='company icon' src='./client/company5_.svg'/>
     </div>
     <div className='project'>
       <img id='company-11' alt='company icon' src='./client/company6_.svg'/>
     </div>
     <div className='project' >
-      <img id='company-11' alt='company icon' src='./client/company7_.svg'/>
+      <img id='company-11' alt='company icon' src='./client/company8_.svg'/>
     </div>
     <div className='project' >
-      <img  id='company-11' alt='company icon' src='./client/company8_.svg'/>
+      <img  id='company-11' alt='company icon' src='./client/company9_.svg'/>
     </div >
-    <div className='project' >
-      <img id='company-11' alt='company icon' src='./client/company9_.svg'/>
-    </div>
     <div className='project' >
       <img id='company-11' alt='company icon' src='./client/company10_.svg'/>
     </div>
     <div className='project' >
       <img id='company-11' alt='company icon' src='./client/company11_.svg'/>
+    </div>
+    <div className='project' >
+      <img id='company-11' alt='company icon' src='./client/company7_.svg'/>
     </div>
     <Scroll to='anketa' spy={true} smooth={true}>
       <div className='project project-add project'>

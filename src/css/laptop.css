@@ -49,7 +49,7 @@
   }
   .text-head-2 {
     margin-top: 4px !important;
-    max-width: 863px !important;
+    max-width: 1140px !important;
     height: 100% !important;
     max-height: 140px !important;
     line-height: 24px !important;
@@ -91,12 +91,12 @@
   }
   .service-2 {
     margin-top: 16px !important;
-    max-width: 863px !important;
+    max-width: 1140px !important;
     font-size: 16px !important;
     line-height: 24px !important;
   }
   .service-3 {
-    margin-top: 64px !important;
+    margin-top: 32px !important;
   }
   .flex-containter-service-develop {
     margin-top: 0 !important;
@@ -106,16 +106,16 @@
     text-align: center;
   }
   .develop-2, .develop-1 {
-    max-width: 863px !important;
+    max-width: 1140px !important;
     min-height: 181px !important;
     max-height: 535px !important;
   }
   .flex-containter-develop-inside {
-    max-width: 863px !important;
+    max-width: 1140px !important;
     align-items: center;
   }
   .develop-text {
-    max-width: 833px !important;
+    max-width: 1140px !important;
     text-align: center;
     margin-left: 0 !important;
     margin: 0 16px 16px 16px !important;
@@ -158,7 +158,7 @@
     margin-top: 16px !important;
     font-size: 16px !important;
     line-height: 24px !important;
-    max-width: 863px !important;
+    max-width: 1140px !important;
     height: 100% !important;
     max-height: 144px !important;
   }
@@ -184,6 +184,9 @@
     margin: 53.78px 56.37px 19.6px 56.37px !important;
   }
   /* Client */
+  .client-comment {
+    max-width: 1140px !important;
+  }
   .project-add img {
     padding: 0 57px 0 58px !important;
   }
@@ -236,10 +239,13 @@
   .client-text {
     margin-top: 16px !important;
     height: 48px !important;
-    max-width: 863px !important;
+    max-width: 1140px !important;
   }
 
   /* Anketa */
+  .flex-container-back {
+    justify-content: flex-start !important;
+  }
   .select-title {
     font-size: 16px !important;
     margin-top: 16px !important;
@@ -291,7 +297,7 @@
   }
   .anketa-text {
     margin-top: 16px !important;
-    max-width: 862px !important;
+    max-width: 1140px !important;
     max-height: 172px !important;
     height: 100% !important;
     padding-bottom: 32px !important;
@@ -336,10 +342,10 @@
   }
   .block {
     max-width: 1000px !important;
-    height: 200px !important;
+    height: 343px !important;
   }
   .flex-container-inside-block {
-    height: 200px !important;
+    height: 343px !important;
   }
   .portfolio-text-container {
     font-size: 16px !important;
@@ -366,7 +372,7 @@
     width: 100% !important;
     max-width: 343px;
     width: 343px;
-    height: 198px !important;
+    height: 342px !important;
   }
   .add-text {
     margin-top: 10px !important;
@@ -407,9 +413,11 @@
     margin-top: 26px !important;
   }
   .footer {
-    height: 347px !important;
+    height: 100% !important;
+    min-height: 347px !important;
   }
   .footer-bottom {
+    padding-bottom: 40px;
     flex-direction: column;
   }
   .term-privacy {
@@ -425,7 +433,7 @@
     margin-bottom: 26px !important;
   }
   .blog-view {
-    height: 43px !important;
+    height: 48px !important;
     font-size: 16px !important;
   }
   .flex-container-blog {
@@ -454,6 +462,7 @@
     font-size: 16px !important;
     margin-top: 16px !important;
     padding-right: 16px;
+    max-width: 1140px !important;
   }
   .article-title {
     font-size: 20px !important;
