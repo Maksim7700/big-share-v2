@@ -28,8 +28,6 @@
 }
 
 .blog-article {
-  pointer-events: none;
-  opacity: 0.4;
   margin-top: 108px;
 }
 

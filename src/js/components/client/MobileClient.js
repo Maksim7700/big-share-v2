@@ -43,7 +43,7 @@ const MobileClient = () => {
     <Scroll to='anketa' spy={true} smooth={true}>
       <div className='project project-add project'>
         <img alt='add'/>
-        <div className='add-my-company Gilroy-500'>Add my company</div>
+        <div className='add-my-company Montserrat-500'>Add my company</div>
       </div>
     </Scroll>
   </div>

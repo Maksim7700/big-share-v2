@@ -15,7 +15,7 @@ const Portfolio = () => {
                 <div className="portfolio-blocks">
                         <Block logo='1' title='1' text={'Crypto'} className='portfolio1'/>
                         <Block logo='2' title='2' text={'AR, Sport'}className='portfolio2'/>
-                        <Block logo='3' title='3' text={'Healthca'} className='portfolio3'/>
+                        <Block logo='3' title='3' text={'Healthcare'} className='portfolio3'/>
                         <Block logo='4' title='4' text={'NFT'}className='portfolio4'/>
                         <Block logo='5' title='5' text={'Web3'} className='portfolio5'/>
                         <Add />

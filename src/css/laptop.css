@@ -30,6 +30,15 @@
     padding-top: 1700px;
   }
 
+@media only screen and (max-width: 345px) {
+  .flex-grid-direction {
+    margin-top: 224px !important;
+  }
+  .comment {
+    padding-top: 694px !important;
+  }
+}
+
 }
 
 @media only screen and (max-width: 1140px) {
@@ -395,7 +404,9 @@
 }
   /* Footer */
 
-
+  .footer-navigation {
+    margin-top: 40px !important;
+  }
   .flex-container-form {
     grid-template-columns: repeat(1, 5fr) !important;
   }
@@ -479,5 +490,9 @@
   }
   .blog-text {
     margin-top: 16px !important;
+  }
+  .UNDER_DEVELOP {
+    line-height: 20px !important;
+    font-size: 20px !important;
   }
 }

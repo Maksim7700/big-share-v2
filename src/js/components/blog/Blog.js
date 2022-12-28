@@ -16,7 +16,7 @@ const Blog = () => {
             <Article />
             <Article />
           </div>
-          <div className='blog-view Gilroy-500'>View all blog</div>
+          <div className='blog-view Montserrat-500'>View all blog</div>
         </div>
       </Container>
     </div>

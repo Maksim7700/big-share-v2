@@ -11,7 +11,7 @@ const Project = () => {
                 <Scroll to='anketa' spy={true} smooth={true}>
                     <div className='project-add project'>
                         <img height="100" width="100" alt='add project'/>
-                        <div className='add-my-company Gilroy-500'>Add my company</div>
+                        <div className='add-my-company Montserrat-500'>Add my company</div>
                     </div>
                 </Scroll>
                 <div className='project' id='company-2'>
