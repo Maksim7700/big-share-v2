@@ -3,7 +3,6 @@ import '../../../../css/hover.css';
 import '../../../../css/laptop.css';
 
 const Box = (props) => {
-    console.log(props.className)
     return (
         <div className='box'>
              <div className={`box-image`}> <img alt={`${props.className}`} src={`./technologies/${props.className}.svg`}/></div>

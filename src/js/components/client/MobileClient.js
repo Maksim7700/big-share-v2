@@ -14,7 +14,7 @@ const MobileClient = () => {
       <img id='company-11' alt='company icon' src='./client/company2_.svg'/>
     </div>
     <div className='project' >
-      <img  id='company-11' alt='company icon' src='./client/company3_.svg'/>
+      <img  id='company-11' alt='company icon' src='./client/company3_.png'/>
     </div>
     <div className='project' >
       <img id='company-11' alt='company icon' src='./client/company4_.svg'/>

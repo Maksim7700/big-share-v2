@@ -31,7 +31,7 @@ const Language = () => {
         <div className="flex-container-language em-02">
             <div className='scrolling-wrapper'>
                 <div className='flex-containter-buttons Montserrat-500'>
-                    <button className={`Montserrat-500 ${isDesign ? 'green' : ''} tech-button-hover`} onClick={setDesign}><span>Design</span></button>
+                    <button  className={`Montserrat-500 ${isDesign ? 'green' : ''} tech-button-hover`} onClick={setDesign}><span>Design</span></button>
                     <button className={`Montserrat-500 ${isWeb ? 'green' : ''} tech-button-hover`} onClick={setWeb}><span>Web dev.</span></button>
                     <button className={`Montserrat-500 ${isMobile ? 'green' : ''} tech-button-hover`} onClick={setMobile}><span>Mobile dev.</span></button>
                 </div>

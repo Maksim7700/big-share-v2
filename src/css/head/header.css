@@ -1,6 +1,7 @@
 .flex-container-header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 12px;
 }
 
 /* .header-col-1, .header-col-2, .header-col-3 {
@@ -41,4 +42,17 @@
 .header-logo {
     margin-top: 16px;
     content: url('../../../public/head/big_share_header_logo.svg');
+}
+
+.fixed-header {
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    background-color: #101A24;
+    z-index: 1;
+}
+
+.fixed {
+    width: 100%;
+    position: fixed;
 }

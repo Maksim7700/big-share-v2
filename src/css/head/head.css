@@ -8,8 +8,12 @@
     max-width: 851px;
     color:white;
     font-size: 72px;
-    margin-top: 267px;
+    padding-top: 267px;
     line-height: 93.6px;
+}
+
+.text-head-1-1 {
+    padding-top: 327px !important;
 }
 
 .text-head-1 span {
