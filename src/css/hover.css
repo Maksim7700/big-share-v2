@@ -87,7 +87,7 @@
 
   .flex-container-inside-block:hover .block-logo {
     transition: 0.3s ease-out 100ms;
-    transform: scale(1.2) translate(-40%, -40%);
+    transform: scale(1.2) translate(-42%, -40%);
   }
 
   .block:hover {

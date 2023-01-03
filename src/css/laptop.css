@@ -2,6 +2,9 @@
   .flex-direction-column-3 {
     display: none !important;
   }
+  .projects {
+    margin-top: 89px !important;
+  }
 }
 @media only screen and (max-width: 1066px) {
   .comment {
@@ -450,6 +453,7 @@
   }
   .flex-container-blog {
     padding-top: 90px !important;
+    padding-bottom: 64px !important;
   }
   .blog-title {
     font-size: 30px !important;

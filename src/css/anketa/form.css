@@ -18,6 +18,7 @@
 }
 
 .submit {
+  border: none !important;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
