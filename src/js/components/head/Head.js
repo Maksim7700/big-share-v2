@@ -23,9 +23,7 @@ const Head = () => {
                         </div>
                     </Scroll>
                 </div>
-                <div className='pos-abs'>
-                    <video className='video' src='./head/v1.mp4' autoPlay loop muted/>
-                </div>
+
             </div>
         </Container>
     )

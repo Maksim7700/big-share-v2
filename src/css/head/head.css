@@ -62,16 +62,3 @@
     width: 700px;
     height: 700px;
 }
-
-.flex-head-container {
-    display: flex;
-}
-
-.pos-abs {
-    position: absolute;
-    right: 0;
-}
-
-.flex-containte-head {
-    z-index: 1 !important;
-}

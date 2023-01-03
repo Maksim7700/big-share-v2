@@ -1,6 +1,6 @@
 .main {
     height: 1024px;
-    /* background-image: url('../../../public/head/main_background.jpg'); */
+    background-image: url('../../../public/head/main_background.jpg');
     background-repeat: no-repeat;
     background-position: right;
     -moz-background-size: cover;
