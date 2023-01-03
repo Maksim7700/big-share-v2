@@ -57,3 +57,21 @@
     padding: 15px 0 0 16px;
     content: url('../../../public/head/arrow-right-get-started.svg');
 }
+
+.video {
+    width: 700px;
+    height: 700px;
+}
+
+.flex-head-container {
+    display: flex;
+}
+
+.pos-abs {
+    position: absolute;
+    right: 0;
+}
+
+.flex-containte-head {
+    z-index: 1 !important;
+}
