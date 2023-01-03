@@ -5,6 +5,9 @@
   .projects {
     margin-top: 89px !important;
   }
+  .client {
+    padding-bottom: 493px !important;
+  }
 }
 @media only screen and (max-width: 1066px) {
   .comment {
