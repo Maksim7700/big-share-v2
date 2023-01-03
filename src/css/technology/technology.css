@@ -30,3 +30,8 @@
 .languages {
     margin-top: 100px;
 }
+
+.logo {
+    position: absolute;
+    margin-top: -100px;
+}

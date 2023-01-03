@@ -17,9 +17,9 @@ const Footer = () => {
               <div className='hover-footer'>Blog</div>
             </div> */}
             <div className='flex-container-social'>
-              <img className='linkedin' alt='linkedin' src='./footer/linkedin.svg'/>
-              <img className='behance' alt='behance' src='./footer/behance.svg'/>
-              <img className='instagram' alt='instagram'src='./footer/instagram.svg'/>
+            <a target={"_blank"} href='https://www.linkedin.com/company/big-share/about/?viewAsMember=true' rel="noreferrer"><img className='linkedin' alt='linkedin' src='./footer/linkedin.svg'/></a>
+            <a target={"_blank"} href='https://www.behance.net/bigshare' rel="noreferrer"><img className='behance' alt='behance' src='./footer/behance.svg'/></a>
+            <a target={"_blank"} href='https://www.instagram.com/bigshare_/' rel="noreferrer"><img className='instagram' alt='instagram'src='./footer/instagram.svg'/></a>
             </div>
           </div>
           <div><hr/></div>
@@ -34,12 +34,16 @@ const Footer = () => {
               <div className='hover-footer term-privacy'>Term of Use</div>
               <div className='hover-footer term-privacy'>Privacy Policy</div>
             </div>
-            <div className='gmail'>
-              <div className='gmail-inside'>
-                <img alt='gmail' src='./footer/gmail.svg'/>
-                <div className='email'>bigshareua@gmail.com</div>
+            <a target={"_blank"} href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpdTRqCDKHVlPZvPqGDrjszfmMmTGHKjGlphzLtxPjFCQrbfSWVRBkltzxqcdBZFXgDRdg' rel="noreferrer">
+              <div className='gmail'>
+                <div className='gmail-inside'>
+                  <img alt='gmail' src='./footer/gmail.svg'/>
+                  <div className='email'>
+                    bigshareua@gmail.com
+                  </div>
+                </div>
               </div>
-              </div>
+            </a>
           </div>
         </div>
       </Container>
