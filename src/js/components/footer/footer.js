@@ -2,7 +2,7 @@ import '../../../css/footer/footer.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import Container from '../../UI/Containter';
-
+// 2
 const Footer = () => {
   return (
     <div className='footer'>
@@ -22,7 +22,9 @@ const Footer = () => {
             <a target={"_blank"} href='https://www.instagram.com/bigshare_/' rel="noreferrer"><img className='instagram' alt='instagram'src='./footer/instagram.svg'/></a>
             </div>
           </div>
-          <div><hr/></div>
+          <div>
+            <hr/>
+          </div>
           <div className='footer-bottom Montserrat-400'>
             <div className='location'>
               <div className='location-inside'>
