@@ -150,7 +150,7 @@
   }
 
   .select-1:hover img {
-    /* content: url('../../public/anketa/complex-service-hover.svg'); */
+    content: url('../../public/anketa/complex-service-hover.svg');
   }
   .select-2:hover img {
     content: url('../../public/anketa/design-hover.svg');
