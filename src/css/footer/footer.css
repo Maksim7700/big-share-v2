@@ -43,16 +43,13 @@ hr {
 
 .linkedin {
   margin-right: 16px;
-  content: url('../../../public/footer/linkedin.svg');
 }
 
 .behance {
   margin-right: 16px;
-  content: url('../../../public/footer/behance.svg');
 }
 
 .instagram {
-  content: url('../../../public/footer/instagram.svg');
   margin-right: 0;
 }
 
