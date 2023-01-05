@@ -43,13 +43,12 @@ hr {
 
 .linkedin {
   margin-right: 16px;
+  content: url('../../../public/footer/linkedin.svg');
 }
 
 .behance {
   margin-right: 16px;
-}
-
-.instagram img {
+  content: url('../../../public/footer/behance.svg');
 }
 
 .instagram {

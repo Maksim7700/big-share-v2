@@ -17,8 +17,8 @@ const Footer = () => {
               <div className='hover-footer'>Blog</div>
             </div> */}
             <div className='flex-container-social'>
-            <a target={"_blank"} href='https://www.linkedin.com/company/big-share/about/?viewAsMember=true' rel="noreferrer"><img className='linkedin' alt='linkedin' src='./footer/linkedin.svg'/></a>
-            <a target={"_blank"} href='https://www.behance.net/bigshare' rel="noreferrer"><img className='behance' alt='behance' src='./footer/behance.svg'/></a>
+            <a target={"_blank"} href='https://www.linkedin.com/company/big-share/about/?viewAsMember=true' rel="noreferrer"><img className='linkedin' alt='linkedin'/></a>
+            <a target={"_blank"} href='https://www.behance.net/bigshare' rel="noreferrer"><img className='behance' alt='behance' /></a>
             <a target={"_blank"} href='https://www.instagram.com/bigshare_/' rel="noreferrer"><img className='instagram' alt='instagram' /></a>
             </div>
           </div>
