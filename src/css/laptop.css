@@ -217,9 +217,9 @@
     font-size: 16px !important;
     line-height: 20px !important;
     padding-top: 12px !important;
-    padding-bottom: 0 !important;
-    padding-right: 18px !important;
-    padding-left: 17px !important;
+    padding-bottom: 46px !important;
+    padding-right: 14px !important;
+    padding-left: 14px !important;
 }
   .flex-grid-direction {
     margin-top: 182px;
@@ -264,6 +264,10 @@
   .select-title {
     font-size: 16px !important;
     margin-top: 16px !important;
+  }
+  .select svg {
+    height: 40px;
+    width: 40px;
   }
   .select {
     height: 198px !important;
@@ -327,6 +331,10 @@
     margin-top: 64px !important;
   }
   /* Portfolio */
+  .add-star-left svg {
+    width: 40px;
+    height: 40px;
+  }
   .flex-container-portfolio {
     margin-bottom: 90px !important;
   }
