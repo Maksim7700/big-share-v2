@@ -72,8 +72,8 @@
     color: white;
   }
 
-  .project-add:hover img {
-    content: url('../../public/client/add-my-project-star-hover.svg');
+  .project-add:hover svg path {
+    stroke: white;
   }
 
   .client-previous:hover, .client-next:hover {
@@ -108,8 +108,8 @@
     color: white;
   }
 
-  .portfolio-add-block:hover img {
-    content: url('../../public/portfolio/add-star-hover.svg');
+  .portfolio-add-block:hover svg path {
+      stroke: white;
   }
 
   /* ---Blog--- */
@@ -192,8 +192,8 @@
     color: #0360B2;
   }
 
-  .location-inside:hover img {
-    content: url('../../public/footer/location-hover.svg');
+  .location-inside:hover svg path {
+    stroke: #0360B2;
   }
 
   .gmail-inside:hover {
@@ -204,28 +204,28 @@
     color: #0360B2;
   }
 
-  .gmail-inside:hover img {
-    content: url('../../public/footer/gmail-hover.svg');
+  .gmail-inside:hover svg path {
+    stroke: #0360B2;
   }
 
-  .instagram:hover {
+  .instagram:hover svg {
     cursor: pointer;
     transition: 0.3s;
-    content: url('../../public/footer/instagram-hover.svg');
     filter: drop-shadow(0px 10px 25px rgba(240, 0, 115, 0.47));
+    fill: #F00073;
   }
 
-  .behance:hover {
+  .behance:hover svg{
+    fill:#1157FF;
     cursor: pointer;
     transition: 0.3s;
-    content: url('../../public/footer/behance-hover.svg');
     filter: drop-shadow(0px 10px 25px rgba(17, 87, 255, 0.47));
   }
 
-  .linkedin:hover {
+  .linkedin:hover svg {
+    fill: #2867B2;
     cursor: pointer;
     transition: 0.3s;
     box-shadow: 0px 10px 25px rgba(40, 103, 178, 0.47);
-    content: url('../../public/footer/linkedin-hover.svg');
   }
 }

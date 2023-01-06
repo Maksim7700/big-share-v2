@@ -42,15 +42,22 @@ hr {
 }
 
 .linkedin {
+  height: 40px;
+  width: 40px;
   margin-right: 16px;
 }
 
 .behance {
+  height: 40px;
+  width: 40px;
   margin-right: 16px;}
 
 .instagram {
+  height: 40px;
+  width: 40px;
   margin-right: 0;
 }
+
 
 .footer-bottom {
   margin-top: 40px;

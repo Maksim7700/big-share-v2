@@ -11,6 +11,10 @@
   margin-left: 16px;
 }
 
+.add-star-left {
+  margin-left: 24px;
+}
+
 .inside-add {
   display: flex;
   position: absolute;
