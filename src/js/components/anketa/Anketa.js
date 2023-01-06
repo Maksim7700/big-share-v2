@@ -67,11 +67,52 @@ export const service = (serviceClick) => {
 export const size = (serviceClick) => {
   return (
             <>
-              <Select myClick={serviceClick} title='XS' image='size-xs.svg' num='6'/>
-              <Select myClick={serviceClick} title='S' image='size-s.svg' num='7'/>
-              <Select myClick={serviceClick} title='M' image='size-m.svg' num='8'/>
-              <Select myClick={serviceClick} title='L' image='size-l.svg' num='9'/>
-              <Select myClick={serviceClick} title='XL' image='size-xl.svg' num='10'/>
+              <Select myClick={serviceClick} title='XS' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31 22H17C15.34 22 14 23.34 14 25V44H34V25C34 23.34 32.66 22 31 22Z" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 44H44" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5.90002 44.0005L6.00003 19.9405C6.00003 18.7205 6.58002 17.5606 7.54002 16.8006L21.54 5.90055C22.98 4.78055 25 4.78055 26.46 5.90055L40.46 16.7806C41.44 17.5406 42 18.7005 42 19.9405V44.0005" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path d="M20 32.5V35.5" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21 15H27" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>} num='6'/>
+              <Select myClick={serviceClick} title='S' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M26 34H22C20.34 34 19 35.34 19 37V44H29V37C29 35.34 27.66 34 26 34Z" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path d="M4 44H44" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5.90002 44.0005L6.00002 19.9405C6.00002 18.7205 6.58002 17.5606 7.54002 16.8006L21.54 5.90055C22.98 4.78055 25 4.78055 26.46 5.90055L40.46 16.7806C41.44 17.5406 42 18.7005 42 19.9405V44.0005" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path d="M19 27.5H15C13.9 27.5 13 26.6 13 25.5V22.5C13 21.4 13.9 20.5 15 20.5H19C20.1 20.5 21 21.4 21 22.5V25.5C21 26.6 20.1 27.5 19 27.5Z" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path d="M33 27.5H29C27.9 27.5 27 26.6 27 25.5V22.5C27 21.4 27.9 20.5 29 20.5H33C34.1 20.5 35 21.4 35 22.5V25.5C35 26.6 34.1 27.5 33 27.5Z" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+                <path d="M38 14L37.94 8H29.14" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                } num='7'/>
+              <Select myClick={serviceClick} title='M' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.5 44V36.5" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M39.5601 44.0197V35.0996" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 44H46" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M39.6 21.7793C37.16 21.7793 35.2 23.7393 35.2 26.1793V30.7192C35.2 33.1592 37.16 35.1193 39.6 35.1193C42.04 35.1193 44 33.1592 44 30.7192V26.1793C44 23.7393 42.04 21.7793 39.6 21.7793Z" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4.19995 43.9995V12.0596C4.19995 8.03957 6.20005 6.01953 10.1801 6.01953H22.64C26.62 6.01953 28.6 8.03957 28.6 12.0596V43.9995" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.6001 16.5H21.5001" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.6001 24H21.5001" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                } num='8'/>
+              <Select myClick={serviceClick} title='L' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.9995 44.0007H8.15945C5.83945 44.0007 3.93945 42.1407 3.93945 39.8607V10.1807C3.93945 4.9407 7.83945 2.5607 12.6195 4.9007L21.4995 9.2607C23.4195 10.2007 24.9995 12.7007 24.9995 14.8207V44.0007Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M43.9395 30.1198V37.6798C43.9395 41.9998 41.9395 43.9998 37.6195 43.9998H24.9995V20.8398L25.9395 21.0398L34.9395 23.0598L38.9995 23.9598C41.6395 24.5398 43.7995 25.8998 43.9195 29.7398C43.9395 29.8598 43.9395 29.9798 43.9395 30.1198Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.9995 18H17.9395" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.9995 26H17.9395" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M34.9395 23.061V29.501C34.9395 31.981 32.9195 34.001 30.4395 34.001C27.9595 34.001 25.9395 31.981 25.9395 29.501V21.041L34.9395 23.061Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M43.9195 29.7405C43.7995 32.1005 41.8395 34.0005 39.4395 34.0005C36.9595 34.0005 34.9395 31.9805 34.9395 29.5005V23.0605L38.9995 23.9605C41.6395 24.5405 43.7995 25.9005 43.9195 29.7405Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                } num='9'/>
+              <Select myClick={serviceClick} title='XL' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 44H44" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M34 4H14C8 4 6 7.58 6 12V44H42V12C42 7.58 40 4 34 4Z" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 33H20" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M28 33H34" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 24H20" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M28 24H34" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 15H20" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M28 15H34" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                } num='10'/>
             </>
   )
 }
@@ -79,11 +120,46 @@ export const size = (serviceClick) => {
 export const calendar = (serviceClick) => {
   return (
     <>
-      <Select myClick={serviceClick} title='Less than 1 month' image='calendar-1.svg' num='11'/>
-      <Select myClick={serviceClick} title='1-2 months' image='calendar-2.svg' num='12'/>
-      <Select myClick={serviceClick} title='2-4 months' image='calendar-3.svg' num='13'/>
-      <Select myClick={serviceClick} title='4-6 months' image='calendar-4.svg' num='14'/>
-      <Select myClick={serviceClick} title='More than 6 months' image='calendar-5.svg' num='15'/>
+      <Select myClick={serviceClick} title='Less than 1 month' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='11'/>
+      <Select myClick={serviceClick} title='1-2 months' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.7598 20C13.4198 22.62 13.4198 25.38 12.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='12'/>
+      <Select myClick={serviceClick} title='2-4 months' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.7598 20C13.4198 22.62 13.4198 25.38 12.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.7598 20C20.4198 22.62 20.4198 25.38 19.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='13'/>
+      <Select myClick={serviceClick} title='4-6 months' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.7598 20C13.4198 22.62 13.4198 25.38 12.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.7598 20C20.4198 22.62 20.4198 25.38 19.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26.7598 20C27.4198 22.62 27.4198 25.38 26.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='14'/>
+      <Select myClick={serviceClick} title='More than 6 months' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 4V10" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M32 4V10" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7 18.1797H41" stroke="#7DE2B7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M44 38C44 39.5 43.58 40.92 42.84 42.12C41.46 44.44 38.92 46 36 46C33.98 46 32.14 45.26 30.74 44C30.12 43.48 29.58 42.84 29.16 42.12C28.42 40.92 28 39.5 28 38C28 33.58 31.58 30 36 30C38.4 30 40.54 31.06 42 32.72C43.24 34.14 44 35.98 44 38Z" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M32.8799 37.9991L34.8599 39.9791L39.1199 36.0391" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M42 17V32.72C40.54 31.06 38.4 30 36 30C31.58 30 28 33.58 28 38C28 39.5 28.42 40.92 29.16 42.12C29.58 42.84 30.12 43.48 30.74 44H16C9 44 6 40 6 34V17C6 11 9 7 16 7H32C39 7 42 11 42 17Z" stroke="#0360B2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24.1414 27.25H24.1593" stroke="#7DE2B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30.989 27.25H31.007" stroke="#7DE2B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24.1414 34H24.1593" stroke="#7DE2B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16.739 27.25H16.757" stroke="#7DE2B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16.739 34H16.757" stroke="#7DE2B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='15'/>
     </>
   )
 }
@@ -91,11 +167,39 @@ export const calendar = (serviceClick) => {
 export const budget = (serviceClick) => {
   return (
     <>
-      <Select myClick={serviceClick} title='Less than $1k' image='budget-1.svg' num='16'/>
-      <Select myClick={serviceClick} title='$1k-3k' image='budget-2.svg' num='17'/>
-      <Select myClick={serviceClick} title='$3k-6k' image='budget-3.svg' num='18'/>
-      <Select myClick={serviceClick} title='$6k-10k' image='budget-4.svg' num='19'/>
-      <Select myClick={serviceClick} title='More than $10k' image='budget-5.svg' num='20'/>
+      <Select myClick={serviceClick} title='Less than $1k' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='16'/>
+      <Select myClick={serviceClick} title='$1k-3k' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.7598 20C13.4198 22.62 13.4198 25.38 12.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='17'/>
+      <Select myClick={serviceClick} title='$3k-6k' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.7598 20C13.4198 22.62 13.4198 25.38 12.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.7598 20C20.4198 22.62 20.4198 25.38 19.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='18'/>
+      <Select myClick={serviceClick} title='$6k-10k' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.7598 20C13.4198 22.62 13.4198 25.38 12.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.7598 20C20.4198 22.62 20.4198 25.38 19.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26.7598 20C27.4198 22.62 27.4198 25.38 26.7598 28" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26 38H14C6 38 4 36 4 28V20C4 12 6 10 14 10H26C34 10 36 12 36 20V28C36 36 34 38 26 38Z" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='19'/>
+      <Select myClick={serviceClick} title='More than $10k' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M41 19C44 19 44 20 44 22V26C44 28 44 29 41 29" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.9999 16L16.2199 21C15.4399 22.34 16.3999 24 17.9399 24H22.5399C24.0799 24 25.0399 25.66 24.2799 27L19.9999 32" stroke="#7DE2B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 38C6 38 4 36 4 28V20C4 12 6 10 14 10" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26 10C34 10 36 12 36 20V28C36 36 34 38 26 38" stroke="#0360B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        } num='20'/>
     </>
   )
 }
