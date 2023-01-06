@@ -1,7 +1,7 @@
 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M23.8374 23.8371C28.7249 18.9496 28.7249 11.0371 23.8374 6.16211" stroke="#A26BF7" stroke-width="0.888487" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6.16245 6.16211C1.27495 11.0496 1.27495 18.9621 6.16245 23.8371" stroke="#A26BF7" stroke-width="0.888487" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.875 26.7627C12.2125 27.2252 13.6 27.4503 15 27.4503C16.4 27.4378 17.7875 27.2252 19.125 26.7627" stroke="#A26BF7" stroke-width="0.888487" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.875 3.23737C12.2125 2.77487 13.6 2.5498 15 2.5498C16.4 2.5498 17.7875 2.77487 19.125 3.23737" stroke="#A26BF7" stroke-width="0.888487" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.925 15.0002V12.9127C10.925 10.3127 12.7626 9.25018 15.0126 10.5502L16.8251 11.6002L18.6376 12.6502C20.8876 13.9502 20.8876 16.0752 18.6376 17.3752L16.8251 18.4252L15.0126 19.4752C12.7626 20.7752 10.925 19.7127 10.925 17.1127V15.0002Z" stroke="#A26BF7" stroke-width="0.888487" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.8374 23.8371C28.7249 18.9496 28.7249 11.0371 23.8374 6.16211" stroke="#A26BF7" strokeWidth="0.888487" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.16245 6.16211C1.27495 11.0496 1.27495 18.9621 6.16245 23.8371" stroke="#A26BF7" strokeWidth="0.888487" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.875 26.7627C12.2125 27.2252 13.6 27.4503 15 27.4503C16.4 27.4378 17.7875 27.2252 19.125 26.7627" stroke="#A26BF7" strokeWidth="0.888487" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.875 3.23737C12.2125 2.77487 13.6 2.5498 15 2.5498C16.4 2.5498 17.7875 2.77487 19.125 3.23737" stroke="#A26BF7" strokeWidth="0.888487" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.925 15.0002V12.9127C10.925 10.3127 12.7626 9.25018 15.0126 10.5502L16.8251 11.6002L18.6376 12.6502C20.8876 13.9502 20.8876 16.0752 18.6376 17.3752L16.8251 18.4252L15.0126 19.4752C12.7626 20.7752 10.925 19.7127 10.925 17.1127V15.0002Z" stroke="#A26BF7" strokeWidth="0.888487" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
