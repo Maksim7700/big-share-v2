@@ -296,7 +296,7 @@
     margin-top: 0px !important;
   }
   .anketa-question-blog {
-    grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(165px,1fr)) !important;
     grid-column-gap: 9px !important;
     grid-row-gap: 9px !important;
     margin-bottom: 13px !important;
