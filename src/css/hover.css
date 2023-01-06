@@ -149,9 +149,65 @@
     color: white;
   }
 
-  .select:hover img {
-    stroke: white;
+  .select-1:hover img {
     content: url('../../public/anketa/complex-service-hover.svg');
+  }
+  .select-2:hover img {
+    content: url('../../public/anketa/design-hover.svg');
+  }
+  .select-3:hover img {
+    content: url('../../public/anketa/web-development-hover.svg');
+  }
+  .select-4:hover img {
+    content: url('../../public/anketa/mobile-development-hover.svg');
+  }
+  .select-5:hover img {
+    content: url('../../public/anketa/other-hover.svg');
+  }
+  .select-6:hover img {
+    content: url('../../public/anketa/size-xs-hover.svg');
+  }
+  .select-7:hover img {
+    content: url('../../public/anketa/size-s-hover.svg');
+  }
+  .select-8:hover img {
+    content: url('../../public/anketa/size-m-hover.svg');
+  }
+  .select-9:hover img {
+    content: url('../../public/anketa/size-l-hover.svg');
+  }
+  .select-10:hover img {
+    content: url('../../public/anketa/size-xl-hover.svg');
+  }
+  .select-11:hover img {
+    content: url('../../public/anketa/calendar-less-than-1-hover.svg');
+  }
+  .select-12:hover img {
+    content: url('../../public/anketa/calendar-1-2-hover.svg');
+  }
+  .select-13:hover img {
+    content: url('../../public/anketa/calendar-2-4-hover.svg');
+  }
+  .select-14:hover img {
+    content: url('../../public/anketa/calendar-4-6-hover.svg');
+  }
+  .select-15:hover img {
+    content: url('../../public/anketa/calendar-more-than-6-hover.svg');
+  }
+  .select-16:hover img {
+    content: url('../../public/anketa/less-1k-hover.svg');
+  }
+  .select-17:hover img {
+    content: url('../../public/anketa/1-3k-hover.svg');
+  }
+  .select-18:hover img {
+    content: url('../../public/anketa/3-6k-hover.svg');
+  }
+  .select-19:hover img {
+    content: url('../../public/anketa/6-10k-hover.svg');
+  }
+  .select-20:hover img {
+    content: url('../../public/anketa/more-10k-hover.svg');
   }
 
   .back-group:hover {

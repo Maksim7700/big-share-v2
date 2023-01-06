@@ -5,8 +5,11 @@ import { useState } from 'react';
 import FormSend from './FormSend';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
-import complexService from './img/complex_service.svg';
-// import { other, mobileDev, webDev, design, complextService } from './utils';
+import complexServiceImg from './img/complex_service.svg';
+import designImg from './img/design.svg';
+import webDevImg from './img/web_dev.svg';
+import mobileDevImg from './img/mobile_dev.svg';
+import otherImg from './img/other.svg';
 const serviceTitle = 'What service are you interested in?';
 const sizeTitle = 'How big is your project?';
 const calendarTitle = 'How much time you have for a development?';
@@ -21,11 +24,11 @@ const step4 = 'Step 4 of 5';
 export const service = (serviceClick) => {
   return (
             <>
-              <Select myClick={serviceClick} title='Complex of services' image={complexService} num='1'/>
-              <Select myClick={serviceClick} title='Design' image='design.svg' num='2'/>
-              <Select myClick={serviceClick} title='Web development' image='web_dev.svg' num='3'/>
-              <Select myClick={serviceClick} title='Mobile development' image='mobile_dev.svg' num='4'/>
-              <Select myClick={serviceClick} title='Other' image='other.svg' num='5'/>
+              <Select myClick={serviceClick} title='Complex of services' image={complexServiceImg} num='1'/>
+              <Select myClick={serviceClick} title='Design' image={designImg} num='2'/>
+              <Select myClick={serviceClick} title='Web development' image={webDevImg} num='3'/>
+              <Select myClick={serviceClick} title='Mobile development' image={mobileDevImg} num='4'/>
+              <Select myClick={serviceClick} title='Other' image={otherImg} num='5'/>
             </>
   )
 }
