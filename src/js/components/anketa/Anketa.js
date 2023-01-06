@@ -6,7 +6,7 @@ import FormSend from './FormSend';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import complexService from './img/complex_service.svg';
-import { other, mobileDev, webDev, design, complextService } from './utils';
+// import { other, mobileDev, webDev, design, complextService } from './utils';
 const serviceTitle = 'What service are you interested in?';
 const sizeTitle = 'How big is your project?';
 const calendarTitle = 'How much time you have for a development?';
