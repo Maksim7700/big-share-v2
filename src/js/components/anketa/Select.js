@@ -5,8 +5,9 @@ import '../../../css/laptop.css';
 const Select = (props) => {
   const image = props.image;
   const title = props.title;
+  const clicks = () => props.myClick(title);
   return (
-    <div onClick={props.myClick} className={`select select-${props.num}`}>
+    <div onClick={clicks} className={`select select-${props.num}`}>
       {image}
       <div className='select-title Gilroy-500'>{title}</div>
     </div>

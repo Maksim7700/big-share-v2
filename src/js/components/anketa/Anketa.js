@@ -5,6 +5,7 @@ import { useState } from 'react';
 import FormSend from './FormSend';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
+
 const serviceTitle = 'What service are you interested in?';
 const sizeTitle = 'How big is your project?';
 const calendarTitle = 'How much time you have for a development?';
@@ -127,7 +128,7 @@ export const calendar = (serviceClick) => {
         <path d="M42 17V34C42 40 39 44 32 44H16C9 44 6 40 6 34V17C6 11 9 7 16 7H32C39 7 42 11 42 17Z" stroke="#0360B2" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
         } num='11'/>
-      <Select qmyClick={serviceClick} title='1-2 months' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <Select myClick={serviceClick} title='1-2 months' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M16 4V10" stroke="#0360B2" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M32 4V10" stroke="#0360B2" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M7 18.1797H41" stroke="#7DE2B7" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
@@ -218,8 +219,14 @@ export const budget = (serviceClick) => {
   )
 }
 
-
 const Anketa = () => {
+
+  const [questionnaire, setQuestionnaire] = useState({
+    service: '',
+    size: '',
+    calendar: '',
+    budget:''
+  });
 
   const [isService, setIsService] = useState(true);
   const [isSize, setIsSize] = useState(false);
@@ -227,20 +234,24 @@ const Anketa = () => {
   const [isBudget, setIsBudget] = useState(false);
   const [isForm, setIsForm] = useState(false);
 
-  const serviceClick = () => {
+  const serviceClick = (value) => {
     if (isService) {
+      setQuestionnaire({...questionnaire, service: value})
       setIsService(false);
       setIsSize(true);
     }
     if (isSize) {
+      setQuestionnaire({...questionnaire, size: value})
       setIsSize(false);
       setIsCalendar(true);
     }
     if (isCalendar) {
+      setQuestionnaire({...questionnaire, calendar: value})
       setIsCalendar(false);
       setIsBudget(true);
     }
     if (isBudget) {
+      setQuestionnaire({...questionnaire, budget: value})
       setIsBudget(false);
       setIsForm(true);
     }
@@ -268,7 +279,7 @@ const Anketa = () => {
 
 const form = () => {
   return (
-    <FormSend form='form' backClick={serviceBackClick}/>
+    <FormSend questionnaire={questionnaire} form='form' backClick={serviceBackClick}/>
   )
 }
 
