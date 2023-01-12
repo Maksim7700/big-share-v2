@@ -14,7 +14,9 @@
 .anketa-title span {
   color: #1A9D63;
 }
-
+.margin-bottom-100 {
+  margin-bottom: 100px !important;
+}
 
 .anketa-text {
   color: #393939;

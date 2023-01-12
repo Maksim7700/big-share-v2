@@ -11,6 +11,7 @@ const sizeTitle = 'How big is your project?';
 const calendarTitle = 'How much time you have for a development?';
 const budgetTitle = 'What is your project budget?';
 const formTitle = 'Thanks. We just need a few details about you.';
+const formTitleEnd = ' Thanks! We will contact you soon.'
 
 const step1 = 'Step 1 of 5';
 const step2 = 'Step 2 of 5';
@@ -276,10 +277,15 @@ const Anketa = () => {
     }
   }
 
+  const [endForm, setEndForm] = useState(false);
+
+  const setEndOfForm = () => {
+    setEndForm(true);
+  }
 
 const form = () => {
   return (
-    <FormSend questionnaire={questionnaire} form='form' backClick={serviceBackClick}/>
+    <FormSend endForm={setEndOfForm} questionnaire={questionnaire} form='form' backClick={serviceBackClick}/>
   )
 }
 
@@ -325,8 +331,11 @@ const form = () => {
     if (isBudget) {
       return <div>{budgetTitle}</div>
     }
-    if (isForm) {
+    if (isForm && !endForm) {
       return <div>{formTitle}</div>
+    }
+    if (endForm) {
+      return <div>{formTitleEnd}</div>
     }
   }
 
@@ -366,12 +375,12 @@ const form = () => {
         <div className='flex-container-anketa em-02'>
           <div id='anketa' className='anketa-title Gilroy-700'>Let's <span>get started</span>. Tell us how we can help</div>
           <div className='anketa-text Montserrat-400'>Let’s turn your idea into digital reality! Just answer our interactive questions and we will draft the best product offer for you. We provide free estimation and IT consulting for our clients. So don’t hesitate to contact us.</div>
-          <div className='anketa-question'><div className='anketa-question-text Gilroy-500'>{title()}</div></div>
-          <div className={`anket-question-style ${isForm ? 'anketa-question-blog-no' : 'anketa-question-blog'}`}>
-            {
-              getAnketaForm(serviceClick)
-            }
-          </div>
+          <div className={`anketa-question ${endForm ? 'margin-bottom-100' : ''}`}>
+            <div className={`anketa-question-text Gilroy-500`}>{title()}</div>
+            </div>
+            {!endForm && <><div className={`anket-question-style ${isForm ? 'anketa-question-blog-no' : 'anketa-question-blog'}`}>
+            {getAnketaForm(serviceClick)}
+          </div></>}
         </div>
         {isForm ? '' : bar()}
       </Container>

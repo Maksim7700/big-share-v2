@@ -22,6 +22,7 @@ const FormSend = (props) => {
 
   const onSubmit = (data) => {
     postQuestionnaire(data);
+    props.endForm();
   }
 
   return (
