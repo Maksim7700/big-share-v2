@@ -72,6 +72,7 @@
 }
 
 .bar-flex {
+  height: 75px;
   grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
   grid-column-gap: 16px !important;
   grid-row-gap: 9px !important;

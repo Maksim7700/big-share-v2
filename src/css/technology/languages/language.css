@@ -5,9 +5,11 @@
 .flex-containter-buttons {
     display: flex;
 }
+
 .tech-button-hover {
     transition: 0.3s;
 }
+
 .flex-containter-buttons button {
     font-size: 16px;
     margin-right: 16px;
@@ -33,7 +35,7 @@
 .flex-container-technologies-box {
     margin-top: 48px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(174px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(174px, 1fr));
     max-width: 1074px;
 }
 
@@ -53,6 +55,7 @@
     text-align: center;
     margin: 66px auto 0 auto;
 }
+
 .box-text-javascript::after {
     content: "Java Script";
 }
@@ -60,6 +63,7 @@
 .box-text-css::after {
     content: "CSS";
 }
+
 .box-text-react::after {
     content: "React";
 }
@@ -121,5 +125,6 @@
 }
 
 .green {
+    border: none !important;
     background-color: #1A9D63 !important;
 }

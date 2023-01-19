@@ -44,6 +44,7 @@
   /* ---Language--- */
 
   .tech-button-hover:hover {
+    border: 1px solid #0360B2;
     transition: 0.3s;
     cursor: pointer;
     background-color: #0360B2 !important;
