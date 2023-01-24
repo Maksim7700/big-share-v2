@@ -5,6 +5,6 @@ const headers = {
 }
 
 export const postQuestionnaire = (questionnaireModel) => {
-  const base_url = 'http://bigshare-env.eba-ghyuyfud.us-east-1.elasticbeanstalk.com/questionnaire';
+  const base_url = 'https://151.106.108.125/questionnaire';
   axios.post(base_url, questionnaireModel, {headers: headers}).then(response => console.log(response));
 }
