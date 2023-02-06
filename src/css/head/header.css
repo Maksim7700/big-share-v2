@@ -53,6 +53,7 @@
 }
 
 .fixed {
+    border-bottom: 1px solid #0E1B27;
     width: 100%;
     z-index: 1 !important;
     position: fixed;

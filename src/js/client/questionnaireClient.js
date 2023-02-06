@@ -5,6 +5,6 @@ const headers = {
 }
 
 export const postQuestionnaire = (questionnaireModel) => {
-  const base_url = 'https://151.106.108.125/questionnaire';
-  axios.post(base_url, questionnaireModel, {headers: headers}).then(response => console.log(response));
+  const base_url = 'http://151.106.108.125:8080/questionnaire';
+  axios.post(base_url, questionnaireModel, {headers: headers});
 }
