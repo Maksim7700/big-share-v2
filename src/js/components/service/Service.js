@@ -2,11 +2,19 @@ import Container from "../../UI/Containter";
 import '../../../css/service/service.css'
 import Develop from "./Development/Develop";
 import '../../../css/laptop.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Service = () => {
+
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
         <Container>
-            <div className="flex-containter-service em-02">
+            <div className="flex-containter-service em-02" data-aos='fade-up'>
                 <div className="service-1 Gilroy-700">At your <span>service,</span> every step of the way</div>
                 <div className="service-2"><div className="service-2-text em-02 Montserrat-400">Innowise Group can cover the entire software development process, from product vision discussion to applications design and software enhancement. Our multi-skilled experienced team facilitates businesses worldwide on their way to digital transformation and helps companies take full advantage of IT innovations.</div></div>
                 <div className="service-3">

@@ -31,6 +31,47 @@
     display: flex;
 }
 
+.animated-feedback {
+    animation-name: slideInRight;
+    animation-duration: .7s;
+  }
+
+  @keyframes slideInRight {
+      0% {
+        opacity: 0;
+      }
+      10% {
+        opacity: .1;
+      }
+      20% {
+        opacity: .2;
+      }
+      30% {
+        opacity: .3;
+      }
+      40% {
+        opacity: .4;
+      }
+      50% {
+        opacity: .5;
+      }
+      60% {
+        opacity: .6;
+      }
+      70% {
+        opacity: .7;
+      }
+      80% {
+        opacity: .8;
+      }
+      90% {
+        opacity: .9;
+      }
+      100% {
+        opacity: 1;
+      }
+  }
+
 .client-meta-data {
     display: flex;
     flex-direction: column;
@@ -58,9 +99,6 @@
     margin-top: 16px;
 }
 
-.client-image img {
-    content: url('../../../public/client/client1.svg');
-}
 
 .client-raiting img {
     margin-right: 4px;
@@ -68,6 +106,7 @@
 }
 
 .client-comment {
+     min-height: 135px;
     color: #4A4A4A;
     font-size: 16px;
     line-height: 27px;

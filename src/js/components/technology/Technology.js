@@ -2,10 +2,17 @@ import Container from "../../UI/Containter";
 import '../../../css/technology/technology.css';
 import Language from "./languages/Language";
 import '../../../css/laptop.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Technology = () => {
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
-        <div className='technologies'>
+        <div className='technologies' data-aos='fade-up'>
         <Container>
             <div className='logo'>
                 <svg width="87" height="219" viewBox="0 0 87 219" fill="none" xmlns="http://www.w3.org/2000/svg">

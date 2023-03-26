@@ -2,10 +2,18 @@ import '../../../css/footer/footer.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import Container from '../../UI/Containter';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 // 2
 const Footer = () => {
+
+  useEffect(() => {
+    AOS.init();
+})
   return (
-    <div className='footer'>
+    <div className='footer' data-aos='fade-up'>
       <Container>
         <div className='flex-container-footer'>
           <div className='footer-navigation'>

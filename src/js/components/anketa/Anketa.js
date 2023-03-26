@@ -5,6 +5,9 @@ import { useState } from 'react';
 import FormSend from './FormSend';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const serviceTitle = 'What service are you interested in?';
 const sizeTitle = 'How big is your project?';
@@ -19,9 +22,10 @@ const step3 = 'Step 3 of 5';
 const step4 = 'Step 4 of 5';
 
 export const service = (serviceClick) => {
+
   return (
             <>
-              <Select myClick={serviceClick} title='Complex of services' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <Select  myClick={serviceClick} title='Complex of services' image={<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M33.9199 12.3398C37.9199 15.1198 40.6799 19.5398 41.2399 24.6398" stroke="#7DE2B7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M6.97998 24.7395C7.49998 19.6595 10.22 15.2395 14.18 12.4395" stroke="#7DE2B7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M16.3799 41.8809C18.6999 43.0609 21.3399 43.7209 24.1199 43.7209C26.7999 43.7209 29.3199 43.1209 31.5799 42.0209" stroke="#7DE2B7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -369,14 +373,18 @@ const form = () => {
                     : form());
   }
 
+  useEffect(() => {
+    AOS.init();
+})
+
   return(
     <div>
       <Container>
-        <div className='flex-container-anketa em-02'>
+        <div className='flex-container-anketa em-02' data-aos='fade-up'>
           <div id='anketa' className='anketa-title Gilroy-700'>Let's <span>get started</span>. Tell us how we can help</div>
           <div className='anketa-text Montserrat-400'>Let’s turn your idea into digital reality! Just answer our interactive questions and we will draft the best product offer for you. We provide free estimation and IT consulting for our clients. So don’t hesitate to contact us.</div>
-          <div className={`anketa-question ${endForm ? 'margin-bottom-100' : ''}`}>
-            <div className={`anketa-question-text Gilroy-500`}>{title()}</div>
+          <div data-aos='fade-up' className={`anketa-question ${endForm ? 'margin-bottom-100' : ''}`}>
+            <div  className={`anketa-question-text Gilroy-500`}>{title()}</div>
             </div>
             {!endForm && <><div className={`anket-question-style ${isForm ? 'anketa-question-blog-no' : 'anketa-question-blog'}`}>
             {getAnketaForm(serviceClick)}

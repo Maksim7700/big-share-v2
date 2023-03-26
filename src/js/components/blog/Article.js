@@ -1,10 +1,16 @@
 import '../../../css/blog/article.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Article = () => {
+  useEffect(() => {
+    AOS.init();
+})
   return (
-    <div className='flex-container-article'>
+    <div className='flex-container-article' data-aos='fade-up'>
       <div className='under_dev'>
       <div className='UNDER_DEVELOP Gilroy-700'>Under development</div>
       </div>

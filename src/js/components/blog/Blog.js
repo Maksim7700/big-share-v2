@@ -3,10 +3,16 @@ import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import Container from '../../UI/Containter';
 import Article from './Article';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Blog = () => {
+  useEffect(() => {
+    AOS.init();
+})
   return (
-    <div className='blog em-02'>
+    <div className='blog em-02' data-aos='fade-up'>
       <Container>
         <div className='logo'>
           <svg width="87" height="219" viewBox="0 0 87 219" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,15 +30,15 @@ const Blog = () => {
           </defs>
           </svg>
         </div>
-        <div className='flex-container-blog'>
-          <div className='blog-title Gilroy-700'><span>Discover</span> insights and trends</div>
-          <div className='blog-text Montserrat-400'>We estimate professional knowledge and expertise as the most valuable things a company should possess. Our blog is a platform for promoting and sharing those things to make the knowledge work for the goals and for the best purposes.</div>
+        <div className='flex-container-blog' >
+          <div className='blog-title Gilroy-700' data-aos='fade-up'><span>Discover</span> insights and trends</div>
+          <div className='blog-text Montserrat-400' data-aos='fade-up'>We estimate professional knowledge and expertise as the most valuable things a company should possess. Our blog is a platform for promoting and sharing those things to make the knowledge work for the goals and for the best purposes.</div>
           <div className='blog-article'>
             <Article />
             <Article />
             <Article />
           </div>
-          <div className='blog-view Montserrat-500'>View all blog</div>
+          <div className='blog-view Montserrat-500' data-aos='fade-up'>View all blog</div>
         </div>
       </Container>
     </div>

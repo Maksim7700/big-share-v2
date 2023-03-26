@@ -5,11 +5,19 @@ import Container from '../../UI/Containter';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import {Link as Scroll} from 'react-scroll';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Head = () => {
+
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
         <Container>
-            <div className='flex-head-container'>
+            <div className='flex-head-container' data-aos='fade-up'>
                 <div className="flex-containte-head em-02">
                     <div className="text-head-1 Gilroy-700">Let’s Make Software<br/> <span>Together</span></div>
                     <div className="text-head-2 Montserrat-400">Big or small, immediate or ongoing projects, individual or team-based projects: get them all done with Big Share professionals.
