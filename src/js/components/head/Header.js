@@ -6,6 +6,7 @@ import '../../../css/laptop.css';
 import { useState, useEffect } from 'react';
 import { Link as Scroll } from 'react-scroll';
 import Container from "../../UI/Containter"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [changeHeadColor, setChangeHeadColor] = useState(false);
@@ -29,12 +30,12 @@ const Header = () => {
             <div className="header-logo"></div>
           </div>
           <div className="header-col-2 Montserrat-600">
-            {/* <div className='flex-container-header-col-2'>
-              <div className='hover-header'>Home</div>
-              <div className='hover-header'>Portfolio</div>
-              <div className='hover-header'>We are hiring</div>
-              <div className='hover-header'>Blog</div>
-            </div> */}
+            <div className='flex-container-header-col-2'>
+              {/* <div className='hover-header'>Home</div> */}
+              <div className='hover-header'><Link to={'/portfolio'}>Portfolio</Link></div>
+              {/* <div className='hover-header'>We are hiring</div> */}
+              {/* <div className='hover-header'>Blog</div> */}
+            </div>
           </div>
           <Scroll to="anketa" spy={true} smooth={true}>
             <div className="header-col-3">

@@ -2,7 +2,7 @@ import { useForm } from 'react-hook-form';
 import '../../../css/anketa/form.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
-import {postQuestionnaire} from '../../client/questionnaireClient';
+import {sendMessageToTelegram} from '../../client/questionnaireClient';
 
 const FormSend = (props) => {
 
@@ -21,7 +21,7 @@ const FormSend = (props) => {
   });
 
   const onSubmit = (data) => {
-    postQuestionnaire(data);
+    sendMessageToTelegram(data);
     props.endForm();
   }
 

@@ -14,6 +14,10 @@
     color: #0360B2;
   }
 
+  .hover-header a{
+    color: inherit;
+  }
+
   /* ----Head---- */
 
   .get-started-button:hover {

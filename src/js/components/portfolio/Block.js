@@ -3,20 +3,20 @@ import '../../../css/hover.css';
 import Title from './Title';
 import '../../../css/laptop.css';
 
-const Block = (props) => {
-
-    const title = props.title;
-    const logo = props.logo;
-    const text = props.text;
-
-    return (
-        <div className={`block ${props.className}`}>
-            <div className='flex-container-inside-block'>
-                <div className='block-title'><Title title={title} text={text}/></div>
-                <div className='block-logo'><img alt='portfolio' className={`portfolio-logo-${logo}`}/></div>
-            </div>
+function Block({ title, logo, text, className }) {
+  return (
+    <div className={`block ${className}`}>
+      <div className='flex-container-inside-block'>
+        <div className='block-title'>
+          <Title title={title} text={text} />
         </div>
-    )
+        <div className='block-logo'>
+          <img className={`portfolio-logo-${logo}`} alt='portfolio' />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Block;
+
