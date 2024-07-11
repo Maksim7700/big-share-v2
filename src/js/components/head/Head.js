@@ -8,6 +8,7 @@ import {Link as Scroll} from 'react-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import video from '../../../video/video.mp4';
 
 const Head = () => {
 
@@ -17,6 +18,7 @@ const Head = () => {
 
     return (
         <Container>
+            <video src={video} autoPlay loop muted/>
             <div className='flex-head-container' data-aos='fade-up'>
                 <div className="flex-containte-head em-02">
                     <div className="text-head-1 Gilroy-700">Let’s Make Software<br/> <span>Together</span></div>
