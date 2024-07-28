@@ -15,6 +15,17 @@
   }
 }
 @media only screen and (max-width: 718px) {
+  .technologies::before {
+    background-color: #338DDE; /* Колір другого кружечка */
+    bottom: -20% !important; /* Відстань від нижнього краю */
+    right: 0%; /* Відстань від лівого краю */
+}
+
+.technologies::after {
+    background-color: #4ACB8F; /* Колір першого кружечка */
+    bottom: -20% !important; /* Відстань від нижнього краю */
+    right: 0; /* Відстань від лівого краю, з урахуванням ширини першого кружечка */
+}
   .comment {
     padding-top: 330px;
   }
@@ -48,6 +59,18 @@
 }
 
 @media only screen and (max-width: 1140px) {
+  .technologies::before {
+    background-color: #338DDE; /* Колір другого кружечка */
+    bottom: -50%; /* Відстань від нижнього краю */
+    right: 0%; /* Відстань від лівого краю */
+}
+
+.technologies::after {
+    background-color: #4ACB8F; /* Колір першого кружечка */
+    bottom: -50% ; /* Відстань від нижнього краю */
+    right: 0; /* Відстань від лівого краю, з урахуванням ширини першого кружечка */
+}
+
   .main {
     height: auto !important;
   }

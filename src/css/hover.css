@@ -2,16 +2,16 @@
   /* ---Header--- */
   .contact-us-button:hover {
     transition:0.3s;
-    background: #0360B2;
+    background: #338DDE;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
-    border: 1px solid  #0360B2;
+    border: 1px solid  #338DDE;
     cursor: pointer;
   }
 
 
   .hover-header:hover {
     cursor: pointer;
-    color: #0360B2;
+    color: #338DDE;
   }
 
   .hover-header a{
@@ -22,9 +22,9 @@
 
   .get-started-button:hover {
     transition:0.3s;
-    background: #0360B2;
+    background: #338DDE;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
-    border: 0.1px solid  #0360B2;
+    border: 0.1px solid  #338DDE;
     cursor: pointer;
   }
 
@@ -48,10 +48,10 @@
   /* ---Language--- */
 
   .tech-button-hover:hover {
-    border: 1px solid #0360B2;
+    border: 1px solid #338DDE;
     transition: 0.3s;
     cursor: pointer;
-    background-color: #0360B2 !important;
+    background-color: #338DDE !important;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
   }
 
@@ -67,10 +67,10 @@
   }
 
   .project-add:hover {
-    border: 1px solid #0360B2;
+    border: 1px solid #338DDE;
     cursor: pointer;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
-    background-color: #0360B2;
+    background-color: #338DDE;
   }
 
   .project-add:hover .add-my-company {
@@ -84,8 +84,8 @@
   .client-previous:hover, .client-next:hover {
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
     cursor: pointer;
-    border: 1px solid #0360B2;
-    background: #0360B2;
+    border: 1px solid #338DDE;
+    background: #338DDE;
   }
 
   /* ---Portfolio--- */
@@ -104,9 +104,9 @@
   .portfolio-add-block:hover {
     transition: 0.3s;
     cursor: pointer;
-    background: #0360B2;
+    background: #338DDE;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
-    border: 1px solid #0360B2;
+    border: 1px solid #338DDE;
   }
 
   .portfolio-add-block:hover .add-text {
@@ -125,7 +125,7 @@
 
   .article-read-me:hover .read-me-text {
     text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
-    color: #0360B2;
+    color: #338DDE;
   }
 
   .article-read-me:hover img {
@@ -136,7 +136,7 @@
   .blog-view:hover {
     transition: 0.3s;
     cursor: pointer;
-    background-color: #0360B2;
+    background-color: #338DDE;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
   }
 
@@ -145,9 +145,9 @@
   .select:hover {
     transition: 0.3s;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
-    border: 1px solid #0360B2;
+    border: 1px solid #338DDE;
     cursor: pointer;
-    background-color: #0360B2;
+    background-color: #338DDE;
   }
 
   .select:hover .select-title {
@@ -160,7 +160,7 @@
 
   .back-group:hover {
     transform: 0.3s;
-    color: #0360B2;
+    color: #338DDE;
     cursor: pointer;
   }
 
@@ -176,9 +176,9 @@
   }
 
   .submit:hover {
-    background: #0360B2;
+    background: #338DDE;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
-    border: 1px solid  #0360B2;
+    border: 1px solid  #338DDE;
     cursor: pointer;
   }
 
@@ -186,7 +186,7 @@
 
   .hover-footer:hover {
     cursor: pointer;
-    color: #0360B2;
+    color: #338DDE;
   }
 
   .location-inside:hover {
@@ -194,11 +194,11 @@
   }
 
   .location-inside:hover .location-street {
-    color: #0360B2;
+    color: #338DDE;
   }
 
   .location-inside:hover svg path {
-    stroke: #0360B2;
+    stroke: #338DDE;
   }
 
   .gmail-inside:hover {
@@ -206,11 +206,11 @@
   }
 
   .gmail-inside:hover .email {
-    color: #0360B2;
+    color: #338DDE;
   }
 
   .gmail-inside:hover svg path {
-    stroke: #0360B2;
+    stroke: #338DDE;
   }
 
   .instagram:hover svg {

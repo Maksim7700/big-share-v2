@@ -17,7 +17,7 @@ const Footer = () => {
       <Container>
         <div className='flex-container-footer'>
           <div className='footer-navigation'>
-            <div className='footer-bigshare'><img alt='bigshare' src='./footer/bigshare-logo-footer.svg'/></div>
+            <div className='footer-bigshare'><img alt='bigshare' src='./head/big_share_header_logo.svg'/></div>
             {/* <div className='flex-container-navigation-footer Montserrat-500'>
               <div className='hover-footer'>Home</div>
               <div className='hover-footer'>Portfolio</div>

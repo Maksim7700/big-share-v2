@@ -12,7 +12,9 @@
 }
 
 .technology-title span {
-    color: #1A9D63;
+    background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .technology-text {
@@ -25,6 +27,34 @@
 
 .technologies {
     background: #101A24;
+    overflow: hidden;
+}
+
+
+.technologies::before,
+.technologies::after {
+    content: '';
+    position: fixed;
+    width: 100%;
+    max-height: 450px;
+    max-width: 450px;
+    height: 100%;
+    border-radius: 50%;
+    filter: blur(130px);
+    z-index: -100;
+     
+}
+
+.technologies::before {
+    background-color: #338DDE; /* Колір другого кружечка */
+    bottom: -2%; /* Відстань від нижнього краю */
+    right: 0%; /* Відстань від лівого краю */
+}
+
+.technologies::after {
+    background-color: #4ACB8F; /* Колір першого кружечка */
+    bottom: 2%; /* Відстань від нижнього краю */
+    right: 18%; /* Відстань від лівого краю, з урахуванням ширини першого кружечка */
 }
 
 .languages {

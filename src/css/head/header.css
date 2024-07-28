@@ -30,11 +30,11 @@
 
 .contact-us-button {
     transition:0.3s;
-    border: 1px solid #1A9D63;
+    border: none;
     color: white !important;
     font-size: 16px;
     padding: 13px 24px 13px 24px;
-    background-color: #1A9D63;
+    background-color: #4ACB8F;
     height: 48px;
     width: 202px;
 }
@@ -55,5 +55,6 @@
 .fixed {
     width: 100%;
     z-index: 1 !important;
-    position: fixed;
+    position: sticky;
+    background-color: #05111c;
 }

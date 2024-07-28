@@ -12,7 +12,9 @@
 }
 
 .blog-title span {
-  color: #1A9D63;
+  background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .blog {

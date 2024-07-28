@@ -1,0 +1,28 @@
+@import url('../../../../css/fonts/fonts.css');
+
+.blog-author-card {
+
+    display: flex;
+    gap: 12px;
+
+    img {
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+    }
+
+    .blog-author-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2px;
+
+        .blog-author-name {
+            color: white;
+        }
+
+        .blog-author-posted {
+            color: #C8C8C8;
+        }
+    }
+}

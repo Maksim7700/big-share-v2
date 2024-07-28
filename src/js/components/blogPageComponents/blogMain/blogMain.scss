@@ -1,0 +1,52 @@
+@import url('../../../../css/fonts/fonts.css');
+
+.portfolio-page-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    span {
+        background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .portfolio-page-main-info {
+        max-width: 601px;
+
+        .portfolio-page-main-title {
+            font-family: Gilroy-SemiBold;
+            font-size: 56px;
+            font-weight: 700;
+            color: white;
+            line-height: 72px;
+        }
+
+        .portfolio-page-main-description {
+            font-family: Montserrat-Regular;
+            color: #C8C8C8;
+            font-size: 20px;
+            line-height: 28px;
+            padding-top: 16px;
+        }
+
+        hr {
+            border: 0.87px solid #2E3842;
+            margin-top: 32px;
+        }
+
+        .portfoli-page-main-blog-author {
+            padding-top: 32px;
+        }
+        #blog-photo img {
+            max-height: 368px;
+            max-width: 705px;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    
+
+        
+}

@@ -10,7 +10,9 @@
 }
 
 .client-title span {
-    color: #1A9D63;
+    background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .client-text {
@@ -120,8 +122,8 @@
 }
 
 .client-move div {
-    border: 1px solid #1A9D63;
-    background: #1A9D63;
+    border: 1px solid #4ACB8F;
+    background: #4ACB8F;
     height: 48px;
     width: 48px;
 }

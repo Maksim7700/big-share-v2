@@ -12,7 +12,9 @@
 }
 
 .anketa-title span {
-  color: #1A9D63;
+  background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .margin-bottom-100 {
   margin-bottom: 100px !important;
@@ -99,27 +101,27 @@
 
 .bar-loading-1 {
   width: 20%;
-  background-color: #1A9D63;
+  background-color: #4ACB8F;
 }
 
 .bar-loading-2 {
   width: 40%;
-  background-color: #1A9D63;
+  background-color: #4ACB8F;
 }
 
 .bar-loading-3 {
   width: 60%;
-  background-color: #1A9D63;
+  background-color: #4ACB8F;
 }
 
 .bar-loading-4 {
   width: 80%;
-  background-color: #1A9D63;
+  background-color: #4ACB8F;
 }
 
 .bar-loading-5 {
   width: 100%;
-  background-color: #1A9D63;
+  background-color: #4ACB8F;
 }
 
 .bar-none {
@@ -148,7 +150,7 @@
 
 .back-group {
   transition: 0.3s;
-  color: #1A9D63;
+  color: #4ACB8F;
   display: flex;
   width: 73px;
 }
