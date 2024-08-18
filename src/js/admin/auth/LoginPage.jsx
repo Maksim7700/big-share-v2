@@ -1,14 +1,12 @@
 import {useState} from 'react';
 import {connect} from 'react-redux';
-import {authenticate, authFailure, authSuccess} from '../redux/authActions';
+import {authenticate, authFailure, authSuccess} from '../redux/actions/authActions';
 import './loginpage.css';
 import { Spinner} from 'react-bootstrap';
 import {useNavigate} from 'react-router-dom';
 import { userLogin } from '../service/authenticationService';
 
 const LoginPage = ({loading, error, ...props}) => {
-
-
     const InvalidPasswordOrUsername = "INVALID_PASSWORD_OR_USERNAME";
     const [errorUsername, setErrorUsername] = useState(false);
 
@@ -28,7 +26,7 @@ const LoginPage = ({loading, error, ...props}) => {
             if (response.status === 200) {
                 console.log(response.data, '=responseData')
                 props.setUser(response.data);
-                navigate('/dashboard');
+                navigate('/dashboard/main');
             } else {
                 props.loginFailure('Something Wrong!Please Try Again');
             }

@@ -1,4 +1,4 @@
-import {AUTH_REQ,AUTH_SUCCESS,AUTH_FAILURE} from './types';
+import {AUTH_REQ,AUTH_SUCCESS,AUTH_FAILURE} from '../types';
 
 
 export const authenticate=()=>{
