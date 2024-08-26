@@ -24,14 +24,12 @@ const LoginPage = ({loading, error, ...props}) => {
 
         userLogin(values).then((response) => {
             if (response.status === 200) {
-                console.log(response.data, '=responseData')
                 props.setUser(response.data);
                 navigate('/dashboard/main');
             } else {
                 props.loginFailure('Something Wrong!Please Try Again');
             }
         }).catch((err) => {
-            console.log(err)
             if (err.response.data.status === 400 && err.response.data.errorCode === InvalidPasswordOrUsername) {
                 setErrorUsername(true);
             }

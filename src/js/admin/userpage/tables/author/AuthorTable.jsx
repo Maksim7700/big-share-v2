@@ -8,7 +8,6 @@ const AuthorTable = () => {
     const authors = useSelector((state) => state.authors);
 
     useEffect(() => {
-        console.log('Fetching authors...');
         dispatch(getAuthorsAction());
     }, [dispatch]);
 
