@@ -1,0 +1,47 @@
+.author-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+  
+    thead {
+      th {
+        padding: 10px;
+        background-color: #f4f4f4;
+        font-weight: bold;
+        border-bottom: 2px solid #ddd;
+      }
+    }
+  
+    tbody {
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        vertical-align: middle;
+  
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+  
+        button {
+          padding: 5px 10px;
+          border: none;
+          cursor: pointer;
+          border-radius: 4px;
+          color: white;
+          margin-right: 5px;
+  
+          &.edit-button {
+            background-color: #4caf50;
+          }
+  
+          &.delete-button {
+            background-color: #f44336;
+          }
+        }
+      }
+    }
+  }
+  
