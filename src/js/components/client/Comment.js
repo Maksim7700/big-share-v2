@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import '../../../css/client/comment.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
+
 
 const Comment = () => {
 
@@ -23,9 +23,7 @@ const Comment = () => {
 
 
 
-    useEffect(() => {
-        AOS.init();
-    })
+    
 
     const [count, setCount] = useState(1);
 
@@ -98,10 +96,10 @@ const Comment = () => {
         <div className="flex-container-comment em-02">
   <div className='client-title Gilroy-700'>We work with the <span>best</span></div>
   <div className='client-text Montserrat-400'>We bring real world solutions to each client's problem through a deep understanding of their market, product, and vision.</div>
-  <div className='test-animation flex-container-comment comment'  data-aos='fade-up'>
+  <div className='test-animation flex-container-comment comment'  >
     {feedback.map((feedback, index) => (
       <div key={index}>
-        <div data-aos='fade-up'>
+        <div >
           <div className='client-data em-02'>
             <div className='client-image'><img alt='client' src={`${feedback.img}`} /></div>
             <div className='client-meta-data Montserrat-500'>

@@ -26,36 +26,17 @@
 }
 
 .technologies {
-    background: #101A24;
+    background-color: #101A24; /* Основний фон */
+    background-image: radial-gradient(circle at 95% 90%, rgba(52, 141, 222, 0.8) 5%, rgba(52, 141, 222, 0) 60%), 
+                      radial-gradient(circle at 75% 95%, rgba(74, 203, 143, 0.8) 5%, rgba(74, 203, 143, 0) 60%);
+    background-repeat: no-repeat;
+    background-size: 450px 450px; /* Повернення до більшого розміру для ширшого покриття */
+    background-position: right 10% bottom 10%, 80% 90%; /* Коригування позиції */
     overflow: hidden;
+    position: relative;
 }
 
 
-.technologies::before,
-.technologies::after {
-    content: '';
-    position: fixed;
-    width: 100%;
-    max-height: 450px;
-    max-width: 450px;
-    height: 100%;
-    border-radius: 50%;
-    filter: blur(130px);
-    z-index: -100;
-     
-}
-
-.technologies::before {
-    background-color: #338DDE; /* Колір другого кружечка */
-    bottom: -2%; /* Відстань від нижнього краю */
-    right: 0%; /* Відстань від лівого краю */
-}
-
-.technologies::after {
-    background-color: #4ACB8F; /* Колір першого кружечка */
-    bottom: 2%; /* Відстань від нижнього краю */
-    right: 18%; /* Відстань від лівого краю, з урахуванням ширини першого кружечка */
-}
 
 .languages {
     margin-top: 100px;

@@ -2,14 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ReactPaginate from 'react-paginate';
 import './blogList.scss'; 
-import { getBlogPostContentsPaginated } from '../../../redux/actions/BlogAction';
+import { getBlogPostContentsPaginated, handleDeleteBlogPostContentById } from '../../../redux/actions/BlogAction';
 
 const BlogPostContentsList = ({blogId}) => {
   const dispatch = useDispatch();
   const blogPostContents = useSelector(state => state.blogPostContents.data);
   const totalPages = useSelector(state => state.blogPostContents.totalPages);
 
-  console.log(blogPostContents);
   const [currentPage, setCurrentPage] = useState(0);
 
   useEffect(() => {
@@ -33,6 +32,7 @@ const BlogPostContentsList = ({blogId}) => {
             <th>Title</th>
             <th>Text</th>
             <th>image</th>
+            <th>actions</th>
           </tr>
         </thead>
         <tbody>
@@ -42,11 +42,14 @@ const BlogPostContentsList = ({blogId}) => {
               <td>{blog.title}</td>
               <td>{blog.text}</td>
               <td>
+                {blog.image && 
               <img
                                 src={`data:${blog.image.type};base64,${blog.image.data}`}
                                 alt={blog.title}
                             />
+                }
               </td>
+              <td><button onClick={() => dispatch(handleDeleteBlogPostContentById(blog.id, blogId))}>delete</button></td>
             </tr>
           ))}
         </tbody>

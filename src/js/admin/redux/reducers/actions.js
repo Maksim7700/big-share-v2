@@ -1,16 +1,34 @@
-import { GET_AUTHORS, GET_BLOGS, GET_BLOG_POST_CONTENT } from "../types";
+import { FAILED, PENDING, SUCCEEDED, UNINITIALIZED } from "../../../constants/RequestedStatus";
+import { FAILED_AUTHORS, FAILED_BLOG, FAILED_BLOGS, RECEIVED_AUTHORS, RECEIVED_BLOG, RECEIVED_BLOG_POST_CONTENTS, RECEIVED_BLOGS, REQUESTED_AUTHORS, REQUESTED_BLOG, REQUESTED_BLOGS } from "../types";
 
 
-const initialState = [];
+const initialAuthors = {
+  data: [],
+  requestStatus: UNINITIALIZED
+};
 
 
 export const authors = (
-    state = initialState,
+    state = initialAuthors,
     action 
 ) => {
     switch (action.type) {
-        case GET_AUTHORS:
-            return action.payload || [];
+        case REQUESTED_AUTHORS:
+          return {
+            ...state,
+            requestStatus: PENDING
+          };
+        case RECEIVED_AUTHORS:
+            return {
+              ...state,
+              requestStatus: SUCCEEDED,
+              data: action.payload || []
+            };
+        case FAILED_AUTHORS:
+          return {
+            ...state,
+            requestStatus: FAILED_AUTHORS
+          }
         default:
             return state;
     }
@@ -18,17 +36,30 @@ export const authors = (
 
 const blogsInitState = {
     data: [],
-    totalPages: 0,
+    totalElements: 0,
+    requestStatus: UNINITIALIZED
   };
   
   export const blogs = (state = blogsInitState, action) => {
     switch (action.type) {
-      case GET_BLOGS:
+      case REQUESTED_BLOGS:
+        return {
+          ...state,
+          requestStatus: PENDING
+        }
+      case RECEIVED_BLOGS:
+        console.log("ACTION PAYLOAD = ", action.payload)
         return {
           ...state,
           data: action.payload,
-          totalPages: action.totalPages,
+          totalElements: action.totalElements,
+          requestStatus: SUCCEEDED
         };
+      case FAILED_BLOGS:
+        return {
+          ...state,
+          requestStatus: FAILED
+        }
       default:
         return state;
     }
@@ -41,12 +72,40 @@ const blogsInitState = {
   
   export const blogPostContents = (state = blogPostContentsInitState, action) => {
     switch (action.type) {
-      case GET_BLOG_POST_CONTENT:
+      case RECEIVED_BLOG_POST_CONTENTS:
         return {
           ...state,
           data: action.payload,
           totalPages: action.totalPages,
         };
+      default:
+        return state;
+    }
+  };
+
+  const blogInitState = {
+    data: [],
+    requestStatus: UNINITIALIZED
+  };
+  
+  export const blog = (state = blogInitState, action) => {
+    switch (action.type) {
+      case REQUESTED_BLOG:
+        return {
+          ...state,
+          requestStatus: PENDING
+        }
+      case RECEIVED_BLOG:
+        return {
+          ...state,
+          data: action.payload,
+          requestStatus: SUCCEEDED
+        };
+      case FAILED_BLOG:
+        return {
+          ...state,
+          requestStatus: FAILED
+        }
       default:
         return state;
     }

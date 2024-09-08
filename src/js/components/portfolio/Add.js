@@ -2,17 +2,17 @@ import '../../../css/portfolio/add.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import {Link as Scroll} from 'react-scroll';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
+
 import { useEffect } from 'react';
 
 const Add = (props) => {
   useEffect(() => {
-    AOS.init();
+    
 })
   return (
     <Scroll to='anketa' spy={true} smooth={true}>
-      <div data-aos='fade-up' className={`portfolio-add-block ${props.className}`}>
+      <div  className={`portfolio-add-block ${props.className}`}>
         <div className='inside-add'>
           <div className='add-text Montserrat-500'>Add my project</div>
           <div className='add-star-image'><div className='add-star-left'><svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">

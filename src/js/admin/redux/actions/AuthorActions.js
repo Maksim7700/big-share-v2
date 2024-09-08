@@ -1,8 +1,8 @@
-import { GET_AUTHORS } from "../types";
+import { RECEIVED_AUTHORS } from "../types";
 import authorService from "../../service/authorService";
 
 export const getAuthors = (authors) => ({
-    type: GET_AUTHORS,
+    type: RECEIVED_AUTHORS,
     payload: authors
 });
 

@@ -7,6 +7,16 @@
   max-height: 816px;
   width: 100%;
 }
+
+.skeleton-title {
+  width: 500px;
+}
+
+.skeleton-text {
+  height: 200px;
+  width: 100%; /* Set this to the desired width */
+}
+
 .under_dev {
   text-align: center;
 }
@@ -26,8 +36,6 @@
 }
 
 .article-title {
-  filter: blur(4px);
-  opacity: 0.05;
   font-size: 24px;
   line-height: 29px;
   color: white;
@@ -35,8 +43,6 @@
 }
 
 .article-text {
-  filter: blur(4px);
-  opacity: 0.05;
   color: #C8C8C8;
   margin-top: 24px;
   max-width: 768px;
@@ -45,8 +51,6 @@
 }
 
 .article-read-me {
-  filter: blur(4px);
-  opacity: 0.05;
   margin-bottom: 64px;
   width: 124px;
   margin-top: 24px;
@@ -61,7 +65,5 @@
 }
 
 .flex-container-right {
-  filter: blur(4px);
-  opacity: 0.05;
   padding: 40px 40px 40px 139px;
 }

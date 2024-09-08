@@ -1,0 +1,164 @@
+@import url('../../../../css/fonts/fonts.css');
+
+
+.blog-content {
+    margin-top: 100px;
+    margin-bottom: 64px;
+
+    .blog-content-title {
+        text-align: center;
+        line-height: 78.4px;
+        font-size: 56px !important;
+        font-family: Gilroy-SemiBold;
+        margin-bottom: 16px;
+
+        span {
+            background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1)) !important; 
+            -webkit-background-clip: text !important;
+            color: transparent !important;
+        }
+    }
+
+    .blog-content-text {
+        font-family: Montserrat-Regular;
+        font-size:  20px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .blog-content-author {
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog-content-main-image {
+        display: flex;
+        justify-content: center;
+        
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.blog-post-content {
+    margin-top: 64px;
+    align-items: center;
+
+    .blog-post-content-title {
+        font-family: Montserrat-SemiBold;
+        font-size: 24px;
+        line-height: 33px;
+        color: #111714;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .blog-post-content-text {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        line-height: 27px;
+        color: #393939;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+
+    .blog-post-content-image {
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.blog-post-content-block {
+    margin-bottom: 64px;
+}
+
+.email-subscribe {
+    margin-top: 150px;
+    background-color: #101A24;
+    height: 197px;
+    width: 100%;
+
+    .email-subscribe-container {
+        display: flex;
+        gap: 50px;
+
+        .email-subsctibe-logo {
+            position: relative;
+            top: -100px;
+        }
+
+        .email-subscribe-inform {
+            align-items: center;
+            display: flex;
+            width: 100%;
+            gap: 40px;
+            .email-subscribe-inform-data {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                .email-subscribe-inform-title {
+                    font-size: 24px;
+                    line-height: 33px;
+                    font-family: Montserrat-SemiBold;
+                    color: #FFFFFF;
+                }
+
+                .email-subscribe-inform-text {
+                    color: #C8C8C8;
+                    font-size: 16px;
+                    line-height: 27px;
+                    font-family: Montserrat-Medium;
+                }
+            }
+
+            .email-subscribe-form {
+                width: 100%;
+                .subsctiption-input {
+                    padding-left: 17x !important;
+                    max-width: 365px;
+                    width: 100%;
+                    background-color: transparent;
+                    border: 1px solid #858A90;
+                    border-radius: 0 !important;
+                    outline: none;
+                    color: #C8C8C8;
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-family: Montserrat-Regular;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+
+                .subsctiption-input:focus {
+                    border: 1px solid #858A90;
+                }
+
+                .subsctiption-form {
+                    display: flex;
+                    gap: 10px;
+                    
+                    button {
+                        background-color: #4ACB8F;
+                        color: white;
+                        border: none;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-family: Montserrat-SemiBold !important;
+                        max-width: 202px;
+                        width: 100%;
+                        height: 48px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

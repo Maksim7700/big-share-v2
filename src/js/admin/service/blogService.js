@@ -19,6 +19,22 @@ class BlogService {
         })
     }
 
+    getBlogsPaginatedView(size) {
+        return axios.get(`${this.hostUrl}/api/view/blogs`, {
+            params: { size },
+        })
+    }
+
+    getLatestBlogs(excludeId, size) {
+        return axios.get(`${this.hostUrl}/api/view/blogs/latest`, {
+            params: { excludeId, size },
+        })
+    }
+
+    getSingleBlogView(blogId) {
+        return axios.get(`${this.hostUrl}/api/view/blogs/${blogId}`)
+    }
+
     getBlogPostContentsPaginated(page, blogId) {
         return axios.get(`${this.hostUrl}/api/blogs/${blogId}`, {
             params: { page, size: 10 },
@@ -31,6 +47,22 @@ class BlogService {
     handleStatus(blogId, status) {
         return axios.put(`${this.hostUrl}/api/blogs`, null, {
             params: { blogId, status },
+            headers: {
+                'Authorization': `Bearer ${this.getToken()}`,
+            }
+        });
+    }
+
+    delete(blogId) {
+        return axios.delete(`${this.hostUrl}/api/blogs/${blogId}`, {
+            headers: {
+                'Authorization': `Bearer ${this.getToken()}`,
+            }
+        });
+    }
+
+    deleteBlogPostContentById(blogPostContentId) {
+        return axios.delete(`${this.hostUrl}/api/blogs/blog-post-content/${blogPostContentId}`, {
             headers: {
                 'Authorization': `Bearer ${this.getToken()}`,
             }

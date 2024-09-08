@@ -9,6 +9,10 @@
     flex-direction: column;
     justify-content: left;
 
+    :hover {
+        cursor: pointer;
+    }
+
     .content-card-title {
         color: #111714;
         font-size: 24px;
@@ -27,4 +31,26 @@
         font-family: Montserrat-Regular;
         border-bottom: 0.87px solid #B9D7FF;
     }
+
+    .content-card-image {
+        position: relative;
+        max-height: 242px;
+        max-width: 464px;
+        height: 100%; 
+        width: 100%; 
+        overflow: hidden;
+        background-color: #f0f0f0;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .content-card-image-skeleton {
+            height: 242px;
+            width: 464px;
+        }
+    }
+    
+    
 }

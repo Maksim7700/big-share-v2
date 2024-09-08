@@ -20,6 +20,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    gap: 80px;
 }
 
 .header-col-3 {

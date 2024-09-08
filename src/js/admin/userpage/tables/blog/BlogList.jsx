@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ReactPaginate from 'react-paginate';
 import './blogList.scss'; 
-import { getBlogsPaginated, handleStatusAction } from '../../../redux/actions/BlogAction';
+import { getBlogsPaginated, handleStatusAction, handleDeleteAction } from '../../../redux/actions/BlogAction';
 import { Link } from 'react-router-dom';
 
 const BlogList = () => {
@@ -22,6 +22,10 @@ const BlogList = () => {
 
   const handleStatus = (blogId, status) => {
     dispatch(handleStatusAction(blogId, status));
+  }
+
+  const handleDelete = (blogId) => {
+    dispatch(handleDeleteAction(blogId));
   }
 
   if (!blogs) return <div>Loading...</div>;
@@ -49,7 +53,10 @@ const BlogList = () => {
               <td>{blog.author.name}</td>
               <td>{new Date(blog.createdAt).toLocaleDateString()}</td>
               <td>{new Date(blog.updatedAt).toLocaleDateString()}</td>
-              <td>{blog.posted ? "Published" : "Unpublished"}{' - '}<button onClick={() => handleStatus(blog.id, !blog.posted)}>{blog.posted ? "Unpublish" : "Publish"}</button></td>
+              <td>{blog.posted ? "Published" : "Unpublished"}{' - '}
+                <button onClick={() => handleStatus(blog.id, !blog.posted)}>{blog.posted ? "Unpublish" : "Publish"}</button>
+                <button onClick={() => handleDelete(blog.id)}>Delete</button>
+              </td>
               <td><Link to={`/dashboard/blog/${blog.id}`}>Edit</Link></td>
             </tr>
           ))}

@@ -32,7 +32,9 @@ const BlogPostContentForm = ({blogId}) => {
     const formPayload = new FormData();
     formPayload.append('title', formData.title);
     formPayload.append('text', formData.text);
-    formPayload.append('image', formData.image);
+    if (formData.image !== null) {
+      formPayload.append('image', formData.image);
+    }
 
     dispatch(saveBlogPostContentAction(blogId, formPayload));
 

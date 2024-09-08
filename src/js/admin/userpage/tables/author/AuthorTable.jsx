@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteAuthorById, getAuthorsAction } from '../../../redux/actions/AuthorActions';
+import { getAuthorsAction } from '../../../redux/actions/AuthorActions';
 import './authorTable.scss';
 
 const AuthorTable = () => {
@@ -19,7 +19,6 @@ const AuthorTable = () => {
 
     const handleDelete = (authorId) => {
         console.log(`Delete author with ID: ${authorId}`);
-        dispatch(deleteAuthorById(authorId));
     };
 
     return (
