@@ -1,0 +1,29 @@
+
+.leader {
+    max-height: 594px;
+    height: 100%;
+    max-width: 381px;
+    width: 100%;
+    background-color: #101A24;
+
+    img {
+        max-height: 520px;
+        height: 100%;
+    }
+
+    .leader-title {
+        padding-top: 16px;
+        font-size: 16px;
+        line-height: 27px;
+        color: #C8C8C8;
+        font-family: Montserrat-Regular;
+    }
+
+    .leader-name {
+        padding-top: 4px;
+        font-size: 24px;
+        line-height: 27px;
+        color: white;
+        font-family: Gilroy-Medium;
+    }
+}

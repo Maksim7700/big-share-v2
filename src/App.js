@@ -11,6 +11,7 @@ import Blog from "./js/admin/userpage/tables/blog/Blog";
 import Footer from "./js/components/footer/footer";
 import BlogPageMenu from "./js/pages/BlogPageMenu";
 import BlogContent from "./js/components/blogPageComponents/blogContent/BlogContent";
+import AboutUsPage from "./js/pages/AboutUsPage";
 
 function App() {
 
@@ -34,6 +35,16 @@ function App() {
             <>
               <Header />
               <BlogPageMenu />
+              <Footer />
+            </>
+          }
+        />
+        <Route 
+          path="/about-us"
+          element={
+            <>
+              <Header />
+              <AboutUsPage />
               <Footer />
             </>
           }

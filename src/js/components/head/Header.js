@@ -33,7 +33,7 @@ const Header = () => {
             <div className='flex-container-header-col-2'>
               <div className='hover-header'><Link to={'/'}>Home</Link></div>
               {/* <div className='hover-header'><Link to={'/portfolio'}>Portfolio</Link></div> */}
-              {/* <div className='hover-header'>We are hiring</div> */}
+              <div className='hover-header'><Link to={'/about-us'} >About us</Link></div>
               <div className='hover-header'><Link to={'/blogs'}>Blog</Link></div>
             </div>
           </div>
