@@ -1,14 +1,22 @@
 .main {
     height: 1024px;
-    width:100%;
-    background-color: black;
+    width: 100%;
+    position: relative; /* Забезпечує розміщення частинок всередині */
+    overflow: hidden; /* Обмежує частинки тільки в межах main */
 }
 
-
+#particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 
 @media (max-width: 1400px) {
     .main {
-        background-position: center
+        background-position: center;
     }
 }
 
