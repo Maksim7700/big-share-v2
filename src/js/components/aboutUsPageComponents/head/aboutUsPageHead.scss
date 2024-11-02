@@ -41,3 +41,33 @@
         }
     }
 }
+
+@media (max-width: 1140px) {
+    .about-us-page-head-container {
+        flex-direction: column-reverse;
+        gap: 36px;
+        padding-bottom: 64px;
+        padding-top: 64px;
+        .about-us-page-head-logo {
+            height: 96px;
+            width: 36px;
+        }
+        .about-us-page-head {
+            .about-us-page-head-title {
+                font-size: 36px;
+                line-height: 48px;
+            }
+
+            .about-us-page-head-description {
+                margin-top: 16px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            .feedback-container {
+                margin-top: 24px;
+                flex-direction: column;
+            }
+        }
+    }
+}

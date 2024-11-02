@@ -19,6 +19,10 @@
 
 .blog {
   background: #101A24;
+  background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
+  background-position: bottom right, bottom right;
+  background-size: 1150px 1150px, 900px 900px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .blog-text {
@@ -51,4 +55,11 @@
   height: 93px;
   width: 100%;
   background: #061019;
+}
+
+
+@media (max-width: 1140px) {
+  .blog {
+      background-size: 600px 600px, 500px 500px;
+  }
 }

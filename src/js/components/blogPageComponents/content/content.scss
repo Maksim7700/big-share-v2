@@ -40,3 +40,23 @@
     font-family: Montserrat-Medium;
     margin-bottom: 100px;
 }
+
+@media (max-width: 1140px) { 
+    .content {
+        padding-top: 64px;
+        padding-bottom: 24px;
+    }
+    
+    .content-grid {
+        row-gap: 32px;
+        margin-bottom: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    }
+
+    .content-see-more {
+        height: 48px;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 64px;
+    }
+}

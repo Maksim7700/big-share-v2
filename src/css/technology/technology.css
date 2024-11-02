@@ -26,14 +26,10 @@
 }
 
 .technologies {
-    background-color: #101A24; /* Основний фон */
-    background-image: radial-gradient(circle at 95% 90%, rgba(52, 141, 222, 0.8) 5%, rgba(52, 141, 222, 0) 60%), 
-                      radial-gradient(circle at 75% 95%, rgba(74, 203, 143, 0.8) 5%, rgba(74, 203, 143, 0) 60%);
-    background-repeat: no-repeat;
-    background-size: 450px 450px; /* Повернення до більшого розміру для ширшого покриття */
-    background-position: right 10% bottom 10%, 80% 90%; /* Коригування позиції */
-    overflow: hidden;
-    position: relative;
+    background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
+    background-position: bottom right, bottom right;
+    background-size: 950px 950px, 800px 800px;
+    background-repeat: no-repeat, no-repeat;
 }
 
 
@@ -45,4 +41,10 @@
 .logo {
     position: absolute;
     margin-top: -100px;
+}
+
+@media (max-width: 1140px) {
+    .technologies {
+        background-size: 600px 600px, 500px 500px;
+    }
 }

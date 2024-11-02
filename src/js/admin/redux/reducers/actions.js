@@ -48,7 +48,6 @@ const blogsInitState = {
           requestStatus: PENDING
         }
       case RECEIVED_BLOGS:
-        console.log("ACTION PAYLOAD = ", action.payload)
         return {
           ...state,
           data: action.payload,

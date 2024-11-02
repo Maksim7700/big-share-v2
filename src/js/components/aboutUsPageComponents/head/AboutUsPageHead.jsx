@@ -15,7 +15,7 @@ const AboutUsPageHead = () => {
                     <Feedback img='./feedback/clutch.svg' title={'Clutch'} rate={'5.0'}/>
                 </div>
             </div>
-            <img src='./about-us-page/logo-about-us-page-head.svg' alt="Logo" loading="lazy" />
+            <img className="about-us-page-head-logo" src='./about-us-page/logo-about-us-page-head.svg' alt="Logo" loading="lazy" />
         </Container>
     )
 }

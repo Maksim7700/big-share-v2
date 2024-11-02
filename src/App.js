@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from './js/main-components/Home';
+import Home from './js/pages/Home';
 import Header from "./js/components/head/Header";
 import LoginPage from "./js/admin/auth/LoginPage";
 import RequireAuth from "./js/RequireAuth";
@@ -12,6 +12,7 @@ import Footer from "./js/components/footer/footer";
 import BlogPageMenu from "./js/pages/BlogPageMenu";
 import BlogContent from "./js/components/blogPageComponents/blogContent/BlogContent";
 import AboutUsPage from "./js/pages/AboutUsPage";
+import CaseStudiesPage from "./js/pages/CaseStudiesPage";
 
 function App() {
 
@@ -49,6 +50,16 @@ function App() {
             </>
           }
         />
+        <Route
+          path="/portfolio"
+          element={
+            <>
+              <Header />
+              <CaseStudiesPage />
+              <Footer />
+            </>
+          }
+          />
         <Route
           path="/blogs/:id"
           element={

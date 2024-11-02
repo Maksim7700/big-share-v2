@@ -12,3 +12,15 @@
         color: #FFFFFF;
     }
 }
+
+@media (max-width: 1140px) {
+    .motivation {
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+        .motivation-text {
+            font-size: 30px;
+            line-height: 39px;
+        }
+    }
+}

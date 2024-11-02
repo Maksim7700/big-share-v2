@@ -22,7 +22,6 @@ export const getBlogsPaginatedView = (size) => {
         });
         return blogService.getBlogsPaginatedView(size)
         .then(res => {
-            console.log('respose=', res)
             dispatch({
                 type: RECEIVED_BLOGS,
                 payload: res.data.content,
@@ -42,7 +41,6 @@ export const getLatestBlogsView = (excludeId, size) => {
             type: REQUESTED_BLOGS
         });
         return blogService.getLatestBlogs(excludeId, size).then(res => {
-            console.log("RESRES=RES=rES=", res)
             dispatch({
                 type: RECEIVED_BLOGS,
                 payload: res.data.content,

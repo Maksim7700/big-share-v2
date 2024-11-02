@@ -6,7 +6,7 @@
     width: 100%;
     background-color: #101A24;
 
-    img {
+    .leader-img {
         max-height: 520px;
         height: 100%;
     }
@@ -25,5 +25,11 @@
         line-height: 27px;
         color: white;
         font-family: Gilroy-Medium;
+    }
+}
+
+@media (max-width: 1140px) {
+    .leader-img {
+        width: 100%;
     }
 }

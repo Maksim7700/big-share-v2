@@ -1,16 +1,7 @@
 .main {
     height: 1024px;
-    background-repeat: no-repeat;
-    background-position: right;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     width:100%;
     background-color: black;
-    background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
-    background-position: bottom right, bottom right;
-    background-size: contain, contain; /* або cover, залежно від ваших потреб */
-    background-repeat: no-repeat, no-repeat;
 }
 
 

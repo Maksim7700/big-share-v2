@@ -8,7 +8,7 @@
     .blog-content-title {
         text-align: center;
         line-height: 78.4px;
-        font-size: 56px !important;
+        font-size: 56px;
         font-family: Gilroy-SemiBold;
         margin-bottom: 16px;
 
@@ -78,3 +78,37 @@
     margin-bottom: 64px;
 }
 
+@media (max-width: 1140px) { 
+    .blog-content {
+        margin-top: 64px;
+        margin-bottom: 0;
+
+        .blog-content-title {
+            font-size: 36px;
+            line-height: 46px;
+        }
+        .blog-content-text {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+
+        .blog-content-author {
+            margin-bottom: 16px;
+        }
+    }
+
+    .blog-post-content {
+        margin-top: 32px;
+
+        .blog-post-content-title {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .blog-post-content-text {
+            font-size: 16px;
+            line-height: 27px;
+        }
+    }
+}

@@ -31,7 +31,7 @@ const AuthorTable = () => {
                 </tr>
             </thead>
             <tbody>
-                {authors.map((author) => (
+                {authors.length > 0 && authors.map((author) => (
                     <tr key={author.id}>
                         <td>{author.name}</td>
                         <td>
