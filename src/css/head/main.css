@@ -1,8 +1,14 @@
 .main {
-    height: 1024px;
+    height: 964px;
     width: 100%;
-    position: relative; /* Забезпечує розміщення частинок всередині */
-    overflow: hidden; /* Обмежує частинки тільки в межах main */
+}
+
+.main {
+    background-color: #101A24;
+    background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
+    background-position: left bottom, right bottom; /* Центруємо по горизонталі та фіксуємо внизу */
+    background-size: 60% 50%, 60% 50%; /* Відображаємо лише половину зображення */
+    background-repeat: no-repeat, no-repeat; /* Забороняємо повторення */
 }
 
 #particles {
@@ -14,15 +20,8 @@
     z-index: -1;
 }
 
-@media (max-width: 1400px) {
-    .main {
-        background-position: center;
-    }
-}
-
 @media (max-width: 1140px) {
     .main {
-        background-image: url('../../../public/head/main_background_mobile.jpg');
-        background-position: right;
+        background-image: none !important;
     }
 }
