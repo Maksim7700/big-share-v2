@@ -7,7 +7,7 @@ const Main = () => {
         <div className="main">
             <Head />
         </div>
-    )
+    );
 }
 
 export default Main;

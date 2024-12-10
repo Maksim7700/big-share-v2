@@ -10,15 +10,65 @@ class BlogService {
         return localStorage.getItem('USER_KEY');
     }
 
-    getAll() {
-        return axios({
-            method: 'GET',
-            url: `${this.hostUrl}/api/blogs`,
+    getBlogsPaginated(page) {
+        return axios.get(`${this.hostUrl}/api/blogs`, {
+            params: { page, size: 10 },
             headers: {
                 'Authorization': `Bearer ${this.getToken()}`,
-            },
+            }
+        })
+    }
+
+    getBlogsPaginatedView(size) {
+        return axios.get(`${this.hostUrl}/api/view/blogs`, {
+            params: { size },
+        })
+    }
+
+    getLatestBlogs(excludeId, size) {
+        return axios.get(`${this.hostUrl}/api/view/blogs/latest`, {
+            params: { excludeId, size },
+        })
+    }
+
+    getSingleBlogView(blogId) {
+        return axios.get(`${this.hostUrl}/api/view/blogs/${blogId}`)
+    }
+
+    getBlogPostContentsPaginated(page, blogId) {
+        return axios.get(`${this.hostUrl}/api/blogs/${blogId}`, {
+            params: { page, size: 10 },
+            headers: {
+                'Authorization': `Bearer ${this.getToken()}`,   
+            }
+        })
+    }
+
+    handleStatus(blogId, status) {
+        return axios.put(`${this.hostUrl}/api/blogs`, null, {
+            params: { blogId, status },
+            headers: {
+                'Authorization': `Bearer ${this.getToken()}`,
+            }
         });
     }
+
+    delete(blogId) {
+        return axios.delete(`${this.hostUrl}/api/blogs/${blogId}`, {
+            headers: {
+                'Authorization': `Bearer ${this.getToken()}`,
+            }
+        });
+    }
+
+    deleteBlogPostContentById(blogPostContentId) {
+        return axios.delete(`${this.hostUrl}/api/blogs/blog-post-content/${blogPostContentId}`, {
+            headers: {
+                'Authorization': `Bearer ${this.getToken()}`,
+            }
+        });
+    }
+    
 
     save(blog) {
         return axios({
@@ -29,6 +79,18 @@ class BlogService {
                 'Content-Type': 'multipart/form-data',
             },
             data: blog,
+        });
+    }
+
+    saveBlogPostContent(blogId, blogPostContent) {
+        return axios({
+            method: 'POST',
+            url: `${this.hostUrl}/api/blogs/${blogId}`,
+            headers: {
+                'Authorization': `Bearer ${this.getToken()}`,
+                'Content-Type': 'multipart/form-data',
+            },
+            data: blogPostContent,
         });
     }
 }

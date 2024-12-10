@@ -1,29 +1,27 @@
 .main {
-    height: 1024px;
-    background-repeat: no-repeat;
-    background-position: right;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width:100%;
-    background-color: black;
-    background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
-    background-position: bottom right, bottom right;
-    background-size: contain, contain; /* або cover, залежно від ваших потреб */
-    background-repeat: no-repeat, no-repeat;
+    height: 964px;
+    width: 100%;
 }
 
+.main {
+    background-color: #101A24;
+    background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
+    background-position: left bottom, right bottom; /* Центруємо по горизонталі та фіксуємо внизу */
+    background-size: 60% 50%, 60% 50%; /* Відображаємо лише половину зображення */
+    background-repeat: no-repeat, no-repeat; /* Забороняємо повторення */
+}
 
-
-@media (max-width: 1400px) {
-    .main {
-        background-position: center
-    }
+#particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 @media (max-width: 1140px) {
     .main {
-        background-image: url('../../../public/head/main_background_mobile.jpg');
-        background-position: right;
+        background-image: none !important;
     }
 }

@@ -1,21 +1,15 @@
 @import url('../../../../css/fonts/fonts.css');
 
-.portfolio-page-main {
+.blog-page-main {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
 
-    span {
-        background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1));
-        -webkit-background-clip: text;
-        color: transparent;
-    }
-
-    .portfolio-page-main-info {
+    .blog-page-main-info {
         max-width: 601px;
 
-        .portfolio-page-main-title {
+        .blog-page-main-title {
             font-family: Gilroy-SemiBold;
             font-size: 56px;
             font-weight: 700;
@@ -23,7 +17,7 @@
             line-height: 72px;
         }
 
-        .portfolio-page-main-description {
+        .blog-page-main-description {
             font-family: Montserrat-Regular;
             color: #C8C8C8;
             font-size: 20px;
@@ -36,17 +30,62 @@
             margin-top: 32px;
         }
 
-        .portfoli-page-main-blog-author {
+        .blog-page-main-blog-author {
             padding-top: 32px;
         }
-        #blog-photo img {
-            max-height: 368px;
-            max-width: 705px;
+
+    }
+    
+    .blog-page-image {
+        position: relative;
+        max-height: 370px;
+        max-width: 705px;
+        height: 100%; 
+        width: 100%; 
+        overflow: hidden;
+
+        img {
             height: 100%;
             width: 100%;
         }
-    }
-    
 
-        
+        .blog-page-image-skeleton {
+            max-height: 370px;
+            max-width: 705px;
+            height: 100%; 
+            width: 100%;    
+        }
+    }    
+}
+
+@media (max-width: 1140px) {  
+    .blog-page-main {
+        flex-direction: column-reverse;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        gap: 24px;
+
+        .blog-page-image {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .blog-page-main-info {
+            max-width: 100%;
+
+            .blog-page-main-title {
+                font-size: 36px;
+                line-height: 46px;
+            }
+
+            .blog-page-main-description {
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            .blog-page-main-blog-author {
+                padding-top: 24px;
+            }
+        }
+    }
 }

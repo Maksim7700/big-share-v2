@@ -5,7 +5,7 @@
 }
 
 .text-head-1 {
-    max-width: 851px;
+    text-align: center;
     color:white;
     font-size: 72px;
     padding-top: 267px;
@@ -23,16 +23,22 @@
 }
 
 .text-head-2 {
+    display: flex;
+    justify-content: center;
     line-height: 30px;
-    margin-top: 24px;
-    max-width: 734px;
-    height: 90px;
+    margin-top: 13px;
     font-size: 18px;
     color: #F8F8F8;
 }
+.text-head-2 div {
+    max-width: 922px;
+    text-align: center;
+}
 
 .text-head-3 {
-    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
 }
 
 .get-started-button {

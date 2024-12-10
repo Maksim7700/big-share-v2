@@ -2,28 +2,28 @@ import '../../../css/footer/footer.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import Container from '../../UI/Containter';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
+
 import { useEffect } from 'react';
 
 // 2
 const Footer = () => {
 
   useEffect(() => {
-    AOS.init();
+    
 })
   return (
-    <div className='footer' data-aos='fade-up'>
+    <div className='footer' >
       <Container>
         <div className='flex-container-footer'>
           <div className='footer-navigation'>
-            <div className='footer-bigshare'><img alt='bigshare' src='./head/big_share_header_logo.svg'/></div>
-            {/* <div className='flex-container-navigation-footer Montserrat-500'>
-              <div className='hover-footer'>Home</div>
-              <div className='hover-footer'>Portfolio</div>
-              <div className='hover-footer'>We are hiring</div>
-              <div className='hover-footer'>Blog</div>
-            </div> */}
+            <div className='footer-bigshare'><div className='header-logo'></div></div>
+            {/* <div className='flex-container-navigation-footer Montserrat-500'> */}
+              {/* <div className='hover-footer'>Home</div> */}
+              {/* <div className='hover-footer'>Portfolio</div> */}
+              {/* <div className='hover-footer'>We are hiring</div> */}
+              {/* <div className='hover-footer'>Blog</div> */}
+            {/* </div> */}
             <div className='flex-container-social'>
             <div className='linkedin'><a href='https://www.linkedin.com/company/big-share/about/?viewAsMember=true' target='_black'>
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">

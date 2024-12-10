@@ -1,0 +1,43 @@
+import Container from "../../../UI/Containter";
+import Develop from "../../service/Development/Develop";
+import '../../../../css/laptop.css';
+import '../../../../css/service/service.css'
+
+const TheBest = () => {
+    return <Container>
+            <div className="flex-containter-service em-02" >
+                <div className="service-1 Gilroy-700">Why are we <span>the best</span>?</div>
+                <div className="service-2"><div className="service-2-text em-02 Montserrat-400">Innowise Group can cover the entire software development process, from product vision discussion to applications design and software enhancement. Our multi-skilled experienced team facilitates businesses worldwide on their way to digital transformation and helps companies take full advantage of IT innovations.</div></div>
+                <div className="service-3">
+                    <div className="flex-containter-service-develop">
+                        <Develop className='develop-2'
+                            imageNumber='2'
+                            title='Branding & Logo Design'
+                            text='Just started a business and need a lift? Or just a little refresher? Can do, just hit us up! Research, logos, fonts, colors, and even something if you need it.'
+                            >
+                        </Develop>
+                        <Develop className='develop-2 margin-left-24'
+                            imageNumber='3'
+                            title='Web & Mobile Design'
+                            text='Create the best user experience. Your users will appreciate fast and clear navigation, easy transitions, seamless flow, and beautiful looks. Our approach to design is to solve user and business problems and make the experience of using your product delightful.'>
+                        </Develop>
+                    </div>
+                    <div className="flex-containter-service-develop margin-bottom-204">
+                        <Develop className='develop-2'
+                            imageNumber='4'
+                            title='Web Development'
+                            text='Get top-notch talent that will do its best to create a great web application. All of our engineers follow coding standards and our internal rules to write clean code. We will make sure that the delivered product meets your expectations and needs of users.'
+                            >
+                        </Develop>
+                        <Develop className='develop-2 margin-left-24'
+                            imageNumber='5'
+                            title='Mobile Development'
+                            text='Deliver speed, flexibility and mobility with our bespoke app development services. We ensure your apps meet users wherever they are, and work across any range of device types.'>
+                        </Develop>
+                    </div>
+                </div>
+            </div>
+        </Container>
+}
+
+export default TheBest;

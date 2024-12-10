@@ -5,8 +5,8 @@ import { useState } from 'react';
 import FormSend from './FormSend';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
+
 import { useEffect } from 'react';
 
 const serviceTitle = 'What service are you interested in?';
@@ -374,16 +374,16 @@ const form = () => {
   }
 
   useEffect(() => {
-    AOS.init();
+    
 })
 
   return(
     <div>
       <Container>
-        <div className='flex-container-anketa em-02' data-aos='fade-up'>
+        <div className='flex-container-anketa em-02' >
           <div id='anketa' className='anketa-title Gilroy-700'>Let's <span>get started</span>. Tell us how we can help</div>
           <div className='anketa-text Montserrat-400'>Let’s turn your idea into digital reality! Just answer our interactive questions and we will draft the best product offer for you. We provide free estimation and IT consulting for our clients. So don’t hesitate to contact us.</div>
-          <div data-aos='fade-up' className={`anketa-question ${endForm ? 'margin-bottom-100' : ''}`}>
+          <div  className={`anketa-question ${endForm ? 'margin-bottom-100' : ''}`}>
             <div  className={`anketa-question-text Gilroy-500`}>{title()}</div>
             </div>
             {!endForm && <><div className={`anket-question-style ${isForm ? 'anketa-question-blog-no' : 'anketa-question-blog'}`}>

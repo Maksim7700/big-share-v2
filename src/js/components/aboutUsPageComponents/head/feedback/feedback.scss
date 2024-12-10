@@ -1,0 +1,23 @@
+
+.feedback {
+    max-width: 271px;
+    width: 100%;
+    height: 88px;
+    background-color: #F8FBFF;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+    .feedback-rating {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        .stars {
+            display: flex;
+            gap: 4px;
+        }
+    }
+}

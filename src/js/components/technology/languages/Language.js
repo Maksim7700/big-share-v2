@@ -2,16 +2,8 @@ import { useState } from 'react';
 import '../../../../css/technology/languages/language.css';
 import Box from './Box';
 import '../../../../css/laptop.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
-
 
 const Language = () => {
-
-    useEffect(() => {
-        AOS.init();
-    })
 
     const [isDesign, setIsDesign] = useState(true);
     const [isWeb, setIsWeb] = useState(false);
@@ -36,7 +28,7 @@ const Language = () => {
     }
 
     return (
-        <div className="flex-container-language em-02" data-aos='fade-up'>
+        <div className="flex-container-language em-02" >
             <div className='scrolling-wrapper'>
                 <div className='flex-containter-buttons Montserrat-500'>
                     <button  className={`Montserrat-500 ${isDesign ? 'green' : ''} tech-button-hover`} onClick={setDesign}><span>Design</span></button>

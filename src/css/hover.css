@@ -8,14 +8,13 @@
     cursor: pointer;
   }
 
-
-  .hover-header:hover {
-    cursor: pointer;
-    color: #338DDE;
-  }
-
   .hover-header a{
     color: inherit;
+    color: white;
+  }
+
+  .hover-header:hover a {
+    color: #338DDE; /* Ensures the link inside the hovered div gets the color change */
   }
 
   /* ----Head---- */

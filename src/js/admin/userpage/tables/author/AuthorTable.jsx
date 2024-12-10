@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteAuthorById, getAuthorsAction } from '../../../redux/actions/AuthorActions';
+import { getAuthorsAction } from '../../../redux/actions/AuthorActions';
 import './authorTable.scss';
 
 const AuthorTable = () => {
@@ -8,7 +8,6 @@ const AuthorTable = () => {
     const authors = useSelector((state) => state.authors);
 
     useEffect(() => {
-        console.log('Fetching authors...');
         dispatch(getAuthorsAction());
     }, [dispatch]);
 
@@ -20,7 +19,6 @@ const AuthorTable = () => {
 
     const handleDelete = (authorId) => {
         console.log(`Delete author with ID: ${authorId}`);
-        dispatch(deleteAuthorById(authorId));
     };
 
     return (
@@ -33,7 +31,7 @@ const AuthorTable = () => {
                 </tr>
             </thead>
             <tbody>
-                {authors.map((author) => (
+                {authors.length > 0 && authors.map((author) => (
                     <tr key={author.id}>
                         <td>{author.name}</td>
                         <td>

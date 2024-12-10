@@ -12,4 +12,13 @@
     .container {
         margin: 0 16px !important;
     }
+
+    .container {
+        margin: 0 32px !important;
+    }
+}
+
+.custom-container {
+    max-width: 1000px;
+    margin: 0 auto;
 }

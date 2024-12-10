@@ -1,0 +1,73 @@
+
+.about-us-page-head-container {
+    display: flex;
+    gap: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+    .about-us-page-head {
+
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        
+        .about-us-page-head-title {
+            font-size: 56px;
+            line-height: 72px;
+            font-family: Gilroy-SemiBold;
+            color: #111714;
+            letter-spacing: 0.02em;
+
+            span {
+                background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1));
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+        }
+
+        .about-us-page-head-description {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            font-family: Montserrat-Regular;
+            margin-top: 24px;
+
+        }
+
+        .feedback-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 32px;
+        }
+    }
+}
+
+@media (max-width: 1140px) {
+    .about-us-page-head-container {
+        flex-direction: column-reverse;
+        gap: 36px;
+        padding-bottom: 64px;
+        padding-top: 64px;
+        .about-us-page-head-logo {
+            height: 96px;
+            width: 36px;
+        }
+        .about-us-page-head {
+            .about-us-page-head-title {
+                font-size: 36px;
+                line-height: 48px;
+            }
+
+            .about-us-page-head-description {
+                margin-top: 16px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            .feedback-container {
+                margin-top: 24px;
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+@import url('../../../../css/fonts/fonts.css');
+
+
+.blog-content {
+    margin-top: 100px;
+    margin-bottom: 64px;
+
+    .blog-content-title {
+        text-align: center;
+        line-height: 78.4px;
+        font-size: 56px;
+        font-family: Gilroy-SemiBold;
+        margin-bottom: 16px;
+
+        span {
+            background: linear-gradient(90deg, rgba(74, 203, 143, 1), rgba(51, 141, 222, 1)) !important; 
+            -webkit-background-clip: text !important;
+            color: transparent !important;
+        }
+    }
+
+    .blog-content-text {
+        font-family: Montserrat-Regular;
+        font-size:  20px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .blog-content-author {
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog-content-main-image {
+        display: flex;
+        justify-content: center;
+        
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.blog-post-content {
+    margin-top: 64px;
+    align-items: center;
+
+    .blog-post-content-title {
+        font-family: Montserrat-SemiBold;
+        font-size: 24px;
+        line-height: 33px;
+        color: #111714;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .blog-post-content-text {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        line-height: 27px;
+        color: #393939;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+
+    .blog-post-content-image {
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.blog-post-content-block {
+    margin-bottom: 64px;
+}
+
+@media (max-width: 1140px) { 
+    .blog-content {
+        margin-top: 64px;
+        margin-bottom: 0;
+
+        .blog-content-title {
+            font-size: 36px;
+            line-height: 46px;
+        }
+        .blog-content-text {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+
+        .blog-content-author {
+            margin-bottom: 16px;
+        }
+    }
+
+    .blog-post-content {
+        margin-top: 32px;
+
+        .blog-post-content-title {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .blog-post-content-text {
+            font-size: 16px;
+            line-height: 27px;
+        }
+    }
+}

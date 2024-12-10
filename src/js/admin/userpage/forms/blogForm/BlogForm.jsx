@@ -71,7 +71,7 @@ const BlogForm = () => {
                         required
                     >
                         <option value="">Select an author</option>
-                        {authors.map((author) => (
+                        {authors.length > 0 && authors.map((author) => (
                             <option key={author.id} value={author.id}>
                                 {author.name}
                             </option>
