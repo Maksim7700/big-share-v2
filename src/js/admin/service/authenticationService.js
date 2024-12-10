@@ -4,8 +4,8 @@ const getToken=()=>{
     return localStorage.getItem('USER_KEY');
 }
 
-export const hostUrl = "http://localhost:8083";
-// export const hostUrl = "http://ec2-13-60-43-139.eu-north-1.compute.amazonaws.com:8080";
+// export const hostUrl = "http://localhost:8083";
+export const hostUrl = "http://ec2-51-20-3-143.eu-north-1.compute.amazonaws.com:8080";
 
 export const userLogin=(authRequest)=>{
     return axios({
