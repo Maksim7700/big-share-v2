@@ -6,7 +6,7 @@ import './authorTable.scss';
 const AuthorTable = () => {
     const dispatch = useDispatch();
     const authors = useSelector((state) => state.authors);
-
+    console.log(authors);
     useEffect(() => {
         dispatch(getAuthorsAction());
     }, [dispatch]);
@@ -31,7 +31,7 @@ const AuthorTable = () => {
                 </tr>
             </thead>
             <tbody>
-                {authors.length > 0 && authors.map((author) => (
+                {authors.data.length > 0 && authors.data.map((author) => (
                     <tr key={author.id}>
                         <td>{author.name}</td>
                         <td>

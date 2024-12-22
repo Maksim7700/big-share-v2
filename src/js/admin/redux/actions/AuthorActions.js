@@ -32,9 +32,11 @@ export const deleteAuthorById = (id) => {
 }
 
 export const saveAuthorAction = (author) => {
-    return (dispatch) => {
-        authorService.saveAuthor(author).then(() => {
-            dispatch(getAuthorsAction());
-        });
+    return async(dispatch) => {
+        try {
+            await authorService.saveAuthor(author);
+        } catch (error) {
+            console.error("Error saving author:", error);
+        }
     }
 }
