@@ -100,9 +100,7 @@ export const handleDeleteBlogPostContentById = (blogPostContentId, blogId) => {
 
 export const saveBlogAction = (blog) => {
     return (dispatch) => {
-        return blogService.save(blog).then(() => {
-        dispatch(getBlogsPaginated(0));
-    });
+        return blogService.save(blog);
     }
 }
 
@@ -122,8 +120,6 @@ export const getBlogPostContentsPaginated = (page, blogId) => {
 
 export const saveBlogPostContentAction = (blogId, blogPostContent) => {
     return (dispatch) => {
-        return blogService.saveBlogPostContent(blogId, blogPostContent).then(() => {
-            dispatch(getBlogPostContentsPaginated(0, blogId));
-        })
+        return blogService.saveBlogPostContent(blogId, blogPostContent);
     }
 }

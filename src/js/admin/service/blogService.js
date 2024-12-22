@@ -2,8 +2,8 @@ import axios from 'axios';
 
 class BlogService {
     constructor() {
-        this.hostUrl = "http://localhost:8083";
-        // this.hostUrl = "http://ec2-13-60-43-139.eu-north-1.compute.amazonaws.com:8080";
+        // this.hostUrl = "http://localhost:8083";
+        this.hostUrl = "https://mertioyr0d.execute-api.eu-north-1.amazonaws.com/prod";
     }
 
     getToken() {
@@ -70,29 +70,82 @@ class BlogService {
     }
     
 
-    save(blog) {
-        return axios({
-            method: 'POST',
-            url: `${this.hostUrl}/api/blogs`,
-            headers: {
-                'Authorization': `Bearer ${this.getToken()}`,
-                'Content-Type': 'multipart/form-data',
-            },
-            data: blog,
-        });
-    }
+    save = (formData) => {
+        const file = formData.image;
+    
+        if (!file) {
+            console.error("No file selected!");
+            return;
+        }
+    
+        const reader = new FileReader();
+        reader.onload = () => {
+            const base64Image = reader.result.split(',')[1]; // Отримуємо Base64 без префіксу
+    
+            const requestPayload = {
+                title: formData.title,
+                content: formData.content,
+                image: base64Image,
+                authorId: formData.authorId,
+                fileName: formData.image.name,
+                type: formData.image.type,
+            };
+    
+            return axios.post(`${this.hostUrl}/api/blogs`, requestPayload, {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
+                },
+            });
+        };
+    
+        reader.readAsDataURL(file);
+    };
+    
 
-    saveBlogPostContent(blogId, blogPostContent) {
-        return axios({
-            method: 'POST',
-            url: `${this.hostUrl}/api/blogs/${blogId}`,
-            headers: {
-                'Authorization': `Bearer ${this.getToken()}`,
-                'Content-Type': 'multipart/form-data',
-            },
-            data: blogPostContent,
-        });
-    }
+    saveBlogPostContent = (blogId, formData) => {
+        const file = formData.image;
+    
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = () => {
+                const base64Image = reader.result.split(',')[1]; // Отримуємо Base64 без префіксу
+        
+                const requestPayload = {
+                    title: formData.title,
+                    text: formData.text,
+                    image: base64Image,
+                    fileName: formData.image.name,
+                    type: formData.image.type,
+                };
+        
+                // Відправка POST запиту
+                return axios.post(`${this.hostUrl}/api/blogs/${blogId}`, requestPayload, {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
+                    },
+                });
+            };
+        reader.readAsDataURL(file);
+        } else {
+            const requestPayload = {
+                title: formData.title,
+                text: formData.text,
+            };
+    
+            // Відправка POST запиту
+            return axios.post(`${this.hostUrl}/api/blogs/${blogId}`, requestPayload, {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
+                },
+            });
+        }
+    
+        // Читання файлу як Data URL (Base64)
+    };
+    
 }
 
 const blogService = new BlogService();

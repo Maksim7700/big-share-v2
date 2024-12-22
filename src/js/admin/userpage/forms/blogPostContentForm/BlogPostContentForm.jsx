@@ -28,15 +28,8 @@ const BlogPostContentForm = ({blogId}) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    const formPayload = new FormData();
-    formPayload.append('title', formData.title);
-    formPayload.append('text', formData.text);
-    if (formData.image !== null) {
-      formPayload.append('image', formData.image);
-    }
-
-    dispatch(saveBlogPostContentAction(blogId, formPayload));
+    console.log(formData)
+    dispatch(saveBlogPostContentAction(blogId, formData));
 
     setFormData({
         title: '',
