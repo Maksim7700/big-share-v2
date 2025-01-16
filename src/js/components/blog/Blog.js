@@ -49,7 +49,7 @@ const Blog = () => {
               })
             }
           </div>
-          <div className='blog-view Montserrat-500' onClick={() => navigate('/blogs')} >View all blogs</div>
+          <div className='blog-view Montserrat-500' onClick={() => navigate('/blog')} >View all blogs</div>
         </div>
       </Container>
     </div>
