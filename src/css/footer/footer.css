@@ -50,8 +50,7 @@ hr {
 .behance {
   height: 40px;
   width: 40px;
-  margin-right: 16px;}
-
+}
 .instagram {
   height: 40px;
   width: 40px;
@@ -66,6 +65,7 @@ hr {
 }
 
 .location-street {
+  transition: 0.3s;
   margin-top: 2px;
   padding-left: 8px;
   color: #C8C8C8;
@@ -93,6 +93,7 @@ hr {
 }
 
 .email {
+  transition: 0.3s;
   color: #C8C8C8;
   margin-top: 2px;
   padding-left: 8px;
@@ -102,6 +103,11 @@ hr {
   display: flex;
 }
 
+.location-inside svg path {
+  transition: 0.3s;
+}
+
 .term-privacy {
+  transition: 0.3s;
   color: #C8C8C8;
 }

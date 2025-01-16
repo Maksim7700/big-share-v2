@@ -45,11 +45,12 @@
 }
 
 .blog-post-content {
-    margin-top: 64px;
+    margin-top: 32px;
     align-items: center;
 
     .blog-post-content-title {
-        font-family: Montserrat-SemiBold;
+        font-weight: 500;
+        font-family: Montserrat-Medium;
         font-size: 24px;
         line-height: 33px;
         color: #111714;
@@ -88,6 +89,7 @@
             line-height: 46px;
         }
         .blog-content-text {
+            color: #393939;
             font-size: 16px;
             line-height: 24px;
             margin-bottom: 16px;

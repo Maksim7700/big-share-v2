@@ -9,15 +9,22 @@
     align-items: center;
     justify-content: center;
 
-
-    .feedback-rating {
+    .feedback-details {
+        font-family: Montserrat-Medium;
+        color: #0E100E;
         display: flex;
-        gap: 8px;
-        align-items: center;
+        flex-direction: column;
+        gap: 2px;
 
-        .stars {
+        .feedback-rating {
             display: flex;
-            gap: 4px;
+            gap: 8px;
+            align-items: center;
+
+            .stars {
+                display: flex;
+                gap: 4px;
+            }
         }
     }
 }

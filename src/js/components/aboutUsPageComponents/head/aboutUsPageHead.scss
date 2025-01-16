@@ -12,6 +12,8 @@
         flex-direction: column;
         
         .about-us-page-head-title {
+            margin-top: 0;
+            margin-bottom: 0;
             font-size: 56px;
             line-height: 72px;
             font-family: Gilroy-SemiBold;
@@ -26,6 +28,7 @@
         }
 
         .about-us-page-head-description {
+            color: #393939;
             font-size: 16px;
             line-height: 24px;
             letter-spacing: 0.02em;

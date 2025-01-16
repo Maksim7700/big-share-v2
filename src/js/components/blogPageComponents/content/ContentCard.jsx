@@ -4,6 +4,7 @@ import 'react-loading-skeleton/dist/skeleton.css';
 import './contentCard.scss';
 import { PENDING } from '../../../constants/RequestedStatus';
 import { useNavigate } from 'react-router-dom';
+import { truncateText } from '../../../utils/helper';
 
 export const ContentCard = ({blog, requestStatus}) => {
     const navigate = useNavigate();
@@ -23,8 +24,8 @@ export const ContentCard = ({blog, requestStatus}) => {
         <>
             <div className='content-card' onClick={() => {navigate("/blogs/" + blog.id); }}>
                 <div className='content-card-image'><img src={`${blog.imageUrl !== null ? `data:${blog.imageUrl.type};base64,${blog.imageUrl.data}` : "/content-image.svg"}  `} alt='Content' /></div>
-                <div className='content-card-title'>{blog.title.substring(0, 30)}</div>
-                <div className='content-card-description'>{blog.content.substring(0, 60)}{'...'}</div>
+                <div className='content-card-title'>{truncateText(blog.title, 30)}</div>
+                <div className='content-card-description'>{truncateText(blog.content, 100)}</div>
                 <div className='content-card-author'><BlogAuthor author={blog.author} createdAt={blog.createdAt}/></div>
             </div>
         </>

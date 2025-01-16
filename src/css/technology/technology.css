@@ -4,6 +4,8 @@
 }
 
 .technology-title {
+    margin-bottom: 0;
+    margin-bottom: 0;
     max-width: 1096px;
     line-height: 130%;
     padding-top: 200px;
@@ -23,13 +25,6 @@
     color: #C8C8C8;
     margin-top: 24px;
     line-height: 24px;
-}
-
-.technologies {
-    background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
-    background-position: bottom right, bottom right;
-    background-size: 950px 950px, 800px 800px;
-    background-repeat: no-repeat, no-repeat;
 }
 
 

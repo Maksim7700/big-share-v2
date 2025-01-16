@@ -13,11 +13,13 @@ import BlogPageMenu from "./js/pages/BlogPageMenu";
 import BlogContent from "./js/components/blogPageComponents/blogContent/BlogContent";
 import AboutUsPage from "./js/pages/AboutUsPage";
 import CaseStudiesPage from "./js/pages/CaseStudiesPage";
+import ScrollToTop from "./js/pages/ScrollToTop";
 
 function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         {/* Головні сторінки з Header і Footer */}
         <Route
@@ -51,7 +53,7 @@ function App() {
           }
         />
         <Route
-          path="/portfolio"
+          path="/portfolio-projects"
           element={
             <>
               <Header />

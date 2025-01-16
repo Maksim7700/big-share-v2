@@ -2,46 +2,50 @@ import Container from "../../UI/Containter";
 import '../../../css/service/service.css'
 import Develop from "./Development/Develop";
 import '../../../css/laptop.css';
+import MouseDecor from "../../svgs/MouseDecor";
 
 const Service = () => {
 
     return (
         <Container>
+                <div className="mid-logo">
+                    <MouseDecor />
+                </div>
             <div className="flex-containter-service em-02" >
-                <div className="service-1 Gilroy-700">At your <span>service,</span> every step of the way</div>
-                <div className="service-2"><div className="service-2-text em-02 Montserrat-400">Innowise Group can cover the entire software development process, from product vision discussion to applications design and software enhancement. Our multi-skilled experienced team facilitates businesses worldwide on their way to digital transformation and helps companies take full advantage of IT innovations.</div></div>
+                <h2 className="service-1 Gilroy-700">At your <span>service,</span> every step of the process</h2>
+                <div className="service-2"><div className="service-2-text em-02 Montserrat-400">BigShare offers comprehensive software development services, covering everything from product vision discussions to application design and software enhancement. Our skilled, experienced team supports businesses globally in their digital transformation journey, helping companies fully leverage IT innovations</div></div>
                 <div className="service-3">
                     <div>
                         <Develop className='develop-1'
                             imageNumber='1'
                             title='Ecommerce Development'
-                            text='Today’s business world is competitive, and while it’s relatively easy to get started, it’s very hard to rise to the top. We can help. Set your mind at ease by taking this opportunity to learn more about how Big Share can turn your ecommerce project into an income-generating, sales-making machine.'>
+                            text="In today's competitive business environment, it's easy to get started, but reaching the top is challenging. We are here to help. Take the opportunity to learn how Big Share can transform your ecommerce project into a successful and profitable sales-driving machine">
                         </Develop>
                     </div>
                     <div className="flex-containter-service-develop">
                         <Develop className='develop-2'
                             imageNumber='2'
                             title='Branding & Logo Design'
-                            text='Just started a business and need a lift? Or just a little refresher? Can do, just hit us up! Research, logos, fonts, colors, and even something if you need it.'
+                            text='Started a business and need a boost, or perhaps a quick refresh? We’ve got you covered! From research to logos, fonts, colors, and anything else you might need'
                             >
                         </Develop>
                         <Develop className='develop-2 margin-left-24'
                             imageNumber='3'
                             title='Web & Mobile Design'
-                            text='Create the best user experience. Your users will appreciate fast and clear navigation, easy transitions, seamless flow, and beautiful looks. Our approach to design is to solve user and business problems and make the experience of using your product delightful.'>
+                            text='Deliver the best user experience. Your users will love fast, intuitive navigation, smooth transitions, seamless flow, and a visually appealing design. Our design approach focuses on solving both user and business challenges while making the overall experience with your product enjoyable and effortless'>
                         </Develop>
                     </div>
                     <div className="flex-containter-service-develop margin-bottom-204">
                         <Develop className='develop-2'
                             imageNumber='4'
                             title='Web Development'
-                            text='Get top-notch talent that will do its best to create a great web application. All of our engineers follow coding standards and our internal rules to write clean code. We will make sure that the delivered product meets your expectations and needs of users.'
+                            text='Get access to top-tier talent dedicated to creating exceptional web applications. Our engineers adhere to strict coding standards and internal guidelines to ensure clean, efficient code. We guarantee that the final product will meet both your expectations and the needs of your users'
                             >
                         </Develop>
                         <Develop className='develop-2 margin-left-24'
                             imageNumber='5'
                             title='Mobile Development'
-                            text='Deliver speed, flexibility and mobility with our bespoke app development services. We ensure your apps meet users wherever they are, and work across any range of device types.'>
+                            text='Provide speed, flexibility, and mobility with our custom app development services. We ensure your apps reach users wherever they are and function seamlessly across all device types'>
                         </Develop>
                     </div>
                 </div>

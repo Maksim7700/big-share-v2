@@ -7,8 +7,10 @@ const Motivation = () => {
             <div className="motivation">
                 <Container>
                     <div className="motivation-text">
-                        We are unstoppable in our quest to become the world's best agency by providing top-notch services<br /><br />
-                        Get ready to be amazed by the quality and results of every project we deliver. We are making a name not only for ourselves but also for the brands we work with
+                        <i>
+                            We are relentless in our pursuit of becoming the world’s best agency by delivering top-tier services.<br /><br />
+                            Prepare to be amazed by the quality and results of every project we complete. We’re building a reputation not only for ourselves but also for the brands we collaborate with
+                        </i>
                     </div>
                 </Container>
             </div>

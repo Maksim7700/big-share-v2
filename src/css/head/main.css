@@ -1,14 +1,9 @@
 .main {
-    height: 964px;
     width: 100%;
 }
 
 .main {
     background-color: #101A24;
-    background-image: url('../../../public/head/Ellipse-5.svg'), url('../../../public/head/Ellipse-6.svg');
-    background-position: left bottom, right bottom; /* Центруємо по горизонталі та фіксуємо внизу */
-    background-size: 60% 50%, 60% 50%; /* Відображаємо лише половину зображення */
-    background-repeat: no-repeat, no-repeat; /* Забороняємо повторення */
 }
 
 #particles {

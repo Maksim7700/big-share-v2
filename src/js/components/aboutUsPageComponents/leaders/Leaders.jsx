@@ -6,15 +6,15 @@ const Leaders = () => {
     return (
         <div className="leaders">
             <Container>
-                <div className="leaders-title">Meet the <span>leaders</span></div>
+                <div className="leaders-title">Meet our <span>Leadership</span></div>
                 <div className="leaders-info">
                     <div className="leaders-container">
-                        <Leader src={'./leaders/andrii.jpg'} name="Andrii Kuziv" title={"Co-Founder, UX/UI Designer"}/>
-                        <Leader src={'./leaders/maksym.jpg'} name="Maksym Kuziv" title={"Co-Founder, Software Engineer"}/>
+                        <Leader src={'./leaders/andrii.jpg'} name="Andrii Kuziv" title={"Co-Founder, UX/UI Designer"} link={'https://www.linkedin.com/in/andrii-kuziv-0478a8181/'}/>
+                        <Leader src={'./leaders/maksym.jpg'} name="Maksym Kuziv" title={"Co-Founder, Software Engineer"} link={'https://www.linkedin.com/in/maksym-kuziv-463a59184/'}/>
                     </div>
                     <div className="leader-description">
                         <i>
-                            We are unstoppable in our quest to become the world's best agency by providing top-notch services <br /><br />Get ready to be amazed by the quality and results of every project we deliver. We are 
+                            With years of experience and a deep passion for technology, we steer our team to deliver high-quality digital solutions <br /><br />Vision and expertise are key to fostering growth for both our company and the businesses we serve, ensuring excellence in all our collaborations
                         </i>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ function Block({ title, logo, text, className }) {
           <Title title={title} text={text} />
         </div>
         <div className='block-logo'>
-          <img className={`portfolio-logo-${logo}`} alt='portfolio' />
+          <img className={`portfolio-logo-${logo}`} alt={`Logo: ${logo}`} />
         </div>
       </div>
     </div>

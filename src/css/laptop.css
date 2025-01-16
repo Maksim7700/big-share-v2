@@ -9,30 +9,24 @@
     padding-bottom: 493px !important;
   }
 }
-@media only screen and (max-width: 1066px) {
+@media only screen and (max-width: 1140px) {
   .comment {
-    padding-top: 145px;
+    padding-top: 0px;
   }
 }
-@media only screen and (max-width: 718px) {
-  .technologies::before {
-    background-color: #338DDE; /* Колір другого кружечка */
-    bottom: -20% !important; /* Відстань від нижнього краю */
-    right: 0%; /* Відстань від лівого краю */
-}
-
-.technologies::after {
-    background-color: #4ACB8F; /* Колір першого кружечка */
-    bottom: -20% !important; /* Відстань від нижнього краю */
-    right: 0; /* Відстань від лівого краю, з урахуванням ширини першого кружечка */
-}
+@media only screen and (max-width: 1090px) {
   .comment {
-    padding-top: 330px;
+    padding-top: 100px;
   }
 }
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 734px) {
   .comment {
-    padding-top: 650px;
+    padding-top: 290px;
+  }
+}
+@media only screen and (max-width: 556px) {
+  .comment {
+    padding-top: 630px;
   }
 }
 
@@ -42,7 +36,10 @@
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 378px) {
+  .flex-grid-direction {
+    margin-top: 220px !important;
+  }
   .comment {
     padding-top: 1700px;
   }
@@ -52,7 +49,7 @@
     margin-top: 224px !important;
   }
   .comment {
-    padding-top: 1742px !important;
+    padding-top: 1702px !important;
   }
 }
 
@@ -63,12 +60,12 @@
     height: auto !important;
   }
   .contact-us-button {
-    width: 162px !important;
+    width: 130px !important;
     height: 40px !important;
     padding: 0 !important;
   }
   .text-head-1 {
-    padding-top: 131px !important;
+    padding-top: 64px !important;
     font-size: 32px !important;
     line-height: 46px !important;
   }
@@ -87,9 +84,11 @@
     max-width: 100% !important;
   }
   .text-head-3 {
-    padding-bottom: 64px !important;
     margin-top: 24px !important;
     width: 100% !important;
+  }
+  .flex-head-container {
+    padding-bottom: 64px !important;
   }
   .text-head-3 button {
     width: 100%;
@@ -114,6 +113,9 @@
   .flex-containter-service {
     align-items: center;
     margin-top: 64px !important;
+  }
+  .mid-logo {
+    display: none;
   }
   .service-1 {
     font-size: 30px !important;
@@ -181,7 +183,7 @@
   }
   .technology-title {
     max-width: 590px !important;
-    padding-top: 110px !important;
+    padding-top: 64px !important;
     font-size: 30px !important;
     line-height: 39px !important;
   }
@@ -191,7 +193,6 @@
     line-height: 24px !important;
     max-width: 1140px !important;
     height: 100% !important;
-    max-height: 144px !important;
   }
   .languages {
     margin-top: 32px !important;
@@ -227,7 +228,7 @@
     width: auto !important;
   }
   .comment {
-    margin-top: 550px !important;
+    margin-top: 530px !important;
   }
   .add-my-company {
     font-size: 16px !important;
@@ -238,12 +239,12 @@
     padding-left: 10px !important;
 }
   .flex-grid-direction {
-    margin-top: 182px;
+    margin-top: 220px;
     left: 16px;
     right: 16px;
     position: absolute;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(169px,1fr));
     grid-column-gap: 9px;
     grid-row-gap: 9px;
   }
@@ -286,7 +287,7 @@
     width: 40px;
   }
   .select {
-    height: 198px !important;
+    height: 162px !important;
     min-width: 165px !important;
     max-width: 336px !important;
   }
@@ -356,9 +357,16 @@
     margin-top: 64px;
   }
   .block-logo {
+    height: 100%;
+    width: 40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .block-logo img {
+    height: 80%;
+    width: 100%;
   }
   /* .portfolio-logo-1 {
     width: 87px;
@@ -383,10 +391,10 @@
   }
   .block {
     max-width: 1000px !important;
-    height: 343px !important;
+    height: 162px !important;
   }
   .flex-container-inside-block {
-    height: 343px !important;
+    height: 162px !important;
   }
   .portfolio-text-container {
     font-size: 16px !important;
@@ -413,7 +421,7 @@
     width: 100% !important;
     max-width: 343px;
     width: 343px;
-    height: 342px !important;
+    height: 162px !important;
   }
   .add-text {
     margin-top: 10px !important;
@@ -511,7 +519,7 @@
   }
   .article-text {
     font-size: 16px !important;
-    margin-top: 16px !important;
+    margin-top: 8px !important;
     padding-right: 16px;
     max-width: 1140px !important;
   }
@@ -521,6 +529,7 @@
   }
   .flex-container-left {
     padding-left: 16px !important;
+    gap: 0 !important;
   }
   .article-read-me .read-me-text {
     font-size: 16px !important;

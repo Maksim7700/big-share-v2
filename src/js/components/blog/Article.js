@@ -3,6 +3,7 @@ import '../../../css/blog/article.css';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
 import { useNavigate } from 'react-router-dom';
+import { truncateText } from '../../utils/helper';
 
 const Article = ({ blog }) => {
   const navigate = useNavigate();
@@ -13,7 +14,7 @@ const Article = ({ blog }) => {
           {blog?.title ? blog.title : <Skeleton className='skeleton-title' />}
         </div>
         <div className='article-text Montserrat-400'>
-          {blog?.content ? blog.content.substring(0, 200)+ "..." : <Skeleton className='skeleton-text' />}
+          {blog?.content ? truncateText(blog.content, 200) : <Skeleton className='skeleton-text' />}
         </div>
         <div onClick={() =>navigate('/blogs/' + blog.id)} className='article-read-me Montserrat-400'>
           <div className='read-me-text'>Read more</div>

@@ -49,7 +49,8 @@
       transition: background-color 0.3s ease;
   
       &:hover {
-        background-color: #0056b3;
+    transition:0.3s;
+    background-color: #0056b3;
       }
     }
   }

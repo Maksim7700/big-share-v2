@@ -64,7 +64,8 @@
         }
   
         &:hover:not(.active) a {
-          background-color: #f1f1f1;
+    transition:0.3s;
+    background-color: #f1f1f1;
         }
       }
     }

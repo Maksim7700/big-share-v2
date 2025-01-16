@@ -5,8 +5,6 @@ import { useState } from 'react';
 import FormSend from './FormSend';
 import '../../../css/hover.css';
 import '../../../css/laptop.css';
-
-
 import { useEffect } from 'react';
 
 const serviceTitle = 'What service are you interested in?';
@@ -382,7 +380,7 @@ const form = () => {
       <Container>
         <div className='flex-container-anketa em-02' >
           <div id='anketa' className='anketa-title Gilroy-700'>Let's <span>get started</span>. Tell us how we can help</div>
-          <div className='anketa-text Montserrat-400'>Let’s turn your idea into digital reality! Just answer our interactive questions and we will draft the best product offer for you. We provide free estimation and IT consulting for our clients. So don’t hesitate to contact us.</div>
+          <div className='anketa-text Montserrat-400'>Let’s turn your idea into a digital reality! Answer our interactive questions, and we’ll create the best product offer for you. We offer free estimation and IT consulting for our clients. Contact us today!</div>
           <div  className={`anketa-question ${endForm ? 'margin-bottom-100' : ''}`}>
             <div  className={`anketa-question-text Gilroy-500`}>{title()}</div>
             </div>

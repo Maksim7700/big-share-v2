@@ -26,9 +26,9 @@ export const BlogContent = () => {
         return (
             <Container>
                 <div className="blog-content">
-                    <div className="blog-content-title">
+                    <h1 className="blog-content-title">
                         <Skeleton width={200} height={40} />
-                    </div>
+                    </h1>
                     <div className="blog-content-text">
                         <Skeleton count={3} />
                     </div>
@@ -54,9 +54,9 @@ export const BlogContent = () => {
         <>
         <Container>
             <div className="blog-content">
-                <div className="blog-content-title">
+                <h1 className="blog-content-title">
                     <span>{firstWord}</span>{' '}{restOfTitle}
-                </div>
+                </h1>
                 <div className="blog-content-text">
                     {blog.content}
                 </div>
@@ -71,7 +71,7 @@ export const BlogContent = () => {
                 <div className="blog-post-content-block">
                 {blog.blogPostContentDTOList && blog.blogPostContentDTOList.map((blogPostContent, index) => (
                     <div key={index} className="blog-post-content">
-                        <div className="blog-post-content-title">{blogPostContent.title}</div>
+                        <h2 className="blog-post-content-title">{blogPostContent.title}</h2>
                         <div className="blog-post-content-text">{blogPostContent.text}</div>
                         <div className="blog-post-content-image">
                             {blogPostContent.image && <img src={`data:${blogPostContent.image.type};base64,${blogPostContent.image.data}`} alt={blogPostContent.image.name}/>}

@@ -11,20 +11,35 @@
         height: 100%;
     }
 
-    .leader-title {
+    .leader-info {
+        justify-content: space-between;
+        display: flex;
         padding-top: 16px;
-        font-size: 16px;
-        line-height: 27px;
-        color: #C8C8C8;
-        font-family: Montserrat-Regular;
-    }
 
-    .leader-name {
-        padding-top: 4px;
-        font-size: 24px;
-        line-height: 27px;
-        color: white;
-        font-family: Gilroy-Medium;
+        .leader-title {
+            font-size: 16px;
+            line-height: 27px;
+            color: #C8C8C8;
+            font-family: Montserrat-Regular;
+        }
+
+        .leader-name {
+            padding-top: 4px;
+            font-size: 24px;
+            line-height: 27px;
+            color: white;
+            font-family: Gilroy-Medium;
+        }
+
+        .leader-linkedin {
+            .linkedin {
+                margin-right: 0;
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 

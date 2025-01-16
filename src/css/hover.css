@@ -1,19 +1,20 @@
 @media only screen and (min-width: 1141px) {
   /* ---Header--- */
   .contact-us-button:hover {
-    transition:0.3s;
+    transition: 0.3s ease-out 100ms;
     background: #338DDE;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
-    border: 1px solid  #338DDE;
+    border: none;
     cursor: pointer;
   }
 
   .hover-header a{
+    transition: 0.3s;
     color: inherit;
-    color: white;
   }
 
   .hover-header:hover a {
+    transition: 0.3s;
     color: #338DDE; /* Ensures the link inside the hovered div gets the color change */
   }
 
@@ -47,6 +48,7 @@
   /* ---Language--- */
 
   .tech-button-hover:hover {
+    transition: .3s;
     border: 1px solid #338DDE;
     transition: 0.3s;
     cursor: pointer;
@@ -55,6 +57,7 @@
   }
 
   .green:hover{
+    transition:0.3s;
     cursor: pointer;
   }
 
@@ -66,6 +69,7 @@
   }
 
   .project-add:hover {
+    transition:0.3s;
     border: 1px solid #338DDE;
     cursor: pointer;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
@@ -73,14 +77,17 @@
   }
 
   .project-add:hover .add-my-company {
+    transition:0.3s;
     color: white;
   }
 
   .project-add:hover svg path {
+    transition:0.3s;
     stroke: white;
   }
 
   .client-previous:hover, .client-next:hover {
+    transition:0.3s;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
     cursor: pointer;
     border: 1px solid #338DDE;
@@ -109,25 +116,31 @@
   }
 
   .portfolio-add-block:hover .add-text {
+    transition:0.3s;
     color: white;
   }
 
   .portfolio-add-block:hover svg path {
+      transition:0.3s;
       stroke: white;
   }
 
   /* ---Blog--- */
 
+
   .article-read-me:hover {
+    transition:0.3s;
     cursor: pointer;
   }
 
   .article-read-me:hover .read-me-text {
+    transition:0.3s;
     text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
     color: #338DDE;
   }
 
   .article-read-me:hover img {
+    transition:0.3s;
     text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
     content: url('../../public/blog/arrow-right-read-me-hover.svg');
   }
@@ -142,7 +155,6 @@
   /* ---Anketa--- */
 
   .select:hover {
-    transition: 0.3s;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
     border: 1px solid #338DDE;
     cursor: pointer;
@@ -170,11 +182,13 @@
   }
 
   .back-group:hover {
+    transition:0.3s;
     text-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
     cursor: pointer;
   }
 
   .submit:hover {
+    transition:0.3s;
     background: #338DDE;
     box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
     border: 1px solid  #338DDE;
@@ -184,37 +198,48 @@
   /* ---Footer--- */
 
   .hover-footer:hover {
+    transition:0.3s;
     cursor: pointer;
     color: #338DDE;
   }
 
   .location-inside:hover {
+    transition:0.3s;
     cursor: pointer;
   }
 
   .location-inside:hover .location-street {
+    transition:0.3s;
     color: #338DDE;
   }
 
   .location-inside:hover svg path {
+    transition:0.3s;
     stroke: #338DDE;
   }
 
   .gmail-inside:hover {
+    transition:0.3s;
     cursor: pointer;
   }
 
   .gmail-inside:hover .email {
+    transition:0.3s;
     color: #338DDE;
   }
 
   .gmail-inside:hover svg path {
+    transition:0.3s;
     stroke: #338DDE;
   }
 
-  .instagram:hover svg {
+  
+  .instagram svg {
+    transition: filter 0.3s ease, fill 0.3s ease; /* Задаємо анімацію для filter та fill */
+  }
+  
+  .instagram:hover a svg {
     cursor: pointer;
-    transition: 0.3s;
     filter: drop-shadow(0px 10px 25px rgba(240, 0, 115, 0.47));
     fill: #F00073;
   }
@@ -222,14 +247,12 @@
   .behance:hover svg{
     fill:#1157FF;
     cursor: pointer;
-    transition: 0.3s;
     filter: drop-shadow(0px 10px 25px rgba(17, 87, 255, 0.47));
   }
 
   .linkedin:hover svg {
     fill: #2867B2;
     cursor: pointer;
-    transition: 0.3s;
     box-shadow: 0px 10px 25px rgba(40, 103, 178, 0.47);
   }
 }

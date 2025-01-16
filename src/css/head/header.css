@@ -1,24 +1,31 @@
 .nav {
-    background-color: #101A24;
     height: 72px;
     position: sticky;
     top: 0;
     z-index: 999;
 }
 
-.nav img {
+.header-white {
+    background-color: white;
+    color: #111714 !important;
+}
+.header-black {
+    color: white;
+    background-color: #101A24;
+}
+
+.nav .img-black {
     content: url('../../../public/head/big_share_header_logo.svg');
+}
+
+.nav .img-white {
+    content: url('../../../public/head/big_share_header_logo_white.svg');
 }
 
 .navlinks {
     display: flex;
     gap: 80px;
 }
-
-.navlinks a {
-    color: white;
-}
-
 
 .navigator {
     height: 100%;
@@ -28,6 +35,7 @@
 }
 
 .contact-us-button {
+    font-family: Montserrat-Medium;
     transition:0.3s;
     border: none;
     color: white !important;
@@ -42,6 +50,10 @@
     display: none;
 }
 
+.desktop-nav {
+    font-family: Montserrat-Medium !important;
+}
+
 @media only screen and (max-width: 1140px) {
     .mobile-nav {
         display: flex;
@@ -51,31 +63,43 @@
         display: none;
     }
 
-    .navlinks{
+    .navlinks {
+        padding-top: 40px;
         z-index: 999;
         display: flex;
         flex-direction: column;
         position: absolute;
-        top:72px;
-        padding-top: 40px;
+        top: 72px;
         left: 0;
-        gap: 50px;
+        gap: 24px;
         height: 100vh;
         width: 100%;
         color: white;
-        background:#101A24;
         font-size: 20px;
         font-family: Montserrat-SemiBold;
+    
+        /* Початковий стан */
+        opacity: 0;
+        transform: translateY(-20px); /* Зміщення вгору */
+        pointer-events: none; /* Вимикає взаємодію */
+        transition: opacity 0.5s ease, transform 0.5s ease; /* Плавний перехід */
     }
+    
+    .navlinks.active {
+        opacity: 1;
+        transform: translateY(0); /* Повертається в початкову позицію */
+        pointer-events: auto; /* Увімкнути взаємодію */
+    }
+    
 
     .navlinks .hover-header {
         margin-left: 32px;
         margin-right: 32px;
-        padding-bottom: 32px;
+        padding-bottom: 24px;
     }
 
     .hover-header {
-        border-bottom: 1px solid #2E3842;
+        border-bottom: .1px solid #2E3842;
     }
 
     .navlinks div {

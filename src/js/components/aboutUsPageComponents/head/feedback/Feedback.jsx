@@ -4,7 +4,6 @@ import './feedback.scss';
 const starSrc = './feedback/rating_star_green.svg';
 
 const Feedback = ({ img, title, rate }) => {
-    // Memoize the star rating component as it is static
     const stars = useMemo(() => {
         return Array(5).fill().map((_, index) => (
             <img key={index} src={starSrc} alt={`star ${index + 1}`} loading="lazy" />
@@ -14,7 +13,7 @@ const Feedback = ({ img, title, rate }) => {
     return (
         <div className="feedback">
             <img src={img} loading="lazy" alt={title} />
-            <div>
+            <div className='feedback-details'>
                 <div>{title}</div>
                 <div className="feedback-rating">
                     <div className="stars">

@@ -9,9 +9,9 @@ const Portfolio = () => {
     return (
         <Container>
             <div className="flex-container-portfolio em-02" >
-                <div className="portfolio-title Gilroy-700">See some of our popular <span>portfolio</span></div>
+                <h2 className="portfolio-title Gilroy-700">Explore some of our top <span>portfolio</span> projects</h2>
                 <div className="portfolio-text-container">
-                    <div className="portfolio-text Montserrat-400">Our team helped global brands design, build, launch, and scale their digital products! We bring digital transformation across multiple industries (from social, finTech and healthTech to IoT and Transportation)</div>
+                    <div className="portfolio-text Montserrat-400">Our team has helped global brands design, build, launch, and scale their digital products! We drive digital transformation across various industries, including social, fintech, healthtech, IoT, and transportation</div>
                 </div>
                 <div className="portfolio-blocks">
                         <a  target={"_blank"} href='https://www.behance.net/gallery/159125829/Crypto-launchpad-WolfPad' rel="noreferrer"><Block logo='1' title='1' text={'Crypto'} className='portfolio1'/></a>

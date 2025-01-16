@@ -4,7 +4,9 @@
 }
 
 .client-title {
-    color: black;
+    margin-bottom: 0;
+    margin-top: 0;;
+    color: #111714;
     font-size: 56px;
     line-height: 72px;
 }
@@ -130,6 +132,7 @@
 
 
 .client-next {
+    transition: 0.3s;
     margin-left: 16px;
 }
 
@@ -139,7 +142,38 @@
 }
 
 
+.client-previous {
+  transition: 0.3s;
+}
+
 .client-previous img{
     height: 24px;
     padding: 12px 12px 12px 12px;
+}
+
+.comment {
+  position: relative;
+  overflow: hidden;
+}
+
+.comment.animating .fade {
+  animation: fade-out 0.3s forwards, fade-in 0.3s 0.3s forwards;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

@@ -5,11 +5,17 @@
 }
 
 .text-head-1 {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
     color:white;
     font-size: 72px;
-    padding-top: 267px;
+    padding-top: 305px;
     line-height: 93.6px;
+}
+
+.flex-head-container {
+    padding-bottom: 374px;
 }
 
 .text-head-1-1 {

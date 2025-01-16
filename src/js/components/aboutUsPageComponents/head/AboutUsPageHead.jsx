@@ -6,9 +6,9 @@ const AboutUsPageHead = () => {
     return (
         <Container className="about-us-page-head-container">
             <div className="about-us-page-head">
-                <div className="about-us-page-head-title"><span>Meet</span> our brand</div>
+                <h1 className="about-us-page-head-title"><span>Discover</span> Our Brand</h1>
                 <div className="about-us-page-head-description">
-                    Innowise Group can cover the entire software development process, from product vision discussion to applications design and software enhancement. Our multi-skilled experienced team facilitates businesses worldwide on their way to digital transformation and helps companies take full advantage of IT innovations.
+                    Big Share is a forward-thinking IT company committed to delivering cutting-edge digital solutions. Our brand represents innovation, reliability, and excellence in every project we undertake. With a team of passionate professionals, we aim to create lasting partnerships with our clients, helping them thrive in a rapidly evolving digital landscape. We believe in making a positive impact through technology, and our work reflects our dedication to delivering top-quality results
                 </div>
                 <div className="feedback-container">
                     <Feedback img='./feedback/upwork.svg' title={'Up Work'} rate={'5.0'}/>

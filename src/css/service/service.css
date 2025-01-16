@@ -5,6 +5,11 @@
     justify-content: space-evenly;
 }
 
+.mid-logo {
+    position: relative;
+    top: -90px;
+}
+
 .service-1, .service-2{
     text-align: center;
 }
@@ -16,6 +21,9 @@
 }
 
 .service-1 {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
     color: #111714;
     font-size: 56px;
     line-height: 130%;

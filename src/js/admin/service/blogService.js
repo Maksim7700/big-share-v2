@@ -2,8 +2,8 @@ import axios from 'axios';
 
 class BlogService {
     constructor() {
-        // this.hostUrl = "http://localhost:8083";
-        this.hostUrl = "https://mertioyr0d.execute-api.eu-north-1.amazonaws.com/prod";
+        // this.hostUrl = "http://localhost:8080";
+        this.hostUrl = "https://big-share-24e5dd9982db.herokuapp.com";
     }
 
     getToken() {

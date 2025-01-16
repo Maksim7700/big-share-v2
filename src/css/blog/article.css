@@ -3,6 +3,7 @@
   margin-top: 16px;
   background: #061019;
   display: flex;
+  justify-content: space-between;
   min-height: 303px;
   max-height: 816px;
   width: 100%;
@@ -30,8 +31,10 @@
   color: #748B9F;
 }
 .flex-container-left {
+  justify-content: center;
   padding-left: 64px;
   display: flex;
+  gap: 24px;
   flex-direction: column;
 }
 
@@ -39,21 +42,25 @@
   font-size: 24px;
   line-height: 29px;
   color: white;
-  padding: 64px 0 0 0;
+}
+
+.read-me-text {
+  transition: .3s;
+}
+
+.right-arrow-read-more {
+  transition: .3s;
 }
 
 .article-text {
   color: #C8C8C8;
-  margin-top: 24px;
   max-width: 768px;
   font-size: 16px;
   line-height: 24px;
 }
 
 .article-read-me {
-  margin-bottom: 64px;
   width: 124px;
-  margin-top: 24px;
   display: flex;
   color: #4ACB8F;
 }

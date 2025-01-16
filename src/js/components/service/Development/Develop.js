@@ -13,7 +13,7 @@ const Develop = (props) => {
     return (
         <div className={`flex-containter-develop-inside ${props.className}`} >
             <div className={`develop-image develop-image-${imageNumber}`}></div>
-            <div className={`develo-title Gilroy-500`}>{title}</div>
+            <h3 className={`develo-title Gilroy-500`}>{title}</h3>
             <div className={`develop-text Montserrat-400 text-${classNames[0]}`}>{text}</div>
         </div>
     )
