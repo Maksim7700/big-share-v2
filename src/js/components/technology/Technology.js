@@ -25,7 +25,7 @@ const Technology = () => {
                 </svg>
             </div>
             <div className="flex-container-technology">
-                <h2 className="Gilroy-700 technology-title">Building Digital Innovations with Cutting-Edge <span>technologies</span></h2>
+                <h2 className="Gilroy-700 technology-title">Building digital innovations with cutting-edge <span>technologies</span></h2>
                 <div className="Montserrat-400 technology-text">Our team is made up of passionate technologists who thrive on providing real-world solutions to our clients’ challenges. Our ideas are driven by a deep understanding of our clients’ markets, solutions, and visions</div>
                 <div className="languages"><Language /></div>
             </div>

@@ -37,7 +37,7 @@ export const BlogMain = ({ blog }) => {
     return (
         <BackgroundDefault>
             <Container>
-                <div onClick={() => navigate("/blog/" + blog.id)}  className="blog-page-main">
+                <div onClick={() => navigate("/blogs/" + blog.id)}  className="blog-page-main">
                     <div className="blog-page-main-info">
                         <div className="blog-page-main-title">
                             {blog.title}
@@ -53,7 +53,7 @@ export const BlogMain = ({ blog }) => {
                     <div className="blog-page-image">
                         <img
                             id='blog-photo'
-                            src={`${blog.imageUrl !== null ? `data:${blog.imageUrl.type};base64,${blog.imageUrl.data}` : "/content-image.svg"}`}
+                            src={`${blog.imageUrl}`}
                             alt='Content'
                         />
                     </div>

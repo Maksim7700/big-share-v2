@@ -3,7 +3,7 @@ import 'react-loading-skeleton/dist/skeleton.css';
 import './blogAuthor.scss';
 
 const BlogAuthor = ({style, author, createdAt }) => {
-    if (!author || !author.image) {
+    if (!author || !author.imageUrl) {
         return (
             <div className='blog-author-card'>
                 <Skeleton circle={true} height={50} width={50} />
@@ -24,7 +24,7 @@ const BlogAuthor = ({style, author, createdAt }) => {
     return (
         <>
             <div className='blog-author-card'>
-                    <img src={`data:${author.image.type};base64,${author.image.data}`} alt='Avatar' />
+                    <img src={`${author.imageUrl}`} alt='Avatar' />
                 <div className='blog-author-info'>
                     <div style={style} className='blog-author-name'>
                         {author.name}

@@ -22,8 +22,8 @@ export const ContentCard = ({blog, requestStatus}) => {
     
     return (
         <>
-            <div className='content-card' onClick={() => {navigate("/blog/" + blog.id); }}>
-                <div className='content-card-image'><img src={`${blog.imageUrl !== null ? `data:${blog.imageUrl.type};base64,${blog.imageUrl.data}` : "/content-image.svg"}  `} alt='Content' /></div>
+            <div className='content-card' onClick={() => {navigate("/blogs/" + blog.id); }}>
+                <div className='content-card-image'><img src={`${blog.imageUrl !== null ? `${blog.imageUrl}` : "/content-image.svg"}  `} alt='Content' /></div>
                 <div className='content-card-title'>{truncateText(blog.title, 30)}</div>
                 <div className='content-card-description'>{truncateText(blog.content, 100)}</div>
                 <div className='content-card-author'><BlogAuthor author={blog.author} createdAt={blog.createdAt}/></div>

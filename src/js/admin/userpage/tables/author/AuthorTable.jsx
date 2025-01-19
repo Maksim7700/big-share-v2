@@ -36,7 +36,7 @@ const AuthorTable = () => {
                         <td>{author.name}</td>
                         <td>
                             <img
-                                src={`data:${author.image.type};base64,${author.image.data}`}
+                                src={`${author.imageUrl}`}
                                 alt={author.name}
                             />
                         </td>

@@ -42,12 +42,7 @@ const BlogPostContentsList = ({blogId}) => {
               <td>{blog.title}</td>
               <td>{blog.text}</td>
               <td>
-                {blog.image && 
-              <img
-                                src={`data:${blog.image.type};base64,${blog.image.data}`}
-                                alt={blog.title}
-                            />
-                }
+                {blog.imageUrl}
               </td>
               <td><button onClick={() => dispatch(handleDeleteBlogPostContentById(blog.id, blogId))}>delete</button></td>
             </tr>

@@ -33,7 +33,7 @@ function App() {
           }
         />
         <Route
-          path="/blog"
+          path="/blogs"
           element={
             <>
               <Header />
@@ -63,7 +63,7 @@ function App() {
           }
           />
         <Route
-          path="/blog/:id"
+          path="/blogs/:id"
           element={
             <>
               <Header />

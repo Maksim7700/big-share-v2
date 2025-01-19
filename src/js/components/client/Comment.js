@@ -35,7 +35,7 @@ const Comment = () => {
             desc: "“Andrii understood our requirements well and came out with an awesome output. He used very good colour combination and the flow of UI/UX was just perfect with the right images. Thanks a ton and looking forward to work for more pages of the website. Thanks!”"
         },
         {
-            name: "Med Supply",
+            name: "Med Johnson",
             company: "Pedal 2 Earn",
             img: "./client/client5.svg",
             desc: "”Very happy working with Andrii again. I knew that he will do the illustration job I asked him to do very well. But this time, he even went out of his way to try doing extra for this job which was a short animation in my case. If you need a person who not only would do great work for you but go the extra mile to make sure it is deliv...”"

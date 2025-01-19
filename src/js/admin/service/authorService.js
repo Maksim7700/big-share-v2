@@ -15,27 +15,20 @@ class AuthorService {
             return;
         }
     
-        const reader = new FileReader();
-        reader.onload = () => {
-            const base64Image = reader.result.split(',')[1]; // Отримуємо Base64 без префіксу
-            const requestPayload = {
-                name: formData.name,
-                image: base64Image,
-                type: formData.image.type,
-                fileName: formData.image.name
-            };
+        // Формуємо FormData
+        const payload = new FormData();
+        payload.append("authorName", formData.name); // Додаємо ім'я
+        payload.append("file", file); // Додаємо файл
     
-            return axios.post(`${this.hostUrl}/api/authors`, requestPayload, {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
-                },
-            });
-        };
-    
-        // Читання файлу як Data URL (Base64)
-        reader.readAsDataURL(file);
+        // Відправляємо дані
+        return axios.post(`${this.hostUrl}/api/authors`, payload, {
+            headers: {
+                'Content-Type': 'multipart/form-data',
+                'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
+            },
+        });
     };
+    
 
     getToken() {
         return localStorage.getItem('USER_KEY');

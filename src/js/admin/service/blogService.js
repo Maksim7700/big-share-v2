@@ -71,79 +71,36 @@ class BlogService {
     
 
     save = (formData) => {
-        const file = formData.image;
-    
-        if (!file) {
-            console.error("No file selected!");
-            return;
-        }
-    
-        const reader = new FileReader();
-        reader.onload = () => {
-            const base64Image = reader.result.split(',')[1]; // Отримуємо Base64 без префіксу
-    
-            const requestPayload = {
-                title: formData.title,
-                content: formData.content,
-                image: base64Image,
-                authorId: formData.authorId,
-                fileName: formData.image.name,
-                type: formData.image.type,
-            };
-    
-            return axios.post(`${this.hostUrl}/api/blogs`, requestPayload, {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
-                },
-            });
-        };
-    
-        reader.readAsDataURL(file);
+        console.log(formData.image)
+        const requestPayload = new FormData();
+        requestPayload.append('title', formData.title);
+        requestPayload.append('content', formData.content);
+        requestPayload.append('file', formData.image);  // Переконайтесь, що image є файлом
+        requestPayload.append('authorId', formData.authorId);
+
+        return axios.post(`${this.hostUrl}/api/blogs`, requestPayload, {
+            headers: {
+                'Content-Type': 'multipart/form-data',
+                'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
+            },
+        });
     };
     
-
     saveBlogPostContent = (blogId, formData) => {
-        const file = formData.image;
-    
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = () => {
-                const base64Image = reader.result.split(',')[1]; // Отримуємо Base64 без префіксу
+        const requestPayload = new FormData();
+        requestPayload.append('title', formData.title);
+        requestPayload.append('text', formData.text);
         
-                const requestPayload = {
-                    title: formData.title,
-                    text: formData.text,
-                    image: base64Image,
-                    fileName: formData.image.name,
-                    type: formData.image.type,
-                };
-        
-                // Відправка POST запиту
-                return axios.post(`${this.hostUrl}/api/blogs/${blogId}`, requestPayload, {
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
-                    },
-                });
-            };
-        reader.readAsDataURL(file);
-        } else {
-            const requestPayload = {
-                title: formData.title,
-                text: formData.text,
-            };
-    
-            // Відправка POST запиту
-            return axios.post(`${this.hostUrl}/api/blogs/${blogId}`, requestPayload, {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${this.getToken()}`, // Замініть на ваш метод отримання токену
-                },
-            });
+        if (formData.image) {
+            requestPayload.append('image', formData.image); // Завантаження файлу
         }
-    
-        // Читання файлу як Data URL (Base64)
+        
+        return axios.post(`${this.hostUrl}/api/blogs/${blogId}`, requestPayload, {
+            headers: {
+                'Content-Type': 'multipart/form-data',
+                'Authorization': `Bearer ${this.getToken()}`, // Ваш метод отримання токену
+            },
+        });
     };
     
 }

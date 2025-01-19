@@ -9,6 +9,12 @@
     background-color: white;
     color: #111714 !important;
 }
+
+.hover-header a:hover {
+    transition: 0.3s;
+    color: #338DDE !important;
+}
+
 .header-black {
     color: white;
     background-color: #101A24;

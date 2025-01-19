@@ -48,6 +48,7 @@ export const BlogContent = () => {
     }
 
     const [firstWord, ...rest] = blog.title.split(' ');
+    const url = blog.imageUrl;
     const restOfTitle = rest.join(' ');
 
     return (
@@ -64,22 +65,32 @@ export const BlogContent = () => {
                     <BlogAuthor author={blog.author} createdAt={blog.createdAt}/>
                 </div>
                 <div className="blog-content-main-image">
-                    <img src={`data:${blog.imageUrl.type};base64,${blog.imageUrl.data}`} alt={blog.imageUrl.name}/>
+                    <img src={`${url}`} alt={"Blog"}/>
                 </div>
             </div>
             <CustomContainer>
                 <div className="blog-post-content-block">
-                {blog.blogPostContentDTOList && blog.blogPostContentDTOList.map((blogPostContent, index) => (
-                    <div key={index} className="blog-post-content">
-                        <h2 className="blog-post-content-title">{blogPostContent.title}</h2>
-                        <div className="blog-post-content-text">{blogPostContent.text}</div>
-                        <div className="blog-post-content-image">
-                            {blogPostContent.image && <img src={`data:${blogPostContent.image.type};base64,${blogPostContent.image.data}`} alt={blogPostContent.image.name}/>}
-                        </div>
-                    </div>
-                ))}
+                    {blog.blogPostContentDTOList && blog.blogPostContentDTOList.map((blogPostContent, index) => {
+                        const url = blogPostContent.imageUrl;
+                        return (
+                            <div key={index} className="blog-post-content">
+                                <h2 className="blog-post-content-title">{blogPostContent.title}</h2>
+                                <div className="blog-post-content-text">
+                                    {blogPostContent.text.split('\n').map((line, index) => (
+                                        <span key={index}>{line}<br /></span>
+                                    ))}
+                                </div>
+                                <div className="blog-post-content-image">
+                                    {url && (
+                                        <img src={`${blogPostContent.imageUrl}`} alt="Blog post" />
+                                    )}
+                                </div>
+                            </div>
+                        );
+                    })}
                 </div>
             </CustomContainer>
+
         </Container>
         <BlogDetails />
         </>

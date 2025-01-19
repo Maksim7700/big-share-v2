@@ -28,14 +28,7 @@ const BlogPostContentForm = ({blogId}) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData)
     dispatch(saveBlogPostContentAction(blogId, formData));
-
-    setFormData({
-        title: '',
-        text: '',
-        image: null,
-      });
   };
 
   return (
