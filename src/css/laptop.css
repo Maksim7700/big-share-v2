@@ -87,6 +87,9 @@
     margin-top: 24px !important;
     width: 100% !important;
   }
+  .text-head-3 a {
+    width: 100%;
+  }
   .flex-head-container {
     padding-bottom: 64px !important;
   }
