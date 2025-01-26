@@ -28,11 +28,16 @@
     color: transparent;
 }
 
+.flex-containte-head {
+    display: flex;
+    flex-direction: column;
+}
+
 .text-head-2 {
     display: flex;
     justify-content: center;
     line-height: 30px;
-    margin-top: 13px;
+    margin-top: 12px;
     font-size: 18px;
     color: #F8F8F8;
 }

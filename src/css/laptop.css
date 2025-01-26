@@ -37,6 +37,9 @@
 }
 
 @media only screen and (max-width: 378px) {
+  .contact-us-button {
+    display: none !important;
+  }
   .flex-grid-direction {
     margin-top: 220px !important;
   }
@@ -51,13 +54,16 @@
   .comment {
     padding-top: 1702px !important;
   }
+  .content-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)) !important;
+  }
 }
 
 }
 
 @media only screen and (max-width: 1140px) {
   .main {
-    height: auto !important;
+    height: 600px !important;
   }
   .contact-us-button {
     width: 130px !important;
@@ -74,7 +80,6 @@
     margin-top: 4px !important;
     max-width: 1140px !important;
     height: 100% !important;
-    max-height: 140px !important;
     line-height: 24px !important;
     font-size: 16px !important;
   }
