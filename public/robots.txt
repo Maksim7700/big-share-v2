@@ -1,3 +1,14 @@
-# https://www.robotstxt.org/robotstxt.html
+# Дозволити індексацію всіх сторінок
 User-agent: *
 Disallow:
+
+# Заборонити доступ до папки /private
+User-agent: *
+Disallow: /private/
+
+# Дозволити індексацію вмісту /private/public/
+User-agent: *
+Allow: /private/public/
+
+# Вказівка на sitemap.xml
+Sitemap: https://bigshare-ua.com/sitemap.xml

@@ -16,7 +16,7 @@ const Article = ({ blog }) => {
         <div className='article-text Montserrat-400'>
           {blog?.content ? truncateText(blog.content, 200) : <Skeleton className='skeleton-text' />}
         </div>
-        <div onClick={() =>navigate('/blogs/' + blog.id)} className='article-read-me Montserrat-400'>
+        <div onClick={() =>navigate('/article/' + blog.id)} className='article-read-me Montserrat-400'>
           <div className='read-me-text'>Read more</div>
           <img alt='right-arrow-read-more' src='./blog/arrow-right-read-more.svg' />
         </div>

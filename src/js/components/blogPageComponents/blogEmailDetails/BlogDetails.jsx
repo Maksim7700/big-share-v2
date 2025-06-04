@@ -11,7 +11,7 @@ const BlogDetails = () => {
 
 
     const openMore = useCallback(() => {
-        navigate('/blogs');
+        navigate('/article');
     }, [navigate]);
 
     return (

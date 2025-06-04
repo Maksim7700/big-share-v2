@@ -15,7 +15,7 @@ const NavLinks = ({ mobile, setClick, isActive }) => {
         { to: "/", label: "Home" },
         { to: "/about-us", label: "About us" },
         { to: "/portfolio-projects", label: "Portfolio" },
-        { to: "/blogs", label: "Blog" },
+        { to: "/article", label: "Blog" },
     ];
 
     return (

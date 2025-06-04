@@ -1,4 +1,11 @@
+.case-studies {
+  margin-top: 100px;
+}
+
 @media only screen and (max-width: 1410px) {
+  .case-studies {
+    margin-top: 64px !important;
+  }
   .flex-direction-column-3 {
     display: none !important;
   }
@@ -36,6 +43,12 @@
   }
 }
 
+@media only screen and (max-width: 314px) {
+  .portfolio-blocks {
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr)) !important;
+  }
+}
+
 @media only screen and (max-width: 378px) {
   .contact-us-button {
     display: none !important;
@@ -46,6 +59,7 @@
   .comment {
     padding-top: 1700px;
   }
+}
 
 @media only screen and (max-width: 345px) {
   .flex-grid-direction {
@@ -59,11 +73,9 @@
   }
 }
 
-}
-
 @media only screen and (max-width: 1140px) {
   .main {
-    height: 600px !important;
+    height: 100% !important;
   }
   .contact-us-button {
     width: 130px !important;

@@ -22,7 +22,7 @@ export const ContentCard = ({blog, requestStatus}) => {
     
     return (
         <>
-            <div className='content-card' onClick={() => {navigate("/blogs/" + blog.id); }}>
+            <div className='content-card' onClick={() => {navigate("/article/" + blog.id); }}>
                 <div className='content-card-image'><img src={`${blog.imageUrl !== null ? `${blog.imageUrl}` : "/content-image.svg"}  `} alt='Content' /></div>
                 <div className='content-card-title'>{truncateText(blog.title, 30)}</div>
                 <div className='content-card-description'>{truncateText(blog.content, 100)}</div>

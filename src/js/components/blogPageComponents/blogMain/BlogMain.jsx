@@ -37,7 +37,7 @@ export const BlogMain = ({ blog }) => {
     return (
         <BackgroundDefault>
             <Container>
-                <div onClick={() => navigate("/blogs/" + blog.id)}  className="blog-page-main">
+                <div onClick={() => navigate("/article/" + blog.id)}  className="blog-page-main">
                     <div className="blog-page-main-info">
                         <div className="blog-page-main-title">
                             {blog.title}
